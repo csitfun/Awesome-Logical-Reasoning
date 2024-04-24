@@ -27,6 +27,13 @@ ampliative and defeasible
 
 ### Inference
 
+### Symbolic
+
+**Conversational Multi-Hop Reasoning with Neural Commonsense Knowledge and Symbolic Logic Rules**. Sept. 2021. [paper](http://arxiv.org/abs/2109.08544).
+**Are Pretrained Language Models Symbolic Reasoners over Knowledge?**. 2020. [paper](https://doi.org/10.18653/v1/2020.conll-1.45).
+**Differentiable Reasoning on Large Knowledge Bases and Natural Language**. Apr. 2020. [paper](https://doi.org/10.1609/aaai.v34i04.5962).
+**Learning Symbolic Rules for Reasoning in Quasi-Natural Language**. Nov. 2021. [paper](http://arxiv.org/abs/2111.12038).
+
 ### Datasets
 **GLoRE: Evaluating Logical Reasoning of Large Language Models.** Oct 2023 [paper](https://arxiv.org/abs/2310.09107) [dataset](https://github.com/csitfun/glore)
 
