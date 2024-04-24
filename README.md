@@ -29,7 +29,9 @@ ampliative and defeasible
 
 ### Datasets
 **GLoRE: Evaluating Logical Reasoning of Large Language Models.** Oct 2023 [paper](https://arxiv.org/abs/2310.09107) [dataset](https://github.com/csitfun/glore)
+
 **Towards LogiGLUE: A Brief Survey and A Benchmark for Analyzing Logical Reasoning Capabilities of Language Models** [paper](https://arxiv.org/abs/2310.00836) [dataset](https://huggingface.co/datasets/logicreasoning/logi_glue)
+
 **LogicBench: A Benchmark for Evaluation of Logical Reasoning.** Dec 2023 [paper](https://openreview.net/forum?id=7NR2ZVzZxx)
 
 #### Natural Language Inference
@@ -42,7 +44,9 @@ ampliative and defeasible
 ### Resources
 #### Repos
 [LogiTorch](https://github.com/LogiTorch/logitorch): a PyTorch-based library for logical reasoning on natural language
+
 [GLoRE](https://github.com/csitfun/glore): a benchmark for evaluating the logical reasoning of LLMs
+
 [LogiGLUE](https://huggingface.co/datasets/logicreasoning/logi_glue/tree/main)
 
 ## NON-VERBAL REASONING
