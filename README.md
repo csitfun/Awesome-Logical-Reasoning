@@ -4,7 +4,7 @@ Paper list for logical reasoning, a survey
 
 **Key Words**: premise, conclusion, argument, reasoning, inference, proposition
 
-![](https://img.shields.io/github/last-commit/mengzaiqiao/awesome-natural-language-reasoning) Maintained by [Hanmeng Liu](https://scholar.google.com/citations?user=vjmL_9UAAAAJ&hl=en), 
+![](https://img.shields.io/github/last-commit/csitfun/Awesome-Logical-Reasoning) Maintained by [Hanmeng Liu](https://scholar.google.com/citations?user=vjmL_9UAAAAJ&hl=en), 
 
 ![](https://img.shields.io/badge/PRs-Welcome-red) Welcome to contribute!
 
@@ -28,9 +28,9 @@ ampliative and defeasible
 ### Inference
 
 ### Datasets
-GLoRE: Evaluating Logical Reasoning of Large Language Models. Oct 2023 [paper](https://arxiv.org/abs/2310.09107) [dataset](https://github.com/csitfun/glore)
-Towards LogiGLUE: A Brief Survey and A Benchmark for Analyzing Logical Reasoning Capabilities of Language Models [paper](https://arxiv.org/abs/2310.00836) [dataset](https://huggingface.co/datasets/logicreasoning/logi_glue)
-LogicBench: A Benchmark for Evaluation of Logical Reasoning. Dec 2023 [paper](https://openreview.net/forum?id=7NR2ZVzZxx)
+**GLoRE: Evaluating Logical Reasoning of Large Language Models.** Oct 2023 [paper](https://arxiv.org/abs/2310.09107) [dataset](https://github.com/csitfun/glore)
+**Towards LogiGLUE: A Brief Survey and A Benchmark for Analyzing Logical Reasoning Capabilities of Language Models** [paper](https://arxiv.org/abs/2310.00836) [dataset](https://huggingface.co/datasets/logicreasoning/logi_glue)
+**LogicBench: A Benchmark for Evaluation of Logical Reasoning.** Dec 2023 [paper](https://openreview.net/forum?id=7NR2ZVzZxx)
 
 #### Natural Language Inference
 
