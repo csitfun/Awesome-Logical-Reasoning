@@ -10,11 +10,11 @@ Paper list for logical reasoning, a survey
 
 ## VERBAL REASONING
 ### Formal Logical Reasoning (Deductive Reasoning)
-a central role in formal logic and mathematics, rigirous
+
 
 
 ### Informal Logical Reasoning 
-ampliative and defeasible
+
 #### Inductive Reasoning
 
 #### Abductive Reasoning
