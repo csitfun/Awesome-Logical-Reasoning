@@ -1,22 +1,59 @@
 # Awesome-Logical-Reasoning  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 Paper list for logical reasoning, a survey
--- A survey paper will be released soon.--
 
-**Key Words**: premise, conclusion, argument, reasoning, inference, proposition
+-- A survey paper will be released soon.
+
+**Key Words**: premise, conclusion, argument, reasoning, inference, proposition, forward chaining, backward chaining, critical thinking, syllogism
 
 ![](https://img.shields.io/github/last-commit/csitfun/Awesome-Logical-Reasoning) Maintained by [Hanmeng Liu](https://scholar.google.com/citations?user=vjmL_9UAAAAJ&hl=en), 
 
 ![](https://img.shields.io/badge/PRs-Welcome-red) Welcome to contribute!
 
 ## VERBAL REASONING
+### Surveys
+**Towards Reasoning in Large Language Models: A Survey** July 2023. [paper](https://aclanthology.org/2023.findings-acl.67.pdf)
 
 ### Formal Logical Reasoning (Deductive Reasoning)
 
+**FaiRR: Faithful and Robust Deductive Reasoning over Natural Language** May 2022. [paper](https://aclanthology.org/2022.acl-long.77/)
 
+**Deductive Additivity for Planning of Natural Language Proofs** June 2023. [paper](https://aclanthology.org/2023.nlrse-1.11/)
+
+**AnaLog: Testing Analytical and Deductive Logic Learnability in Language Models** July 2022. [paper](https://aclanthology.org/2022.starsem-1.5/)
+
+**Can Pretrained Language Models (Yet) Reason Deductively?** May 2023 [paper](https://aclanthology.org/2023.eacl-main.106/)
+
+**RobustLR: A Diagnostic Benchmark for Evaluating Logical Robustness of Deductive Reasoners** Dec 2022. [paper](https://aclanthology.org/2022.emnlp-main.653/)
+
+**Learning to Reason Deductively: Math Word Problem Solving as Complex Relation Extraction** May 2022. [paper](https://aclanthology.org/2022.acl-long.410/)
+
+**A Generation-based Deductive Method for Math Word Problems** Dec 2023. [paper](https://aclanthology.org/2023.emnlp-main.108/)
+
+**GeoDRL: A Self-Learning Framework for Geometry Problem Solving using Reinforcement Learning in Deductive Reasoning** July 2023. [paper](https://aclanthology.org/2023.findings-acl.850/)
+
+**Inductive and deductive inferences in a Crowdsourced Lexical-Semantic Network** Sep 2013. [paper](https://aclanthology.org/R13-1096/)
+
+**Questions require an answer: A deductive perspective on questions and answers** Nov 2006 [paper](https://aclanthology.org/U06-1016/)
+
+**Natural Language Deduction with Incomplete Information** Dec 2022. [paper](https://aclanthology.org/2022.emnlp-main.564/)
+
+**Natural Language Deduction through Search over Statement Compositions** Dec 2022. [paper](https://aclanthology.org/2022.findings-emnlp.358/)
+
+**Hence, Socrates is mortal: A Benchmark for Natural Language Syllogistic Reasoning** July 2023. [paper](https://aclanthology.org/2023.findings-acl.148/)
+
+**Teaching Machine Comprehension with Compositional Explanations** Nov 2020. [paper](https://aclanthology.org/2020.findings-emnlp.145/)
 
 ### Informal Logical Reasoning 
 
 #### Inductive Reasoning
+**Inductive and deductive inferences in a Crowdsourced Lexical-Semantic Network** Sep 2013. [paper](https://aclanthology.org/R13-1096/)
+
+**Contrastive Learning for Inference in Dialogue** Dec 2023. [paper](https://aclanthology.org/2023.emnlp-main.631/)
+
+**Flexible Generation of Natural Language Deductions** Nov 2021. [paper](https://aclanthology.org/2021.emnlp-main.506/)
+
+****
+
 
 #### Abductive Reasoning
 
@@ -28,12 +65,33 @@ Paper list for logical reasoning, a survey
 
 ### Inference
 
+### Legal
+**From legal to technical concept: Towards an automated classification of German political Twitter postings as criminal offenses** June 2019. [paper](https://aclanthology.org/N19-1135/) 
+
+
+
+### Critical Thinking
+**Critical Thinking for Language Models** June 2021. [paper](https://aclanthology.org/2021.iwcs-1.7.pdf)
+
+### Theorem Proving
+**LangPro: Natural Language Theorem Prover** Sep 2017. [paper](https://aclanthology.org/D17-2020/)
+
 ### Approaches and Applications
 #### Symbolic
+**Improved Logical Reasoning of Language Models via Differentiable Symbolic Programming** July 2023. [paper](https://aclanthology.org/2023.findings-acl.191/)
+
+**LINC: A Neurosymbolic Approach for Logical Reasoning by Combining Language Models with First-Order Logic Provers** Dec 2023. [paper](https://aclanthology.org/2023.emnlp-main.313/)
+
+**Enhancing Ethical Explanations of Large Language Models through Iterative Symbolic Refinement** March 2024. [paper](https://aclanthology.org/2024.eacl-long.1/)
+
+**Investigating Transformer guided Chaining for Interpretable Natural Logic Reasoning** July 2023 [paper](https://aclanthology.org/2023.findings-acl.588.pdf)
 
 **Conversational Multi-Hop Reasoning with Neural Commonsense Knowledge and Symbolic Logic Rules**. Sept. 2021. [paper](http://arxiv.org/abs/2109.08544).
+
 **Are Pretrained Language Models Symbolic Reasoners over Knowledge?**. 2020. [paper](https://doi.org/10.18653/v1/2020.conll-1.45).
+
 **Differentiable Reasoning on Large Knowledge Bases and Natural Language**. Apr. 2020. [paper](https://doi.org/10.1609/aaai.v34i04.5962).
+
 **Learning Symbolic Rules for Reasoning in Quasi-Natural Language**. Nov. 2021. [paper](http://arxiv.org/abs/2111.12038).
 
 #### Logic as Knowledge Regularization
@@ -102,7 +160,16 @@ Paper list for logical reasoning, a survey
 
 **LogicBench: A Benchmark for Evaluation of Logical Reasoning.** Dec 2023 [paper](https://openreview.net/forum?id=7NR2ZVzZxx)
 
+**MTR: A Dataset Fusing Inductive, Deductive, and Defeasible Reasoning** July 2023. [paper](https://aclanthology.org/2023.findings-acl.640/)
+
+**RobustLR: A Diagnostic Benchmark for Evaluating Logical Robustness of Deductive Reasoners** Dec 2022. [paper](https://aclanthology.org/2022.emnlp-main.653/)
+
+**Hence, Socrates is mortal: A Benchmark for Natural Language Syllogistic Reasoning** July 2023. [paper](https://aclanthology.org/2023.findings-acl.148/)
+
+**RuleBERT: Teaching Soft Rules to Pre-Trained Language Models** Nov 2021 [paper](https://aclanthology.org/2021.emnlp-main.110/)
+
 #### Natural Language Inference
+**CURRICULUM: A Broad-Coverage Benchmark for Linguistic Phenomena in Natural Language Understanding** July 2022. [paper](https://aclanthology.org/2022.naacl-main.234.pdf)
 
 #### Multi-Choice Question
 
@@ -118,3 +185,6 @@ Paper list for logical reasoning, a survey
 [LogiGLUE](https://huggingface.co/datasets/logicreasoning/logi_glue/tree/main)
 
 ## NON-VERBAL REASONING
+### Video
+**ART: rule bAsed futuRe-inference deducTion** Dec 2023. [paper](https://aclanthology.org/2023.emnlp-main.592/)
+
