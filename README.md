@@ -303,7 +303,7 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 
 **Multimodal Fallacy Classification in Political Debates** March 2024 [paper](https://aclanthology.org/2024.eacl-short.16/)
 
-### Photo
+### Image
 **A Benchmark for Compositional Visual Reasoning** 2022 [paper](https://proceedings.neurips.cc/paper_files/paper/2022/file/c08ee8fe3d19521f3bfa4102898329fd-Paper-Datasets_and_Benchmarks.pdf)
 
 **Emergent Communication for Rules Reasoning** 2023 [paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/d8ace30c68b085556ccce04ed4ae4ebb-Paper-Conference.pdf)
