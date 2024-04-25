@@ -116,10 +116,31 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 
 **In-Context Analogical Reasoning with Pre-Trained Language Models** July 2023. [paper](https://aclanthology.org/2023.acl-long.109.pdf)
 
+**Analogical Math Word Problems Solving with Enhanced Problem-Solution Association** Dec 2022. [paper](https://aclanthology.org/2022.emnlp-main.643/)
+
+**A Neural-Symbolic Approach to Natural Language Understanding** Dec 2022. [paper](https://aclanthology.org/2022.findings-emnlp.158/)
+
+**ThinkSum: Probabilistic reasoning over sets using large language models** July 2023 [paper](https://aclanthology.org/2023.acl-long.68/)
+
+
 
 
 
 ### Logical Fallacy
+**Detecting Argumentative Fallacies in the Wild: Problems and Limitations of Large Language Models** Dec 2023. [paper](https://aclanthology.org/2023.argmining-1.1.pdf)
+
+**Multitask Instruction-based Prompting for Fallacy Recognition** Dec 2022 [paper](https://aclanthology.org/2022.emnlp-main.560/)
+
+**The Search for Agreement on Logical Fallacy Annotation of an Infodemic** Jun 2022 [paper](https://aclanthology.org/2022.lrec-1.471/)
+
+**Logical Fallacy Detection** Dec 2022 [paper](https://aclanthology.org/2022.findings-emnlp.532/)
+
+**Breaking Down the Invisible Wall of Informal Fallacies in Online Discussions** Aug 2021 [paper](https://aclanthology.org/2021.acl-long.53/)
+
+**Argument-based Detection and Classification of Fallacies in Political Debates** Dec 2023 [paper](https://aclanthology.org/2023.emnlp-main.684.pdf)
+
+
+
 
 ### Argument
 **TakeLab at SemEval-2018 Task12: Argument Reasoning Comprehension with Skip-Thought Vectors** Jun 2018. [paper](https://aclanthology.org/S18-1192.pdf)
@@ -279,4 +300,11 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 ## NON-VERBAL REASONING
 ### Video
 **ART: rule bAsed futuRe-inference deducTion** Dec 2023. [paper](https://aclanthology.org/2023.emnlp-main.592/)
+
+**Multimodal Fallacy Classification in Political Debates** March 2024 [paper](https://aclanthology.org/2024.eacl-short.16/)
+
+### Photo
+**A Benchmark for Compositional Visual Reasoning** 2022 [paper](https://proceedings.neurips.cc/paper_files/paper/2022/file/c08ee8fe3d19521f3bfa4102898329fd-Paper-Datasets_and_Benchmarks.pdf)
+
+**Emergent Communication for Rules Reasoning** 2023 [paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/d8ace30c68b085556ccce04ed4ae4ebb-Paper-Conference.pdf)
 
