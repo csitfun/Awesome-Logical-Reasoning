@@ -82,7 +82,42 @@ Paper list for logical reasoning
 
 **ProofWriter: Generating Implications, Proofs, and Abductive Statements over Natural Language** Aug 2021. [paper](https://aclanthology.org/2021.findings-acl.317.pdf)
 
+**Case-Based Abductive Natural Language Inference** Oct 2022. [paper](https://aclanthology.org/2022.coling-1.134/)
+
+**Self-Consistent Narrative Prompts on Abductive Natural Language Inference** Nov 2023. [paper](https://aclanthology.org/2023.ijcnlp-main.67/)
+
+**Abductive Commonsense Reasoning Exploiting Mutually Exclusive Explanations** July 2023. [paper](https://aclanthology.org/2023.acl-long.831/)
+ 
+**Abductive Commonsense Reasoning** Dec 2019. [paper](https://openreview.net/forum?id=Byg1v1HKDB)
+
+**Multi-modal Action Chain Abductive Reasoning** July 2023. [paper](https://aclanthology.org/2023.acl-long.254/)
+
+**True Detective: A Deep Abductive Reasoning Benchmark Undoable for GPT-3 and Challenging for GPT-4** 
+July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
+
+**Natural Language Deduction with Incomplete Information** Dec 2022. [paper](https://aclanthology.org/2022.emnlp-main.564/)
+
+**AbductionRules: Training Transformers to Explain Unexpected Inputs** May 2022. [paper](https://aclanthology.org/2022.findings-acl.19/)
+
+**Learning as Abduction: Trainable Natural Logic Theorem Prover for Natural Language Inference** Dec 2020 [paper](https://aclanthology.org/2020.starsem-1.3.pdf)
+
+**Simple Augmentations of Logical Rules for Neuro-Symbolic Knowledge Graph Completion** July 2023. [paper](https://aclanthology.org/2023.acl-short.23/)
+
+
+
 #### Analogical Reasoning
+**ANALOGICAL - A Novel Benchmark for Long Text Analogy Evaluation in Large Language Models** July 2023. [paper](https://aclanthology.org/2023.findings-acl.218/)
+
+**Can language models learn analogical reasoning? Investigating training objectives and comparisons to human performance** Dec 2023. [paper](https://aclanthology.org/2023.emnlp-main.1022/)
+
+**E-KAR: A Benchmark for Rationalizing Natural Language Analogical Reasoning** May 2022. [paper](https://aclanthology.org/2022.findings-acl.311/)
+
+**StoryAnalogy: Deriving Story-level Analogies from Large Language Models to Unlock Analogical Understanding** Dec 2023. [paper](https://aclanthology.org/2023.emnlp-main.706/)
+
+**In-Context Analogical Reasoning with Pre-Trained Language Models** July 2023. [paper](https://aclanthology.org/2023.acl-long.109.pdf)
+
+
+
 
 ### Logical Fallacy
 
@@ -94,6 +129,8 @@ Paper list for logical reasoning
 **Automatically Identifying Implicit Arguments to Improve Argument Linking and Coherence Modeling** Jun 2013 [paper](https://aclanthology.org/S13-1043.pdf)
 
 **Uncovering Implicit Inferences for Improved Relational Argument Mining** May 2023. [paper](https://aclanthology.org/2023.eacl-main.182/)
+
+**Implicit Premise Generation with Discourse-aware Commonsense Knowledge Models** Nov 2021. [paper](https://aclanthology.org/2021.emnlp-main.504.pdf)
 
 ### Inference
 
@@ -207,6 +244,16 @@ Paper list for logical reasoning
 **PuzzLing Machines: A Challenge on Learning From Small Data** July 2020. [paper](https://aclanthology.org/2020.acl-main.115/)
 
 **CLUTRR: A Diagnostic Benchmark for Inductive Reasoning from Text** Nov 2019. [paper](https://aclanthology.org/D19-1458/)
+
+**True Detective: A Deep Abductive Reasoning Benchmark Undoable for GPT-3 and Challenging for GPT-4** 
+July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
+
+**AbductionRules: Training Transformers to Explain Unexpected Inputs** May 2022. [paper](https://aclanthology.org/2022.findings-acl.19/)
+
+**E-KAR: A Benchmark for Rationalizing Natural Language Analogical Reasoning** May 2022. [paper](https://aclanthology.org/2022.findings-acl.311/)
+
+**StoryAnalogy: Deriving Story-level Analogies from Large Language Models to Unlock Analogical Understanding** Dec 2023. [paper](https://aclanthology.org/2023.emnlp-main.706/)
+
 
 #### Natural Language Inference
 **CURRICULUM: A Broad-Coverage Benchmark for Linguistic Phenomena in Natural Language Understanding** July 2022. [paper](https://aclanthology.org/2022.naacl-main.234.pdf)
