@@ -1,5 +1,5 @@
 # Awesome-Logical-Reasoning  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-Paper list for logical reasoning, a survey
+Paper list for logical reasoning
 
 -- A survey paper will be released soon.
 
@@ -90,6 +90,10 @@ Paper list for logical reasoning, a survey
 **TakeLab at SemEval-2018 Task12: Argument Reasoning Comprehension with Skip-Thought Vectors** Jun 2018. [paper](https://aclanthology.org/S18-1192.pdf)
 
 **The Argument Reasoning Comprehension Task: Identification and Reconstruction of Implicit Warrants** Jun 2018 [paper](https://aclanthology.org/N18-1175/)
+
+**Automatically Identifying Implicit Arguments to Improve Argument Linking and Coherence Modeling** Jun 2013 [paper](https://aclanthology.org/S13-1043.pdf)
+
+**Uncovering Implicit Inferences for Improved Relational Argument Mining** May 2023. [paper](https://aclanthology.org/2023.eacl-main.182/)
 
 ### Inference
 
