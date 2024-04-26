@@ -369,6 +369,8 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 
 [LogiGLUE](https://huggingface.co/datasets/logicreasoning/logi_glue/tree/main)
 
+[Logiformer](https://github.com/xufangzhi/logiformer)
+
 #### Workshops
 **Workshop on Natural Language Reasoning and Structured Explanations (2023)** [link](https://aclanthology.org/events/nlrse-2023/)
 
