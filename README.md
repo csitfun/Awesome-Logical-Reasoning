@@ -74,7 +74,7 @@ Paper list for logical reasoning
 
 **It is not True that Transformers are Inductive Learners: Probing NLI Models with External Negation** Mar 2024. [paper](https://aclanthology.org/2024.eacl-long.116/)
 
-
+**Thinking Like a Skeptic: Defeasible Inference in Natural Language** Nov 2020. [paper](https://aclanthology.org/2020.findings-emnlp.418.pdf)
 
 
 #### Abductive Reasoning
@@ -154,6 +154,64 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 **Implicit Premise Generation with Discourse-aware Commonsense Knowledge Models** Nov 2021. [paper](https://aclanthology.org/2021.emnlp-main.504.pdf)
 
 ### Inference
+**NaturalLI: Natural Logic Inference for Common Sense Reasoning** Oct 2014. [paper](https://aclanthology.org/D14-1059/)
+
+**Neural Natural Logic Inference for Interpretable Question Answering** Nov 2021. [paper](https://aclanthology.org/2021.emnlp-main.298/)
+
+**Natural Logic for Textual Inference** Jun 2007. [paper](https://aclanthology.org/W07-1431/)
+
+**Neuro-symbolic Natural Logic with Introspective Revision for Natural Language Inference** 2022 [paper](https://aclanthology.org/2022.tacl-1.14/)
+
+**NatLogAttack: A Framework for Attacking Natural Language Inference Models with Natural Logic** July 2023. [paper](https://aclanthology.org/2023.acl-long.554/)
+
+**Higher-order logical inference with compositional semantics** Sep 2015 [paper](https://aclanthology.org/D15-1244/)
+
+**NeuralLog: Natural Language Inference with Joint Neural and Logical Reasoning** Aug 2021. [paper](https://aclanthology.org/2021.starsem-1.7/)
+
+**Monotonic Inference for Underspecified Episodic Logic** Jun 2021. [paper](https://aclanthology.org/2021.naloma-1.5/)
+ 
+**A (Mostly) Symbolic System for Monotonic Inference with Unscoped Episodic Logical Forms** Jun 2021. [paper](https://aclanthology.org/2021.naloma-1.9/)
+
+**Logical Inferences with Comparatives and Generalized Quantifiers** July 2020. [paper](https://aclanthology.org/2020.acl-srw.35/)
+
+**LogicAttack: Adversarial Attacks for Evaluating Logical Consistency of Natural Language Inference** Dec 2023. [paper](https://aclanthology.org/2023.findings-emnlp.889.pdf)
+
+**Decomposing Natural Logic Inferences for Neural NLI** Dec 2022. [paper](https://aclanthology.org/2022.blackboxnlp-1.33/)
+
+**Natural Language Inference with Monotonicity** May 2019. [paper](https://aclanthology.org/W19-0502/)
+
+**QA-NatVer: Question Answering for Natural Logic-based Fact Verification** Dec 2023. [paper](https://aclanthology.org/2023.emnlp-main.521.pdf)
+
+**Combining Natural Logic and Shallow Reasoning for Question Answering** Aug 2016. [paper](https://aclanthology.org/P16-1042.pdf)
+
+**Semantic and Logical Inference Model for Textual Entailment** Jun 2007. [paper](https://aclanthology.org/W07-1418/)
+
+**MonaLog: a Lightweight System for Natural Language Inference Based on Monotonicity** 2020 [paper](https://aclanthology.org/2020.scil-1.40.pdf)
+
+**PLOG: Table-to-Logic Pretraining for Logical Table-to-Text Generation** Dec 2022. [paper](https://aclanthology.org/2022.emnlp-main.373/)
+
+**Pragmatic and Logical Inferences in NLI Systems: The Case of Conjunction Buttressing** July 2022. [paper](https://aclanthology.org/2022.unimplicit-1.2/)
+
+**Logical Reasoning with Span-Level Predictions for Interpretable and Robust NLI Models** Dec 2022. [paper](https://aclanthology.org/2022.emnlp-main.251/)
+
+**Synthetic Dataset for Evaluating Complex Compositional Knowledge for Natural Language Inference** Jun 2023. [paper](https://aclanthology.org/2023.nlrse-1.12/)
+
+**A Tableau Prover for Natural Logic and Language** Sep 2015. [paper](https://aclanthology.org/D15-1296.pdf)
+
+**ProoFVer: Natural Logic Theorem Proving for Fact Verification** 2022. [paper](https://aclanthology.org/2022.tacl-1.59.pdf)
+
+**Knowledge-Guided Linguistic Rewrites for Inference Rule Verification** Jun 2016 [paper](https://aclanthology.org/N16-1011.pdf)
+
+**Augmenting Neural Networks with First-order Logic** [paper](https://aclanthology.org/P19-1028.pdf)
+
+**Neural Unification for Logic Reasoning over Natural Language** Nov 2021. [paper](https://aclanthology.org/2021.findings-emnlp.331/)
+
+**Recognising Textual Entailment with Logical Inference** Oct 2005. [paper](https://aclanthology.org/H05-1079.pdf)
+
+**NLog-like Inference and Commonsense Reasoning** 2014. [paper](https://aclanthology.org/2014.lilt-9.9/)
+
+**Conditional Natural Language Inference** Dec 2023. [paper](https://aclanthology.org/2023.findings-emnlp.456.pdf)
+
 
 ### Legal
 **From legal to technical concept: Towards an automated classification of German political Twitter postings as criminal offenses** June 2019. [paper](https://aclanthology.org/N19-1135/) 
@@ -170,6 +228,8 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 
 ### Approaches and Applications
 #### Symbolic
+**Logic-LM: Empowering Large Language Models with Symbolic Solvers for Faithful Logical Reasoning** Dec 2023. [paper](https://aclanthology.org/2023.findings-emnlp.248/)
+
 **Improved Logical Reasoning of Language Models via Differentiable Symbolic Programming** July 2023. [paper](https://aclanthology.org/2023.findings-acl.191/)
 
 **Analytical, Symbolic and First-Order Reasoning within Neural Architectures** July 2021. [paper](https://aclanthology.org/2021.cstfrs-1.7.pdf)
@@ -279,6 +339,8 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 #### Natural Language Inference
 **CURRICULUM: A Broad-Coverage Benchmark for Linguistic Phenomena in Natural Language Understanding** July 2022. [paper](https://aclanthology.org/2022.naacl-main.234.pdf)
 
+**Synthetic Dataset for Evaluating Complex Compositional Knowledge for Natural Language Inference** Jun 2023. [paper](https://aclanthology.org/2023.nlrse-1.12/)
+
 #### Multi-Choice Question
 **BiQuAD: Towards QA based on deeper text understanding** Aug 2021. [paper](https://aclanthology.org/2021.starsem-1.10/)
 
@@ -307,4 +369,6 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 **A Benchmark for Compositional Visual Reasoning** 2022 [paper](https://proceedings.neurips.cc/paper_files/paper/2022/file/c08ee8fe3d19521f3bfa4102898329fd-Paper-Datasets_and_Benchmarks.pdf)
 
 **Emergent Communication for Rules Reasoning** 2023 [paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/d8ace30c68b085556ccce04ed4ae4ebb-Paper-Conference.pdf)
+
+**Multimodal Logical Inference System for Visual-Textual Entailment** July 2019. [paper](https://aclanthology.org/P19-2054/)
 
