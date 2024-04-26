@@ -13,6 +13,8 @@ Paper list for logical reasoning
 ### Surveys
 **Towards Reasoning in Large Language Models: A Survey** July 2023. [paper](https://aclanthology.org/2023.findings-acl.67.pdf)
 
+**Towards LOGIGLUE: A Brief Survey and A Benchmark for Analyzing Logical Reasoning Capabilities of Language Models** Mar 2024. [paper](https://arxiv.org/pdf/2310.00836.pdf)
+
 ### Formal Logical Reasoning (Deductive Reasoning)
 
 **FaiRR: Faithful and Robust Deductive Reasoning over Natural Language** May 2022. [paper](https://aclanthology.org/2022.acl-long.77/)
@@ -153,6 +155,7 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 
 **Implicit Premise Generation with Discourse-aware Commonsense Knowledge Models** Nov 2021. [paper](https://aclanthology.org/2021.emnlp-main.504.pdf)
 
+
 ### Inference
 **NaturalLI: Natural Logic Inference for Common Sense Reasoning** Oct 2014. [paper](https://aclanthology.org/D14-1059/)
 
@@ -216,6 +219,14 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 ### Legal
 **From legal to technical concept: Towards an automated classification of German political Twitter postings as criminal offenses** June 2019. [paper](https://aclanthology.org/N19-1135/) 
 
+**Learning Logical Structures of Paragraphs in Legal Articles** Nov 2011. [paper](https://aclanthology.org/I11-1003.pdf)
+
+**Can AMR Assist Legal and Logical Reasoning?** Dec 2022. [paper](https://aclanthology.org/2022.findings-emnlp.112.pdf)
+
+**Syllogistic Reasoning for Legal Judgment Analysis** Dec 2023. [paper](https://aclanthology.org/2023.emnlp-main.864.pdf)
+
+
+
 
 
 ### Critical Thinking
@@ -227,7 +238,9 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 **A Tableau Prover for Natural Logic and Language** Sep 2015 [paper](https://aclanthology.org/D15-1296.pdf)
 
 ### Approaches and Applications
-#### Symbolic
+#### Symbolic 
+**Improved Logical Reasoning of Language Models via Differentiable Symbolic Programming** July 2023. [paper](https://aclanthology.org/2023.findings-acl.191.pdf)
+
 **Logic-LM: Empowering Large Language Models with Symbolic Solvers for Faithful Logical Reasoning** Dec 2023. [paper](https://aclanthology.org/2023.findings-emnlp.248/)
 
 **Improved Logical Reasoning of Language Models via Differentiable Symbolic Programming** July 2023. [paper](https://aclanthology.org/2023.findings-acl.191/)
