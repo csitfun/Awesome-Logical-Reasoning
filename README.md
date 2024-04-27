@@ -357,9 +357,21 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 #### Multi-Choice Question
 **BiQuAD: Towards QA based on deeper text understanding** Aug 2021. [paper](https://aclanthology.org/2021.starsem-1.10/)
 
+**StrategyQA** [paper](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00370/100680/Did-Aristotle-Use-a-Laptop-A-Question-Answering)
+
 
 ### Models
 [LLaMA-7B-LogiCoT](https://huggingface.co/csitfun/llama-7b-logicot)
+
+### Benchmarking
+**Are Large Language Models Really Good Logical Reasoners? A Comprehensive Evaluation and Beyond** March 2021. [paper](https://arxiv.org/pdf/2306.09841)
+
+**Evaluating the Logical Reasoning Ability of ChatGPT and GPT-4** Apr 2023. [paper](https://arxiv.org/abs/2304.03439)
+
+**A Multitask, Multilingual, Multimodal Evaluation of ChatGPT on Reasoning, Hallucination, and Interactivity** Nov 2023. [paper](https://arxiv.org/abs/2302.04023)
+
+**Did Aristotle Use a Laptop? A Question Answering Benchmark with Implicit Reasoning Strategies** 2021 [paper](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00370/100680/Did-Aristotle-Use-a-Laptop-A-Question-Answering)
+
 
 ### Resources
 #### Repos
