@@ -225,6 +225,8 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 
 **Syllogistic Reasoning for Legal Judgment Analysis** Dec 2023. [paper](https://aclanthology.org/2023.emnlp-main.864.pdf)
 
+**How well do SOTA legal reasoning models support abductive reasoning?** Apr 2023. [paper](https://arxiv.org/abs/2304.06912)
+
 
 
 
