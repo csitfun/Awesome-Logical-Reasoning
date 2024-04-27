@@ -45,6 +45,11 @@ Paper list for logical reasoning
 
 **Teaching Machine Comprehension with Compositional Explanations** Nov 2020. [paper](https://aclanthology.org/2020.findings-emnlp.145/)
 
+**Testing the General Deductive Reasoning Capacity of Large Language Models Using OOD Examples** 2023 [paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/09425891e393e64b0535194a81ba15b7-Paper-Conference.pdf)
+
+**Deductive Verification of Chain-of-Thought Reasoning** 2023 [paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/72393bd47a35f5b3bee4c609e7bba733-Paper-Conference.pdf)
+
+
 ### Informal Logical Reasoning 
 
 #### Inductive Reasoning
@@ -239,6 +244,8 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 
 **A Tableau Prover for Natural Logic and Language** Sep 2015 [paper](https://aclanthology.org/D15-1296.pdf)
 
+
+
 ### Approaches and Applications
 #### Symbolic 
 **Improved Logical Reasoning of Language Models via Differentiable Symbolic Programming** July 2023. [paper](https://aclanthology.org/2023.findings-acl.191.pdf)
@@ -263,9 +270,12 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 
 **Learning Symbolic Rules for Reasoning in Quasi-Natural Language**. Nov. 2021. [paper](http://arxiv.org/abs/2111.12038).
 
+****
+
 #### Logic as Knowledge Regularization
 **Logic-Driven Context Extension and Data Augmentation for Logical Reasoning of Text** May 2021. [paper](https://arxiv.org/pdf/2105.03659)
-****
+
+**MERIt: Meta-Path Guided Contrastive Learning for Logical Reasoning** Mar 2022. [paper](https://arxiv.org/abs/2203.00357)
 
 **Enhancing Zero-Shot Chain-of-Thought Reasoning in Large Language Models through Logic** *Xufeng Zhao, Mengdi Li, Wenhao Lu, Cornelius Weber, Jae Hee Lee, Kun Chu, Stefan Wermter.* COLING 2024 [[pdf](https://arxiv.org/abs/2309.13339)] [[code](https://github.com/xf-zhao/LoT)]
 
