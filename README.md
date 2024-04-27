@@ -262,6 +262,9 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 **Learning Symbolic Rules for Reasoning in Quasi-Natural Language**. Nov. 2021. [paper](http://arxiv.org/abs/2111.12038).
 
 #### Logic as Knowledge Regularization
+**Logic-Driven Context Extension and Data Augmentation for Logical Reasoning of Text** May 2021. [paper](https://arxiv.org/pdf/2105.03659)
+****
+
 **Enhancing Zero-Shot Chain-of-Thought Reasoning in Large Language Models through Logic** *Xufeng Zhao, Mengdi Li, Wenhao Lu, Cornelius Weber, Jae Hee Lee, Kun Chu, Stefan Wermter.* COLING 2024 [[pdf](https://arxiv.org/abs/2309.13339)] [[code](https://github.com/xf-zhao/LoT)]
 
 **Clinical Temporal Relation Extraction with Probabilistic Soft Logic Regularization and Global Inference.** *Yichao Zhou, Yu Yan, Rujun Han, J. Harry Caufield,Kai-Wei Chang, Yizhou Sun, Peipei Ping and Wei Wang.* AAAI 2021 [[pdf](https://arxiv.org/pdf/2012.08790.pdf)] [[code](https://github.com/yuyanislearning/CTRL-PG)]
