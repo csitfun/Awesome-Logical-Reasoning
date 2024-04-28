@@ -333,6 +333,8 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 
 LOGIPT
 
+[Symbol-LLM](https://huggingface.co/Symbol-LLM)
+
 ---
 
 ### Benchmarking
