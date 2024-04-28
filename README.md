@@ -111,6 +111,11 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 
 **Simple Augmentations of Logical Rules for Neuro-Symbolic Knowledge Graph Completion** July 2023. [paper](https://aclanthology.org/2023.acl-short.23/)
 
+**LAMBADA: Backward Chaining for Automated Reasoning in Natural Language** Dec 2022. [paper](https://arxiv.org/abs/2212.13894)
+
+**Forward-Backward Reasoning in Large Language Models for Mathematical Verification** Sep 2023. [paper](https://openreview.net/forum?id=GhYXocT75t)
+
+**Forward-Backward Reasoning in Large Language Models for Mathematical Verification** Aug 2023. [paper](https://arxiv.org/abs/2308.07758)
 
 
 #### Analogical Reasoning
