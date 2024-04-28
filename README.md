@@ -15,6 +15,7 @@ Paper list for logical reasoning
 
 **Towards LOGIGLUE: A Brief Survey and A Benchmark for Analyzing Logical Reasoning Capabilities of Language Models** Mar 2024. [paper](https://arxiv.org/pdf/2310.00836.pdf)
 
+---
 ### Formal Logical Reasoning (Deductive Reasoning)
 
 **FaiRR: Faithful and Robust Deductive Reasoning over Natural Language** May 2022. [paper](https://aclanthology.org/2022.acl-long.77/)
@@ -49,7 +50,7 @@ Paper list for logical reasoning
 
 **Deductive Verification of Chain-of-Thought Reasoning** 2023 [paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/72393bd47a35f5b3bee4c609e7bba733-Paper-Conference.pdf)
 
-
+---
 ### Informal Logical Reasoning 
 
 #### Inductive Reasoning
