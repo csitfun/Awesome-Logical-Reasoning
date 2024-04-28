@@ -281,7 +281,7 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 
 **MERIt: Meta-Path Guided Contrastive Learning for Logical Reasoning** Mar 2022. [paper](https://arxiv.org/abs/2203.00357)
 
-
+---
 
 ### Datasets
 **GLoRE: Evaluating Logical Reasoning of Large Language Models.** Oct 2023 [paper](https://arxiv.org/abs/2310.09107) [dataset](https://github.com/csitfun/glore)
