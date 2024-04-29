@@ -9,7 +9,7 @@ Paper list for logical reasoning
 
 ![](https://img.shields.io/badge/PRs-Welcome-red) Welcome to contribute!
 
-![](logical+reasoning.png)
+![](logical_reasoning.png)
 
 ## VERBAL REASONING
 ### Surveys
