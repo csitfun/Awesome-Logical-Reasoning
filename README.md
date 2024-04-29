@@ -9,6 +9,8 @@ Paper list for logical reasoning
 
 ![](https://img.shields.io/badge/PRs-Welcome-red) Welcome to contribute!
 
+![](logical+reasoning.png)
+
 ## VERBAL REASONING
 ### Surveys
 **Towards Reasoning in Large Language Models: A Survey** July 2023. [paper](https://aclanthology.org/2023.findings-acl.67.pdf)
