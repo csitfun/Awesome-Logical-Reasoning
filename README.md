@@ -137,6 +137,7 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 
 **ThinkSum: Probabilistic reasoning over sets using large language models** July 2023 [paper](https://aclanthology.org/2023.acl-long.68/)
 
+**Relevant or Random: Can LLMs Truly Perform Analogical Reasoning?** Apr 2024. [paper](https://luarxiv.org/abs/2404.12728)
 
 ---
 
