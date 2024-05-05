@@ -39,7 +39,6 @@ Paper list for logical reasoning
 **Towards LOGIGLUE: A Brief Survey and A Benchmark for Analyzing Logical Reasoning Capabilities of Language Models** Mar 2024. [paper](https://arxiv.org/pdf/2310.00836.pdf)
 
 
-
 ---
 ### Formal Logical Reasoning (Deductive Reasoning)
 
@@ -317,9 +316,6 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 
 **Learning Symbolic Rules for Reasoning in Quasi-Natural Language**. Nov. 2021. [paper](http://arxiv.org/abs/2111.12038).
 
-****
-
-
 #### Data Extension
 
 **Logic-Driven Context Extension and Data Augmentation for Logical Reasoning of Text** May 2021. [paper](https://arxiv.org/pdf/2105.03659)
@@ -375,9 +371,6 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 
 **The Fourth PASCAL Recognizing Textual Entailment Challenge** 2008. [paper](https://tac.nist.gov/publications/2008/additional.papers/RTE-4_overview.proceedings.pdf)
 
-
-
-
 **A Large Annotated Corpus for Learning Language Inference (SNLI)** Sept 2015. [paper](https://nlp.stanford.edu/pubs/snli_paper.pdf)
 
 **A Broad-Coverage Challenge Corpus for Sentence Understanding through Inference (MNLI)** Jun 2018. [paper](https://arxiv.org/pdf/1704.05426v4.pdf)
@@ -388,14 +381,13 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 
 **Inherent Disagreement in Human Textual Inferences** May 2019. [paper](https://aclanthology.org/Q19-1043.pdf) 
 
-
-<!--NLI datasets-->
-
 **SemEval-2014 Task 1: Evaluzation of Compositional Distributional Semantic Models on Full Sentence through Semantic Relatedness and Textual Entailment (SICK)** Aug 2014. [paper](https://aclanthology.org/S14-2001.pdf) [paper](http://www.lrec-conf.org/proceedings/lrec2014/pdf/363_Paper.pdf)
 
 **CURRICULUM: A Broad-Coverage Benchmark for Linguistic Phenomena in Natural Language Understanding** July 2022. [paper](https://aclanthology.org/2022.naacl-main.234.pdf)
 
 **Synthetic Dataset for Evaluating Complex Compositional Knowledge for Natural Language Inference** Jun 2023. [paper](https://aclanthology.org/2023.nlrse-1.12/)
+
+
 
 #### Multi-Choice Question
 **BiQuAD: Towards QA based on deeper text understanding** Aug 2021. [paper](https://aclanthology.org/2021.starsem-1.10/)
@@ -403,8 +395,120 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 **StrategyQA** [paper](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00370/100680/Did-Aristotle-Use-a-Laptop-A-Question-Answering)
 
 
+#### Converted from QA
+
+**Reading Comprehension as Natural Language Inference: A Semantic Analysis** Dec 2012. [paper](https://aclanthology.org/2020.starsem-1.2.pdf)
+
+**Transforming Question Answering Datasets Into Natural Language Inference Datasets** Sep 2018. [paper](https://www.semanticscholar.org/reader/8f1c9b656157b1d851563fb42129245701d83175)
+
+
+#### Converted from Summarization
+
+**Falsesum: Generating Document-level NLI Examples for Recognizing Factual Inconsistency in Summerization** Jul 2022. [paper](https://aclanthology.org/2022.naacl-main.199.pdf)
+
+**SUMMAC: Re-Visiting NLI-based Models for Inconsistency Detection in Summarization** Aug 2021. [paper](https://aclanthology.org/2022.tacl-1.10.pdf)
+
+
+#### Tabular Premises (Tabular Reasoning)
+
+**TABFACT: A Large-scale Dataset for Table-base Fact Verification** Sep 2019. [paper](https://arxiv.org/pdf/1909.02164v5.pdf)
+
+**INFOTABS: Inference on Tables as Semi-structured Data** Jul 2020. [paper](https://aclanthology.org/2020.acl-main.210.pdf)
+
+**SemEval-2021 Task 9: Fact Verification and Evidence Finding for Tabular Data in Scientific Documents (SEM-TAB-FACTS)** Aug 2021 . [paper](https://aclanthology.org/2021.semeval-1.39.pdf)
+
+**Is My Model Using the Right Evidence? Systematic Probes for Examining Evidence-Based Tabular Reasoning** Sep 2021. [paper](https://aclanthology.org/2022.tacl-1.38.pdf)
+
+**The Fact Extraction and VERification Over Unstructured and Structured information (FEVEROUS) Shared Task** Nov 2021. [paper](https://aclanthology.org/2021.fever-1.1.pdf)
+
+#### Fact-checking
+
+**Fake News Challenge** Dec 2016. [webpage](http://www.fakenewschallenge.org/)
+
+**FEVER: A Large-scale Dataset for Fact Extraction and VERification** Jul 2018. [paper](https://aclanthology.org/N18-1074)
+
+
+#### Probabilistic NLI
+
+**A Probabilistic Classification Approach for Lexical Textual Entailment** 2005. [paper](https://cdn.aaai.org/AAAI/2005/AAAI05-166.pdf)
+
+**Uncertain Natural Language Inference** Sep 2019. [paper](https://arxiv.org/pdf/1909.03042.pdf)
+
+
+#### Document-level NLI
+
+**Natural Language Inference in Context — Investigating Contextual Reasoning over Long Texts** Nov 2011. [paper](https://arxiv.org/pdf/2011.04864.pdf)
+
+**Evaluating the Factual Consistency of Abstractive Text Summarization (FactCC)** Nov 2020. [paper](https://aclanthology.org/2020.emnlp-main.750.pdf)
+
+**DOCNLI: A Large-scale Dataset for Document-level Natural Language Inference** Aug 2021. [paper](https://aclanthology.org/2021.findings-acl.435)
+
+**ContractNLI: A Dataset for Document-level Natural Language Inference for Contracts** Nov 2021. [paper](https://aclanthology.org/2021.findings-emnlp.164.pdf)
+
+**Falsesum: Generating Document-level NLI Examples for Recognizing Factual Inconsistency in Summarization** Jul 2022. [paper](https://aclanthology.org/2022.naacl-main.199)
+
+**BioNLI: Generating a Biomedical NLI Dataset Using Lexico-semantic Constraints for Adversarial Examples** Oct 2022. [paper](https://arxiv.org/pdf/2210.14814.pdf)
+
+**Validity Assessment of Legal Will Statement as Natural Language Inference** Oct 2022. [paper](https://arxiv.org/pdf/2210.16989v1.pdf)
+
+**LawngNLI: A Multigranular, Long-premise NLI Benchmark for Evaluating Models’ In-domain Generalization from Short to Long Contexts** Dec 2022. [paper](https://aclanthology.org/2022.findings-emnlp.369.pdf)
+
+
+#### Complex Reasoning NLI
+
+**Collecting Diverse Natural Language Inference Problems for Sentence Representation Evaluation** Oct 2018. [paper](https://aclanthology.org/D18-1007.pdf)
+
+**Can neural networks understand monotonicity reasoning? (MED)** 2019. [paper](https://aclanthology.org/W19-4804v2.pdf)
+
+**HELP: A Dataset for Identifying Shortcomings of Neural Models in Monotonicity Reasoning** Jun 2019. [paper](https://aclanthology.org/S19-1027)
+
+**Transformers as Soft Reasoners over Language** Feb 2020. [paper](https://arxiv.org/abs/2002.05867)
+
+**Adversarial NLI: A New Benchmark for Natural Language Understanding** Jul 2020. [paper](https://aclanthology.org/2020.acl-main.441)
+
+**Are Natural Language Inference Models Impressive? Learning Implicature and Presupposition** Jul 2020. [paper](https://aclanthology.org/2020.acl-main.768)
+
+**Natural Language Inference in Context — Investigating Contextual Reasoning over Long Texts** Nov 2020. [paper](https://arxiv.org/pdf/2011.04864.pdf)
+
+**ConjNLI: Natural Language Inference Over Conjunctive Sentences** Nov 2020. [paper](https://aclanthology.org/2020.emnlp-main.661)
+
+**TaxiNLI: Taking a ride up the NLU hill** Nov 2020. [paper](https://aclanthology.org/2020.conll-1.4)
+
+**Diagnosing the First-Order Logical Reasoning Ability Through LogicNLI** Nov 2021. [paper](https://aclanthology.org/2021.emnlp-main.303.pdf)
+
+**Explaining Answers with Entailment Trees (ENTAILMENTBANK)** May 2022. [paper](https://www.semanticscholar.org/reader/4a56f72b9c529810ba4ecfe9eac522d87f6db81d)
+
+**FOLIO: Natural Language Reasoning with First-Order-Logic** Sep 2022. [paper](https://arxiv.org/abs/2209.00840)
+
+#### Negated NLI
+
+**Neural Natural Language Inference Models Partially Embed Theories of Lexical Entailment and Negation** Apr 2020. [paper](https://arxiv.org/pdf/2004.14623v4.pdf)
+
+**An Analysis of Natural Language Inference Benchmarks through the Lens of Negation** Nov 2020. [paper](https://aclanthology.org/2020.emnlp-main.732.pdf)
+
+**Not another Negation Benchmark: The NaN-NLI Test Suite for Sub-clausal Negation** Nov 2022. [paper](https://aclanthology.org/2022.aacl-main.65.pdf)
+
+#### Commonsense Reasoning
+
+**The Winograd Schema Challenge** 2011. [paper](http://commonsensereasoning.org/2011/papers/Levesque.pdf)
+
+#### AI Generated
+
+**WANLI: Worker and AI Collaboration for Natural Language Inference Dataset Creation** Jan 2022. [paper](https://arxiv.org/pdf/2201.05955.pdf)
+
+#### Synthetic
+
+**Right for the Wrong Reasons: Diagnosing Syntactic Heuristics in Natural Language Inference (HANS)** Feb 2019. [paper](https://arxiv.org/pdf/1902.01007.pdf)
+
+#### Other task format that can be transformed into NLI format
+
+**FraCaS: Temporal Analysis** Dec 2020. [paper](https://arxiv.org/pdf/2012.10668.pdf)
+
+**Explaining Answers with Entailment Trees (ENTAILMENT BANK)** Nov 2021. [paper](https://aclanthology.org/2021.emnlp-main.585/)
+
 
 ---
+
 ### Models
 [LLaMA-7B-LogiCoT](https://huggingface.co/csitfun/llama-7b-logicot)
 
