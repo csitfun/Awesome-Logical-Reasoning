@@ -11,11 +11,34 @@ Paper list for logical reasoning
 
 ![](https://github.com/csitfun/Awesome-Logical-Reasoning/blob/main/Logical_Reasoning.png)
 
+
+
 ## VERBAL REASONING
 ### Surveys
+
+<!--NLI surveys-->
+
+**Natural Language Inference A Dissertation** Jun 2009. [paper](https://www-nlp.stanford.edu/~wcmac/papers/nli-diss.pdf)
+
+**A Survey of Paraphrasing and Textual Entailment Method** May 2010. [paper](https://www.jair.org/index.php/jair/article/view/10651/25463)
+
+**An Overview of Natural Language Inference Data Collection: The Way Forward?** Oct 2017. [paper](https://aclanthology.org/W17-7203.pdf)
+
+**Logical Formalization of Commonsense Reasoning: A Survey** Aug 2017. [paper](https://www.jair.org/index.php/jair/article/view/11076/26258)
+
+**Recent Advanced in Natural Language Inferenece: A Survey of Benchmarks, Resources, and Approahces** Apr 2019. [paper](https://arxiv.org/pdf/1904.01172)
+
+**A Survey on Recognizing Textual Entailment as an NLP Evaluation** Nov 2020. [paper](https://aclanthology.org/2020.eval4nlp-1.10.pdf)
+
+**Symbolic And Neural Approaches to Natural Language Inference** Jun 2021. [paper](https://scholarworks.iu.edu/iuswrrest/api/core/bitstreams/cec63ddb-9930-4fbe-b1f6-5e5a60503d5d/content)
+
+<!--NLI surveys-->
+
 **Towards Reasoning in Large Language Models: A Survey** July 2023. [paper](https://aclanthology.org/2023.findings-acl.67.pdf)
 
 **Towards LOGIGLUE: A Brief Survey and A Benchmark for Analyzing Logical Reasoning Capabilities of Language Models** Mar 2024. [paper](https://arxiv.org/pdf/2310.00836.pdf)
+
+
 
 ---
 ### Formal Logical Reasoning (Deductive Reasoning)
@@ -52,7 +75,10 @@ Paper list for logical reasoning
 
 **Deductive Verification of Chain-of-Thought Reasoning** 2023 [paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/72393bd47a35f5b3bee4c609e7bba733-Paper-Conference.pdf)
 
+
+
 ---
+
 ### Informal Logical Reasoning 
 
 #### Inductive Reasoning
@@ -88,6 +114,7 @@ Paper list for logical reasoning
 
 
 #### Abductive Reasoning
+
 **Abductive Explanation-based Learning Improves Parsing Accuracy and Efficiency** [paper](https://aclanthology.org/W03-1715.pdf)
 
 **ProofWriter: Generating Implications, Proofs, and Abductive Statements over Natural Language** Aug 2021. [paper](https://aclanthology.org/2021.findings-acl.317.pdf)
@@ -121,6 +148,7 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 
 
 #### Analogical Reasoning
+
 **ANALOGICAL - A Novel Benchmark for Long Text Analogy Evaluation in Large Language Models** July 2023. [paper](https://aclanthology.org/2023.findings-acl.218/)
 
 **Can language models learn analogical reasoning? Investigating training objectives and comparisons to human performance** Dec 2023. [paper](https://aclanthology.org/2023.emnlp-main.1022/)
@@ -143,6 +171,7 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 
 
 ### Logical Fallacy
+
 **Detecting Argumentative Fallacies in the Wild: Problems and Limitations of Large Language Models** Dec 2023. [paper](https://aclanthology.org/2023.argmining-1.1.pdf)
 
 **Multitask Instruction-based Prompting for Fallacy Recognition** Dec 2022 [paper](https://aclanthology.org/2022.emnlp-main.560/)
@@ -159,6 +188,7 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 
 
 ### Argument
+
 **TakeLab at SemEval-2018 Task12: Argument Reasoning Comprehension with Skip-Thought Vectors** Jun 2018. [paper](https://aclanthology.org/S18-1192.pdf)
 
 **The Argument Reasoning Comprehension Task: Identification and Reconstruction of Implicit Warrants** Jun 2018 [paper](https://aclanthology.org/N18-1175/)
@@ -172,6 +202,7 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 ---
 
 ### Inference
+
 **NaturalLI: Natural Logic Inference for Common Sense Reasoning** Oct 2014. [paper](https://aclanthology.org/D14-1059/)
 
 **Neural Natural Logic Inference for Interpretable Question Answering** Nov 2021. [paper](https://aclanthology.org/2021.emnlp-main.298/)
@@ -233,6 +264,7 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 ---
 
 ### Legal
+
 **From legal to technical concept: Towards an automated classification of German political Twitter postings as criminal offenses** June 2019. [paper](https://aclanthology.org/N19-1135/) 
 
 **Learning Logical Structures of Paragraphs in Legal Articles** Nov 2011. [paper](https://aclanthology.org/I11-1003.pdf)
@@ -248,6 +280,7 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 
 
 ### Critical Thinking
+
 **Critical Thinking for Language Models** June 2021. [paper](https://aclanthology.org/2021.iwcs-1.7.pdf)
 
 ### Theorem Proving
@@ -255,10 +288,13 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 
 **A Tableau Prover for Natural Logic and Language** Sep 2015 [paper](https://aclanthology.org/D15-1296.pdf)
 
+
 ---
 
 ### Approaches and Applications
+
 #### Symbolic 
+
 **Improved Logical Reasoning of Language Models via Differentiable Symbolic Programming** July 2023. [paper](https://aclanthology.org/2023.findings-acl.191.pdf)
 
 **Logic-LM: Empowering Large Language Models with Symbolic Solvers for Faithful Logical Reasoning** Dec 2023. [paper](https://aclanthology.org/2023.findings-emnlp.248/)
@@ -285,6 +321,7 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 
 
 #### Data Extension
+
 **Logic-Driven Context Extension and Data Augmentation for Logical Reasoning of Text** May 2021. [paper](https://arxiv.org/pdf/2105.03659)
 
 **MERIt: Meta-Path Guided Contrastive Learning for Logical Reasoning** Mar 2022. [paper](https://arxiv.org/abs/2203.00357)
@@ -321,6 +358,41 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 
 
 #### Natural Language Inference
+
+<!--NLI datasets-->
+
+**Using the Framework (FraCaS)** 1996.
+
+**The PASCAL Recognizing Textual Entailment Challenge** 2005. [paper](https://kdd.cs.ksu.edu/Courses/Fall-2008/CIS798/Handouts/06-dagan05pascal.pdf)
+
+**The Second PASCAL Recognizing Textual Entailment Challenge** 2006. [paper](https://www.semanticscholar.org/paper/The-Second-PASCAL-Recognising-Textual-Entailment-Bar-Haim-Dagan/136326377c122560768db674e35f5bcd6de3bc40) 
+
+**The Third PASCAL Recognizing Textual Entailment Challenge** 2007. [paper](https://aclanthology.org/W07-1401.pdf)
+
+**Natural Logic for Textual Inference** Jun 2007. [paper](https://nlp.stanford.edu/pubs/natlog-wtep07.pdf)
+
+**The Winograd Schema Challenge** 2011. [paper](http://commonsensereasoning.org/2011/papers/Levesque.pdf)
+
+**The Fourth PASCAL Recognizing Textual Entailment Challenge** 2008. [paper](https://tac.nist.gov/publications/2008/additional.papers/RTE-4_overview.proceedings.pdf)
+
+
+
+
+**A Large Annotated Corpus for Learning Language Inference (SNLI)** Sept 2015. [paper](https://nlp.stanford.edu/pubs/snli_paper.pdf)
+
+**A Broad-Coverage Challenge Corpus for Sentence Understanding through Inference (MNLI)** Jun 2018. [paper](https://arxiv.org/pdf/1704.05426v4.pdf)
+
+**Lessons from Natural Language Inference in the Clinical Domain** Aug 2018. [paper](https://arxiv.org/pdf/1808.06752)
+
+**GLUE: A Multi-task Benchmark and Analysis Platform for Natural Language Understanding** Feb 2019. [paper](https://arxiv.org/pdf/1804.07461v3)
+
+**Inherent Disagreement in Human Textual Inferences** May 2019. [paper](https://aclanthology.org/Q19-1043.pdf) 
+
+
+<!--NLI datasets-->
+
+**SemEval-2014 Task 1: Evaluzation of Compositional Distributional Semantic Models on Full Sentence through Semantic Relatedness and Textual Entailment (SICK)** Aug 2014. [paper](https://aclanthology.org/S14-2001.pdf) [paper](http://www.lrec-conf.org/proceedings/lrec2014/pdf/363_Paper.pdf)
+
 **CURRICULUM: A Broad-Coverage Benchmark for Linguistic Phenomena in Natural Language Understanding** July 2022. [paper](https://aclanthology.org/2022.naacl-main.234.pdf)
 
 **Synthetic Dataset for Evaluating Complex Compositional Knowledge for Natural Language Inference** Jun 2023. [paper](https://aclanthology.org/2023.nlrse-1.12/)
@@ -329,6 +401,8 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 **BiQuAD: Towards QA based on deeper text understanding** Aug 2021. [paper](https://aclanthology.org/2021.starsem-1.10/)
 
 **StrategyQA** [paper](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00370/100680/Did-Aristotle-Use-a-Laptop-A-Question-Answering)
+
+
 
 ---
 ### Models
@@ -341,6 +415,7 @@ LOGIPT
 ---
 
 ### Benchmarking
+
 **Are Large Language Models Really Good Logical Reasoners? A Comprehensive Evaluation and Beyond** March 2021. [paper](https://arxiv.org/pdf/2306.09841)
 
 **Evaluating the Logical Reasoning Ability of ChatGPT and GPT-4** Apr 2023. [paper](https://arxiv.org/abs/2304.03439)
