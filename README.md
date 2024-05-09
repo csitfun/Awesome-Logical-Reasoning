@@ -5,7 +5,7 @@ Paper list for logical reasoning
 
 **Key Words**: premise, conclusion, argument, reasoning, inference, proposition, forward chaining, backward chaining, critical thinking, syllogism
 
-![](https://img.shields.io/github/last-commit/csitfun/Awesome-Logical-Reasoning) Maintained by [Hanmeng Liu](https://scholar.google.com/citations?user=vjmL_9UAAAAJ&hl=en), 
+![](https://img.shields.io/github/last-commit/csitfun/Awesome-Logical-Reasoning) Maintained by [Hanmeng Liu](https://scholar.google.com/citations?user=vjmL_9UAAAAJ&hl=en), [Ruoxi Ning]()
 
 ![](https://img.shields.io/badge/PRs-Welcome-red) Welcome to contribute!
 
