@@ -11,6 +11,38 @@ Paper list for logical reasoning
 
 ![](https://github.com/csitfun/Awesome-Logical-Reasoning/blob/main/Logical_Reasoning.png)
 
+<!-- Contents
+- Surveys
+
+- Tasks (TODO move datasets, models and SOTAs under tasks)
+  - Formal logical reasoning (deductive)
+    - Models
+      - 
+    - SOTA
+      - 
+    - Datasets
+      - 
+    - Informal (?)
+      - 
+    - Logical fallacy
+      - 
+    - Arguments
+      - 
+    - Critical Thinking
+      - 
+    - NLI : TODO this might connotate a higher range
+    - 
+    - Nonverbal reasoning: video
+    - 
+    - Nonverbal reasoning: image
+
+- Applications
+  - Legal 
+  - <- aplications
+
+(If not specifying, the titles indicates verbal reasoning)
+
+-->
 
 
 ## ✨VERBAL REASONING
