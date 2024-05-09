@@ -66,6 +66,8 @@ Paper list for logical reasoning
 
 9. **Towards LOGIGLUE: A Brief Survey and A Benchmark for Analyzing Logical Reasoning Capabilities of Language Models** Mar 2024. [paper](https://arxiv.org/pdf/2310.00836.pdf)
 
+10. **A Survey of Reasoning with Foundation Models** Dec 2023. [paper](https://arxiv.org/abs/2312.11562)
+
 
 ---
 ### ✨Formal Logical Reasoning (Deductive Reasoning)
@@ -606,6 +608,8 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 7. [Deep-Reasoning-Papers](https://github.com/floodsung/Deep-Reasoning-Papers): Recent Papers including Neural Symbolic Reasoning, Logical Reasoning, Visual Reasoning, natural language reasoning and any other topics connecting deep learning and reasoning.
 
 8. [Awesome deep logic](https://github.com/ccclyu/awesome-deeplogic): Must-Read Papers or Resources on how to integrate symbolic logic into deep neural nets.
+
+9. [Awesome-Reasoning-Foundation-Models](https://github.com/reasoning-survey/Awesome-Reasoning-Foundation-Models)
 
 
 
