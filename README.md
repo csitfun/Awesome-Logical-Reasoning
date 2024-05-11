@@ -564,6 +564,8 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 
 13. **StoryAnalogy: Deriving Story-level Analogies from Large Language Models to Unlock Analogical Understanding** Dec 2023. [paper](https://aclanthology.org/2023.emnlp-main.706/)
 
+14. **How susceptible are LLMs to Logical Fallacies?** Aug 2023. [paper](https://arxiv.org/abs/2308.09853) [LOGICOM](https://github.com/Amir-pyh/LOGICOM/tree/main)
+
 
 ---
 
