@@ -635,3 +635,5 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 
 3. **Multimodal Logical Inference System for Visual-Textual Entailment** July 2019. [paper](https://aclanthology.org/P19-2054/)
 
+4. **The Abstraction and Reasoning Corpus (ARC)** [dataset](https://github.com/fchollet/ARC)
+
