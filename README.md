@@ -68,6 +68,10 @@ Paper list for logical reasoning
 
 10. **A Survey of Reasoning with Foundation Models** Dec 2023. [paper](https://arxiv.org/abs/2312.11562)
 
+11. **Logical Reasoning over Natural Language as Knowledge Representation: A Survey** Mar 2023. [paper](https://arxiv.org/abs/2303.12023)
+
+12. **Natural Language Reasoning, A Survey** May 2023. [paper](https://arxiv.org/pdf/2303.14725v2)
+
 
 ---
 ### ✨Formal Logical Reasoning (Deductive Reasoning)
