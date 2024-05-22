@@ -560,6 +560,8 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 #### ✨Natural Language Inference
 1. **FOLIO: Natural Language Reasoning with First-Order Logic** 2022. [paper](https://arxiv.org/pdf/2209.00840) [dataset](https://github.com/Yale-LILY/FOLIO)
 
+2. **Diagnosing the First-Order Logical Reasoning Ability Through LogicNLI** 2021. [paper](https://aclanthology.org/2021.emnlp-main.303/) [LogicNLI](https://github.com/omnilabNLP/LogicNLI)
+
 #### ✨Test Suites
 1. **GLoRE: Evaluating Logical Reasoning of Large Language Models.** Oct 2023 [paper](https://arxiv.org/abs/2310.09107) [dataset](https://github.com/csitfun/glore)
 
