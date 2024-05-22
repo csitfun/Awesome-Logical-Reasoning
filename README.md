@@ -546,13 +546,15 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 #### ✨Question Answering
 1. **LogiQA2.0 - An Improved Dataset for Logic Reasoning in Question Answering and Textual Inference** May 2023. [paper](https://ieeexplore.ieee.org/abstract/document/10174688) [dateset](https://github.com/csitfun/LogiQA2.0)
 
-2. **ReClor: A Reading Comprehension Dataset Requiring Logical Reasoning** 2023. [paper](https://openreview.net/pdf?id=HJgJtT4tvB) [dataset](https://whyu.me/reclor/)
+2. **ReClor: A Reading Comprehension Dataset Requiring Logical Reasoning** 2023. [paper](https://openreview.net/pdf?id=HJgJtT4tvB) [ReClor](https://whyu.me/reclor/)
 
-3. **MTR: A Dataset Fusing Inductive, Deductive, and Defeasible Reasoning** July 2023. [paper](https://aclanthology.org/2023.findings-acl.640/)
+3. **MTR: A Dataset Fusing Inductive, Deductive, and Defeasible Reasoning** July 2023. [paper](https://aclanthology.org/2023.findings-acl.640/) [dataset not available]
 
-4. **AR-LSAT: Investigating Analytical Reasoning of Text** Apr 2021. [paper](https://arxiv.org/pdf/2104.06598) [dataset](https://github.com/zhongwanjun/AR-LSAT)
+4. **AR-LSAT: Investigating Analytical Reasoning of Text** Apr 2021. [paper](https://arxiv.org/pdf/2104.06598) [AR-LSAT](https://github.com/zhongwanjun/AR-LSAT)
 
-5. **CLUTRR: A Diagnostic Benchmark for Inductive Reasoning from Text** Sep 2019. [paper](https://arxiv.org/pdf/1908.06177) [dataset](https://github.com/facebookresearch/clutrr)
+5. **CLUTRR: A Diagnostic Benchmark for Inductive Reasoning from Text** Sep 2019. [paper](https://arxiv.org/pdf/1908.06177) [CLUTRR](https://github.com/facebookresearch/clutrr)
+
+6. **Did Aristotle Use a Laptop? A Question Answering Benchmark with Implicit Reasoning Strategies** 2021 [paper](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00370/100680/Did-Aristotle-Use-a-Laptop-A-Question-Answering) [StrategyQA](https://allenai.org/data/strategyqa)
 
 
 #### ✨Natural Language Inference
@@ -611,7 +613,7 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 
 3. **A Multitask, Multilingual, Multimodal Evaluation of ChatGPT on Reasoning, Hallucination, and Interactivity** Nov 2023. [paper](https://arxiv.org/abs/2302.04023)
 
-4. **Did Aristotle Use a Laptop? A Question Answering Benchmark with Implicit Reasoning Strategies** 2021 [paper](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00370/100680/Did-Aristotle-Use-a-Laptop-A-Question-Answering)
+4. 
 
 
 ---
