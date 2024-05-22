@@ -562,6 +562,8 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 
 2. **Diagnosing the First-Order Logical Reasoning Ability Through LogicNLI** 2021. [paper](https://aclanthology.org/2021.emnlp-main.303/) [LogicNLI](https://github.com/omnilabNLP/LogicNLI)
 
+3. **Transformers as Soft Reasoners over Language** Feb 2020. [paper](https://arxiv.org/abs/2002.05867) [ruletaker](https://github.com/allenai/ruletaker)
+
 #### ✨Test Suites
 1. **GLoRE: Evaluating Logical Reasoning of Large Language Models.** Oct 2023 [paper](https://arxiv.org/abs/2310.09107) [dataset](https://github.com/csitfun/glore)
 
