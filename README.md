@@ -108,6 +108,8 @@ Paper list for logical reasoning
 
 16. **Deductive Verification of Chain-of-Thought Reasoning** 2023 [paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/72393bd47a35f5b3bee4c609e7bba733-Paper-Conference.pdf)
 
+17. **Natural Language Deduction with Incomplete Information** Dec 2022. [paper](https://aclanthology.org/2022.emnlp-main.564/)
+
 
 ---
 
@@ -164,7 +166,7 @@ Paper list for logical reasoning
 8. **True Detective: A Deep Abductive Reasoning Benchmark Undoable for GPT-3 and Challenging for GPT-4** 
 July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 
-9. **Natural Language Deduction with Incomplete Information** Dec 2022. [paper](https://aclanthology.org/2022.emnlp-main.564/)
+9. **How well do SOTA legal reasoning models support abductive reasoning?** Apr 2023. [paper](https://arxiv.org/abs/2304.06912)
 
 10. **AbductionRules: Training Transformers to Explain Unexpected Inputs** May 2022. [paper](https://aclanthology.org/2022.findings-acl.19/)
 
@@ -176,7 +178,7 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 
 14. **Forward-Backward Reasoning in Large Language Models for Mathematical Verification** Sep 2023. [paper](https://openreview.net/forum?id=GhYXocT75t)
 
-15. **Forward-Backward Reasoning in Large Language Models for Mathematical Verification** Aug 2023. [paper](https://arxiv.org/abs/2308.07758)
+15. **Are Large Language Models Really Good Logical Reasoners? A Comprehensive Evaluation and Beyond** Jun 2023. [paper](https://arxiv.org/abs/2306.09841)
 
 
 #### ✨Analogical Reasoning
