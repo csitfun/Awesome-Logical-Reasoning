@@ -543,13 +543,30 @@ July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
 ---
 
 ### ✨Datasets
+#### ✨Question Answering
+1. **LogiQA2.0 - An Improved Dataset for Logic Reasoning in Question Answering and Textual Inference** May 2023. [paper](https://ieeexplore.ieee.org/abstract/document/10174688) [dateset](https://github.com/csitfun/LogiQA2.0)
+
+2. **ReClor: A Reading Comprehension Dataset Requiring Logical Reasoning** 2023. [paper](https://openreview.net/pdf?id=HJgJtT4tvB) [dataset](https://whyu.me/reclor/)
+
+3. **MTR: A Dataset Fusing Inductive, Deductive, and Defeasible Reasoning** July 2023. [paper](https://aclanthology.org/2023.findings-acl.640/)
+
+4. **AR-LSAT: Investigating Analytical Reasoning of Text** Apr 2021. [paper](https://arxiv.org/pdf/2104.06598) [dataset](https://github.com/zhongwanjun/AR-LSAT)
+
+5. **CLUTRR: A Diagnostic Benchmark for Inductive Reasoning from Text** Sep 2019. [paper](https://arxiv.org/pdf/1908.06177) [dataset](https://github.com/facebookresearch/clutrr)
+
+
+#### ✨Natural Language Inference
+1. **FOLIO: Natural Language Reasoning with First-Order Logic** 2022. [paper](https://arxiv.org/pdf/2209.00840) [dataset](https://github.com/Yale-LILY/FOLIO)
+
+#### ✨Test Suites
 1. **GLoRE: Evaluating Logical Reasoning of Large Language Models.** Oct 2023 [paper](https://arxiv.org/abs/2310.09107) [dataset](https://github.com/csitfun/glore)
 
 2. **Towards LogiGLUE: A Brief Survey and A Benchmark for Analyzing Logical Reasoning Capabilities of Language Models** [paper](https://arxiv.org/abs/2310.00836) [dataset](https://huggingface.co/datasets/logicreasoning/logi_glue)
 
 3. **LogicBench: A Benchmark for Evaluation of Logical Reasoning.** Dec 2023 [paper](https://openreview.net/forum?id=7NR2ZVzZxx)
 
-4. **MTR: A Dataset Fusing Inductive, Deductive, and Defeasible Reasoning** July 2023. [paper](https://aclanthology.org/2023.findings-acl.640/)
+4. 
+
 
 5. **RobustLR: A Diagnostic Benchmark for Evaluating Logical Robustness of Deductive Reasoners** Dec 2022. [paper](https://aclanthology.org/2022.emnlp-main.653/)
 
