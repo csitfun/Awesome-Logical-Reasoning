@@ -110,7 +110,9 @@ Paper list for logical reasoning
 
 17. **Natural Language Deduction with Incomplete Information** Dec 2022. [paper](https://aclanthology.org/2022.emnlp-main.564/)
 
+18. **Aligning with Logic: Measuring, Evaluating and Improving Logical Consistency in Large Language Models** Oct 2024. [paper](https://arxiv.org/abs/2410.02205)
 
+19. 
 ---
 
 ### ✨Informal Logical Reasoning 
