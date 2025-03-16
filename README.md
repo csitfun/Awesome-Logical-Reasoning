@@ -10,8 +10,53 @@ Paper list for logical reasoning
 ![](https://img.shields.io/badge/PRs-Welcome-red) Welcome to contribute!
 
 ![](https://github.com/csitfun/Awesome-Logical-Reasoning/blob/main/assets/Logical_Reasoning.png)
-## ✨ VERBAL REASONING
-### ✨ Surveys
+## ✨Contents
+- [VERBAL REASONING](#verbal-reasoning)
+  - [Surveys](#surveys)
+  - [Formal Logical Reasoning (Deductive Reasoning)](#formal-logical-reasoning-(deductive-reasoning))
+  - [Informal Logical Reasoning](#informal-logical-reasoning)
+    - [Inductive Reasoning](#inductive-reasoning)
+    - [Abductive Reasoning](#abductive-reasoning)
+    - [Analogical Reasoning](#analogical-reasoning)
+  - [Logical Fallacy](#logical-fallacy)
+  - [Argument](#argument)
+  - [Inference](#inference)
+  - [Legal](#legal)
+  - [Critical Thinking](#critical-thinking)
+  - [Theorem Proving](#theorem-proving)
+  - [Natural Language Inference](#natural-language-inference)
+    - [Multi-Choice Question](#multi-choice-question)
+    - [Converted from QA](#converted-from-qa)
+    - [Converted from Summarization](#converted-from-summarization)
+    - [Tabular Premises (Tabular Reasoning)](#tabular-premises-(tabular-reasoning))
+    - [Fact-checking](#fact-checking)
+    - [Probabilistic NLI](#probabilistic-nli)
+    - [Document-level NLI](#document-level-nli)
+    - [Complex Reasoning NLI](#complex-reasoning-nli)
+    - [Negated NLI](#negated-nli)
+    - [Commonsense Reasoning](#commonsense-reasoning)
+    - [AI Generated](#ai-generated)
+    - [Synthetic](#synthetic)
+    - [Other task format that can be transformed to NLI format](#other-task-format-that-can-be-transformed-to-nli-format)
+  - [Approaches and Applications](#approaches-and-applications)
+    - [Symbolic](#symbolic)
+    - [Data Extension](#data-extension)
+  - [Datasets](#datasets)
+    - [Question Answering](#question-answering)
+    - [Natural Language Inference](#natural-language-inference)
+    - [Test Suites](#test-suites)
+  - [Models](#models)
+  - [Benchmarking](#benchmarking)
+  - [Resources](#resources)
+    - [Repos](#repos)
+    - [Workshops](#workshops)
+- [NON-VERBAL REASONING](#non-verbal-reasoning)
+  - [Video](#video)
+  - [Image](#image)
+
+
+## ✨VERBAL REASONING
+### ✨Surveys
 - **Towards LOGIGLUE: A Brief Survey and A Benchmark for Analyzing Logical Reasoning Capabilities of Language Models**
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2310.00836) 2024. Mar. 
@@ -60,7 +105,7 @@ Paper list for logical reasoning
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://www-nlp.stanford.edu/~wcmac/papers/nli-diss.pdf) 2009. Jun. 
 
-### ✨ Formal Logical Reasoning (Deductive Reasoning)
+### ✨Formal Logical Reasoning (Deductive Reasoning)
 - **Aligning with Logic: Measuring, Evaluating and Improving Logical Consistency in Large Language Models**
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2410.02205) 2024. Oct. 
@@ -133,8 +178,8 @@ Paper list for logical reasoning
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/U06-1016/) 2006. Nov. 
 
-### ✨ Informal Logical Reasoning
-#### ✨ Inductive Reasoning
+### ✨Informal Logical Reasoning
+#### ✨Inductive Reasoning
 - **Language Models as Inductive Reasoners**
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2024.eacl-long.13/) 2024. Mar. 
@@ -195,7 +240,7 @@ Paper list for logical reasoning
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/W00-0740/) 2000. 
 
-#### ✨ Abductive Reasoning
+#### ✨Abductive Reasoning
 - **Self-Consistent Narrative Prompts on Abductive Natural Language Inference**
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.ijcnlp-main.67/) 2023. Nov. 
@@ -256,7 +301,7 @@ Paper list for logical reasoning
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/W03-1715) 
 
-#### ✨ Analogical Reasoning
+#### ✨Analogical Reasoning
 - **Relevant or Random: Can LLMs Truly Perform Analogical Reasoning?**
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://luarxiv.org/abs/2404.12728) 2024. Apr. 
@@ -293,7 +338,7 @@ Paper list for logical reasoning
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.findings-emnlp.158/) 2022. Dec. 
 
-### ✨ Logical Fallacy
+### ✨Logical Fallacy
 - **Detecting Argumentative Fallacies in the Wild: Problems and Limitations of Large Language Models**
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.argmining-1.1) 2023. Dec. 
@@ -318,7 +363,7 @@ Paper list for logical reasoning
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2021.acl-long.53/) 2021. Aug. 
 
-### ✨ Argument
+### ✨Argument
 - **Uncovering Implicit Inferences for Improved Relational Argument Mining**
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.eacl-main.182/) 2023. May. 
@@ -339,7 +384,7 @@ Paper list for logical reasoning
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/S13-1043) 2013. Jun. 
 
-### ✨ Inference
+### ✨Inference
 - **NatLogAttack: A Framework for Attacking Natural Language Inference Models with Natural Logic**
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.acl-long.554/) 2023. July. 
@@ -456,7 +501,7 @@ Paper list for logical reasoning
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/P19-1028) 
 
-### ✨ Legal
+### ✨Legal
 - **Syllogistic Reasoning for Legal Judgment Analysis**
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.emnlp-main.864) 2023. Dec. 
@@ -477,12 +522,12 @@ Paper list for logical reasoning
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/I11-1003) 2011. Nov. 
 
-### ✨ Critical Thinking
+### ✨Critical Thinking
 - **Critical Thinking for Language Models**
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2021.iwcs-1.7) 2021. June. 
 
-### ✨ Theorem Proving
+### ✨Theorem Proving
 - **LangPro: Natural Language Theorem Prover**
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/D17-2020/) 2017. Sep. 
@@ -491,7 +536,7 @@ Paper list for logical reasoning
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/D15-1296) 2015. Sep. 
 
-### ✨ Natural Language Inference
+### ✨Natural Language Inference
 - **Synthetic Dataset for Evaluating Complex Compositional Knowledge for Natural Language Inference**
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.nlrse-1.12/) 2023. Jun. 
@@ -556,7 +601,7 @@ Paper list for logical reasoning
 
 	1996. 
 
-#### ✨ Multi-Choice Question
+#### ✨Multi-Choice Question
 - **BiQuAD: Towards QA based on deeper text understanding**
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2021.starsem-1.10/) 2021. Aug. 
@@ -565,7 +610,7 @@ Paper list for logical reasoning
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00370/100680/Did-Aristotle-Use-a-Laptop-A-Question-Answering) 
 
-#### ✨ Converted from QA
+#### ✨Converted from QA
 - **Transforming Question Answering Datasets Into Natural Language Inference Datasets**
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://www.semanticscholar.org/reader/8f1c9b656157b1d851563fb42129245701d83175) 2018. Sep. 
@@ -574,7 +619,7 @@ Paper list for logical reasoning
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2020.starsem-1.2) 2012. Dec. 
 
-#### ✨ Converted from Summarization
+#### ✨Converted from Summarization
 - **Falsesum: Generating Document-level NLI Examples for Recognizing Factual Inconsistency in Summerization**
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.naacl-main.199) 2022. Jul. 
@@ -583,7 +628,7 @@ Paper list for logical reasoning
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.tacl-1.10) 2021. Aug. 
 
-#### ✨ Tabular Premises (Tabular Reasoning)
+#### ✨Tabular Premises (Tabular Reasoning)
 - **SemEval-2021 Task 9: Fact Verification and Evidence Finding for Tabular Data in Scientific Documents (SEM-TAB-FACTS)**
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2021.semeval-1.39) 2021. Aug. 
@@ -604,7 +649,7 @@ Paper list for logical reasoning
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/1909.02164v5.pdf) 2019. Sep. 
 
-#### ✨ Fact-checking
+#### ✨Fact-checking
 - **FEVER: A Large-scale Dataset for Fact Extraction and VERification**
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/N18-1074) 2018. Jul. 
@@ -613,7 +658,7 @@ Paper list for logical reasoning
 
 	[![](https://img.shields.io/badge/🌐-Webpage-blue)](http://www.fakenewschallenge.org/) 2016. Dec. 
 
-#### ✨ Probabilistic NLI
+#### ✨Probabilistic NLI
 - **Uncertain Natural Language Inference**
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/1909.03042) 2019. Sep. 
@@ -622,7 +667,7 @@ Paper list for logical reasoning
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://cdn.aaai.org/AAAI/2005/AAAI05-166.pdf) 2005. 
 
-#### ✨ Document-level NLI
+#### ✨Document-level NLI
 - **Falsesum: Generating Document-level NLI Examples for Recognizing Factual Inconsistency in Summarization**
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.naacl-main.199) 2022. Jul. 
@@ -655,7 +700,7 @@ Paper list for logical reasoning
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2011.04864) 2011. Nov. 
 
-#### ✨ Complex Reasoning NLI
+#### ✨Complex Reasoning NLI
 - **Explaining Answers with Entailment Trees (ENTAILMENTBANK)**
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://www.semanticscholar.org/reader/4a56f72b9c529810ba4ecfe9eac522d87f6db81d) 2022. May. 
@@ -704,7 +749,7 @@ Paper list for logical reasoning
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/D18-1007) 2018. Oct. 
 
-#### ✨ Negated NLI
+#### ✨Negated NLI
 - **Not another Negation Benchmark: The NaN-NLI Test Suite for Sub-clausal Negation**
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.aacl-main.65) 2022. Nov. 
@@ -717,22 +762,22 @@ Paper list for logical reasoning
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2020.emnlp-main.732) 2020. Nov. 
 
-#### ✨ Commonsense Reasoning
+#### ✨Commonsense Reasoning
 - **The Winograd Schema Challenge**
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](http://commonsensereasoning.org/2011/papers/Levesque.pdf) 2011. 
 
-#### ✨ AI Generated
+#### ✨AI Generated
 - **WANLI: Worker and AI Collaboration for Natural Language Inference Dataset Creation**
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2201.05955) 2022. Jan. 
 
-#### ✨ Synthetic
+#### ✨Synthetic
 - **Right for the Wrong Reasons: Diagnosing Syntactic Heuristics in Natural Language Inference (HANS)**
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/1902.01007) 2019. Feb. 
 
-#### ✨ Other task format that can be transformed to NLI format
+#### ✨Other task format that can be transformed to NLI format
 - **Explaining Answers with Entailment Trees (ENTAILMENT BANK)**
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2021.emnlp-main.585/) 2021. Nov. 
@@ -741,8 +786,8 @@ Paper list for logical reasoning
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2012.10668) 2020. Dec. 
 
-### ✨ Approaches and Applications
-#### ✨ Symbolic
+### ✨Approaches and Applications
+#### ✨Symbolic
 - **Enhancing Ethical Explanations of Large Language Models through Iterative SymbolicRefinement**
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2024.eacl-long.1/) 2024. March. 
@@ -787,7 +832,7 @@ Paper list for logical reasoning
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://doi.org/10.1609/aaai.v34i04.5962) 2020. Apr. 
 
-#### ✨ Data Extension
+#### ✨Data Extension
 - **MERIt: Meta-Path Guided Contrastive Learning for Logical Reasoning**
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2203.00357) 2022. Mar. 
@@ -796,8 +841,8 @@ Paper list for logical reasoning
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2105.03659) 2021. May. 
 
-### ✨ Datasets
-#### ✨ Question Answering
+### ✨Datasets
+#### ✨Question Answering
 - **LogiQA2.0 - An Improved Dataset for Logic Reasoning in Question Answering and Textual Inference**
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://ieeexplore.ieee.org/abstract/document/10174688) 2023. May. 
@@ -822,7 +867,7 @@ Paper list for logical reasoning
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/1908.06177) 2019. Sep. 
 
-#### ✨ Natural Language Inference
+#### ✨Natural Language Inference
 - **FOLIO: Natural Language Reasoning with First-Order Logic**
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2209.00840) [![](https://img.shields.io/badge/📦-Github-purple)](https://github.com/Yale-LILY/FOLIO) 2022. 
@@ -835,7 +880,7 @@ Paper list for logical reasoning
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2002.05867) 2020. Feb. 
 
-#### ✨ Test Suites
+#### ✨Test Suites
 - **GLoRE: Evaluating Logical Reasoning of Large Language Models.**
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2310.09107) [![](https://img.shields.io/badge/📦-Github-purple)](https://github.com/csitfun/glore) 2023. Oct. 
@@ -888,7 +933,7 @@ Paper list for logical reasoning
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2310.00836) [![](https://img.shields.io/badge/🤗-HuggingFace-yellow)](https://huggingface.co/datasets/logicreasoning/logi_glue) 
 
-### ✨ Models
+### ✨Models
 - **LLaMA-7B-LogiCoT**
 
 	[![](https://img.shields.io/badge/🤗-HuggingFace-yellow)](https://huggingface.co/csitfun/llama-7b-logicot) 
@@ -901,7 +946,7 @@ Paper list for logical reasoning
 
 	[![](https://img.shields.io/badge/🤗-HuggingFace-yellow)](https://huggingface.co/Symbol-LLM) 
 
-### ✨ Benchmarking
+### ✨Benchmarking
 - **Evaluating the Logical Reasoning Ability of ChatGPT and GPT-4**
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2304.03439) 2023. Apr. 
@@ -914,8 +959,8 @@ Paper list for logical reasoning
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2306.09841) 2021. March. 
 
-### ✨ Resources
-#### ✨ Repos
+### ✨Resources
+#### ✨Repos
 - **LogiTorch**
 
 	[![](https://img.shields.io/badge/📦-Github-purple)](https://github.com/LogiTorch/logitorch) a PyTorch-based library for logical reasoning on natural language
@@ -948,13 +993,13 @@ Paper list for logical reasoning
 
 	[![](https://img.shields.io/badge/📦-Github-purple)](https://github.com/reasoning-survey/Awesome-Reasoning-Foundation-Models) Papers on reasoning fundation models.
 
-#### ✨ Workshops
+#### ✨Workshops
 - **Workshop on Natural Language Reasoning and Structured Explanations (2023)**
 
 	
 
-## ✨ NON-VERBAL REASONING
-### ✨ Video
+## ✨NON-VERBAL REASONING
+### ✨Video
 - **Multimodal Fallacy Classification in Political Debates**
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2024.eacl-short.16/) 2024. March. 
@@ -963,7 +1008,7 @@ Paper list for logical reasoning
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.emnlp-main.592/) 2023. Dec. 
 
-### ✨ Image
+### ✨Image
 - **Emergent Communication for Rules Reasoning**
 
 	[![](https://img.shields.io/badge/📄-Paper-orange)](https://proceedings.neurips.cc/paper_files/paper/2023/file/d8ace30c68b085556ccce04ed4ae4ebb-Paper-Conference.pdf) 2023. 

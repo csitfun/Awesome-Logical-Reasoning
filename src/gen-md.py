@@ -97,6 +97,7 @@ def classify_papers(structure: Dict[str, Dict[str, Any]], papers: List[Dict[str,
 def generate_markdown(structured_papers: List[Dict[str, Any]]):
     """Generate the markdown file and write it to the markdown file."""
     def _format_paper(paper: Dict[str, Any]) -> str:
+        """Format a paper item."""
         formatted_paper = f"- **{paper['title']}**\n\n\t"
         if 'paper' in paper:
             formatted_paper += f"[![](https://img.shields.io/badge/📄-Paper-orange)]({paper['paper']}) "
@@ -117,6 +118,7 @@ def generate_markdown(structured_papers: List[Dict[str, Any]]):
         return formatted_paper
 
     with open("README.md", "w", encoding="utf-8") as f:
+        # title
         f.write("""# ✨Awesome-Logical-Reasoning  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 Paper list for logical reasoning
 
@@ -130,20 +132,35 @@ Paper list for logical reasoning
 
 ![](https://github.com/csitfun/Awesome-Logical-Reasoning/blob/main/assets/Logical_Reasoning.png)
 """)
+        # contents
+        f.write("## ✨Contents\n")
         for h2 in structured_papers:
-            f.write(f"## ✨ {h2}\n")
+            f.write(f"- [{h2}](#{h2.lower().replace(' ', '-')})\n")
+            for h3 in structured_papers[h2]:
+                if h3 == 'papers':
+                    continue
+                f.write(f"  - [{h3}](#{h3.lower().replace(' ', '-')})\n")
+                for h4 in structured_papers[h2][h3]:
+                    if h4 == 'papers':
+                        continue
+                    f.write(f"    - [{h4}](#{h4.lower().replace(' ', '-')})\n")
+        f.write("\n\n")
+
+        # structured papers
+        for h2 in structured_papers:
+            f.write(f"## ✨{h2}\n")
             for paper in structured_papers[h2]['papers']:
                 f.write(_format_paper(paper))
             for h3 in structured_papers[h2]:
                 if h3 == 'papers':
                     continue
-                f.write(f"### ✨ {h3}\n")
+                f.write(f"### ✨{h3}\n")
                 for paper in structured_papers[h2][h3]['papers']:
                     f.write(_format_paper(paper))
                 for h4 in structured_papers[h2][h3]:
                     if h4 == 'papers':
                         continue
-                    f.write(f"#### ✨ {h4}\n")
+                    f.write(f"#### ✨{h4}\n")
                     for paper in structured_papers[h2][h3][h4]['papers']:
                         f.write(_format_paper(paper))
 
