@@ -97,11 +97,7 @@ def classify_papers(structure: Dict[str, Dict[str, Any]], papers: List[Dict[str,
 def generate_markdown(structured_papers: List[Dict[str, Any]]):
     """Generate the markdown file and write it to the markdown file."""
     def _format_paper(paper: Dict[str, Any]) -> str:
-        formatted_paper = f"- **{paper['title']}** "
-        if 'year' in paper and paper['year'] != "":
-            formatted_paper += f"{paper['year']}. "
-        if 'month' in paper and paper['month'] != "":
-            formatted_paper += f"{paper['month']}. "
+        formatted_paper = f"- **{paper['title']}**\n\n\t"
         if 'paper' in paper:
             formatted_paper += f"[![](https://img.shields.io/badge/📄-Paper-orange)]({paper['paper']}) "
         if 'github' in paper:
@@ -110,10 +106,14 @@ def generate_markdown(structured_papers: List[Dict[str, Any]]):
             formatted_paper += f"[![](https://img.shields.io/badge/🤗-HuggingFace-yellow)]({paper['huggingface']}) "
         if 'webpage' in paper:
             formatted_paper += f"[![](https://img.shields.io/badge/🌐-Webpage-blue)]({paper['webpage']}) "
+        if 'year' in paper and paper['year'] != "":
+            formatted_paper += f"{paper['year']}. "
+        if 'month' in paper and paper['month'] != "":
+            formatted_paper += f"{paper['month']}. "
         if 'description' in paper:
-            formatted_paper += f"\n\n\t{paper['description']}"
+            formatted_paper += f"{paper['description']}"
 
-        formatted_paper += "\n"
+        formatted_paper += "\n\n"
         return formatted_paper
 
     with open("README.md", "w", encoding="utf-8") as f:
