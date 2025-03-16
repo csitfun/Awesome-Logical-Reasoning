@@ -44,7 +44,7 @@ def load_papers(paper_file: str, is_arrange: bool) -> List[Dict[str, Any]]:
     with open(paper_file, "r", encoding="utf-8") as f:
         papers = json.load(f)
 
-    # arrange papers
+    # TODO: arrange papers
     if is_arrange:
         # generate paper id for new papers
 
@@ -103,13 +103,13 @@ def generate_markdown(structured_papers: List[Dict[str, Any]]):
         if 'month' in paper and paper['month'] != "":
             formatted_paper += f"{paper['month']}. "
         if 'paper' in paper:
-            formatted_paper += f"[![](https://img.shields.io/badge/📄-Paper-red)]({paper['paper']}) "
+            formatted_paper += f"[![](https://img.shields.io/badge/📄-Paper-orange)]({paper['paper']}) "
         if 'github' in paper:
-            formatted_paper += f"[![](https://img.shields.io/badge/📦-Github-blue)]({paper['github']}) "
-        if 'dataset' in paper:
-            formatted_paper += f"[![](https://img.shields.io/badge/📊-Dataset-blue)]({paper['dataset']}) "
+            formatted_paper += f"[![](https://img.shields.io/badge/📦-Github-purple)]({paper['github']}) "
         if 'huggingface' in paper:
-            formatted_paper += f"[![](https://img.shields.io/badge/🤗-HuggingFace-blue)]({paper['huggingface']}) "
+            formatted_paper += f"[![](https://img.shields.io/badge/🤗-HuggingFace-yellow)]({paper['huggingface']}) "
+        if 'webpage' in paper:
+            formatted_paper += f"[![](https://img.shields.io/badge/🌐-Webpage-blue)]({paper['webpage']}) "
         if 'description' in paper:
             formatted_paper += f"\n\n\t{paper['description']}"
 
