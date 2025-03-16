@@ -9,7 +9,7 @@ Paper list for logical reasoning
 
 ![](https://img.shields.io/badge/PRs-Welcome-red) Welcome to contribute!
 
-![](https://github.com/csitfun/Awesome-Logical-Reasoning/blob/main/assets/Logical_Reasoning.png)
+![](https://github.com/ruoxining/Awesome-Logical-Reasoning/blob/main/assets/Logical_Reasoning.png)
 ## ✨Contents
 - [VERBAL REASONING](#verbal-reasoning)
   - [Surveys](#surveys)
