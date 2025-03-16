@@ -1,0 +1,43 @@
+VERBAL REASONING:
+  Surveys: {}
+  "Formal Logical Reasoning (Deductive Reasoning)": {}
+  "Informal Logical Reasoning":
+    "Inductive Reasoning": {}
+    "Abductive Reasoning": {}
+    "Analogical Reasoning": {}
+  "Logical Fallacy": {}
+  Argument: {}
+  Inference: {}
+  Legal: {}
+  "Critical Thinking": {}
+  "Theorem Proving": {}
+  "Natural Language Inference":
+    "Multi-Choice Question": {}
+    "Converted from QA": {}
+    "Converted from Summarization": {}
+    "Tabular Premises (Tabular Reasoning)": {}
+    "Fact-checking": {}
+    "Probabilistic NLI": {}
+    "Document-level NLI": {}
+    "Complex Reasoning NLI": {}
+    "Negated NLI": {}
+    "Commonsense Reasoning": {}
+    "AI Generated": {}
+    Synthetic: {}
+    "Other task format that can be transformed to NLI format": {}
+  "Approaches and Applications":
+    Symbolic: {}
+    "Data Extension": {}
+  Datasets:
+    "Question Answering": {}
+    "Natural Language Inference": {}
+    "Test Suites": {}
+  Models: {}
+  Benchmarking: {}
+  Resources:
+    Repos: {}
+    Workshops: {}
+
+"NON-VERBAL REASONING":
+  Video: {}
+  Image: {}

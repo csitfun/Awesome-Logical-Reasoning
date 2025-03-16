@@ -1,9 +1,10 @@
 """The utility functions to clean up the paper data."""
 import json
 import re
+from typing import Dict, List
 
 
-def parse_file(filecontent: str) -> dict:
+def parse_file(filecontent: str) -> List[Dict]:
     """Markdown to json."""
     metadata = []
     h2_current = None
@@ -118,7 +119,7 @@ def parse_file(filecontent: str) -> dict:
                 metadata.append(paper)
     return metadata
 
-def pdf2intro(metadata: dict) -> dict:
+def pdf2intro(metadata: List[Dict]) -> List[Dict]:
     """Turn links with the pdf page into the intro page."""
     for i, paper in enumerate(metadata):
         if "paper" in paper:
@@ -141,7 +142,7 @@ def pdf2intro(metadata: dict) -> dict:
 
 if __name__ == "__main__":
     # read
-    filepath = "README.md"
+    filepath = "legacy/README.md"
     with open(filepath, "r") as f:
         filecontent = f.read()
 
@@ -150,7 +151,7 @@ if __name__ == "__main__":
     metadata = pdf2intro(metadata)
 
     # write
-    with open("metadata.json", "w", encoding="utf-8") as f:
+    with open("scripts/metadata.json", "w", encoding="utf-8") as f:
         json.dump(metadata, f, indent=4, ensure_ascii=False)
 
 

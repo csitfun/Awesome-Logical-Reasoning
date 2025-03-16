@@ -5,7 +5,8 @@
         "year": "2009",
         "paper": "https://www-nlp.stanford.edu/~wcmac/papers/nli-diss.pdf",
         "h2": "VERBAL REASONING",
-        "h3": "Surveys"
+        "h3": "Surveys",
+        "id": 0
     },
     {
         "title": "A Survey of Paraphrasing and Textual Entailment Method",
@@ -13,7 +14,8 @@
         "year": "2010",
         "paper": "https://www.jair.org/index.php/jair/article/view/10651/25463",
         "h2": "VERBAL REASONING",
-        "h3": "Surveys"
+        "h3": "Surveys",
+        "id": 1
     },
     {
         "title": "An Overview of Natural Language Inference Data Collection: The Way Forward?",
@@ -21,7 +23,8 @@
         "year": "2017",
         "paper": "https://aclanthology.org/W17-7203",
         "h2": "VERBAL REASONING",
-        "h3": "Surveys"
+        "h3": "Surveys",
+        "id": 2
     },
     {
         "title": "Logical Formalization of Commonsense Reasoning: A Survey",
@@ -29,7 +32,8 @@
         "year": "2017",
         "paper": "https://www.jair.org/index.php/jair/article/view/11076/26258",
         "h2": "VERBAL REASONING",
-        "h3": "Surveys"
+        "h3": "Surveys",
+        "id": 3
     },
     {
         "title": "Recent Advanced in Natural Language Inferenece: A Survey of Benchmarks, Resources, and Approahces",
@@ -37,7 +41,8 @@
         "year": "2019",
         "paper": "https://arxiv.org/abs/1904.01172",
         "h2": "VERBAL REASONING",
-        "h3": "Surveys"
+        "h3": "Surveys",
+        "id": 4
     },
     {
         "title": "A Survey on Recognizing Textual Entailment as an NLP Evaluation",
@@ -45,15 +50,17 @@
         "year": "2020",
         "paper": "https://aclanthology.org/2020.eval4nlp-1.10",
         "h2": "VERBAL REASONING",
-        "h3": "Surveys"
+        "h3": "Surveys",
+        "id": 5
     },
     {
-        "title": "Symbolic And Neural Approaches to Natural Language Inference",
+        "title": "SymbolicAnd Neural Approaches to Natural Language Inference",
         "month": "Jun",
         "year": "2021",
         "paper": "https://scholarworks.iu.edu/iuswrrest/api/core/bitstreams/cec63ddb-9930-4fbe-b1f6-5e5a60503d5d/content",
         "h2": "VERBAL REASONING",
-        "h3": "Surveys"
+        "h3": "Surveys",
+        "id": 6
     },
     {
         "title": "Towards Reasoning in Large Language Models: A Survey",
@@ -61,7 +68,8 @@
         "year": "2023",
         "paper": "https://aclanthology.org/2023.findings-acl.67",
         "h2": "VERBAL REASONING",
-        "h3": "Surveys"
+        "h3": "Surveys",
+        "id": 7
     },
     {
         "title": "Towards LOGIGLUE: A Brief Survey and A Benchmark for Analyzing Logical Reasoning Capabilities of Language Models",
@@ -69,7 +77,8 @@
         "year": "2024",
         "paper": "https://arxiv.org/abs/2310.00836",
         "h2": "VERBAL REASONING",
-        "h3": "Surveys"
+        "h3": "Surveys",
+        "id": 8
     },
     {
         "title": "A Survey of Reasoning with Foundation Models",
@@ -77,7 +86,8 @@
         "year": "2023",
         "paper": "https://arxiv.org/abs/2312.11562",
         "h2": "VERBAL REASONING",
-        "h3": "Surveys"
+        "h3": "Surveys",
+        "id": 9
     },
     {
         "title": "Logical Reasoning over Natural Language as Knowledge Representation: A Survey",
@@ -85,7 +95,8 @@
         "year": "2023",
         "paper": "https://arxiv.org/abs/2303.12023",
         "h2": "VERBAL REASONING",
-        "h3": "Surveys"
+        "h3": "Surveys",
+        "id": 10
     },
     {
         "title": "Natural Language Reasoning, A Survey",
@@ -93,7 +104,8 @@
         "year": "2023",
         "paper": "https://arxiv.org/abs/2303.14725v2",
         "h2": "VERBAL REASONING",
-        "h3": "Surveys"
+        "h3": "Surveys",
+        "id": 11
     },
     {
         "title": "FaiRR: Faithful and Robust Deductive Reasoning over Natural Language",
@@ -101,7 +113,8 @@
         "year": "2022",
         "paper": "https://aclanthology.org/2022.acl-long.77/",
         "h2": "VERBAL REASONING",
-        "h3": "Formal Logical Reasoning (Deductive Reasoning)"
+        "h3": "Formal Logical Reasoning (Deductive Reasoning)",
+        "id": 12
     },
     {
         "title": "Deductive Additivity for Planning of Natural Language Proofs",
@@ -109,7 +122,8 @@
         "year": "2023",
         "paper": "https://aclanthology.org/2023.nlrse-1.11/",
         "h2": "VERBAL REASONING",
-        "h3": "Formal Logical Reasoning (Deductive Reasoning)"
+        "h3": "Formal Logical Reasoning (Deductive Reasoning)",
+        "id": 13
     },
     {
         "title": "AnaLog: Testing Analytical and Deductive Logic Learnability in Language Models",
@@ -117,7 +131,8 @@
         "year": "2022",
         "paper": "https://aclanthology.org/2022.starsem-1.5/",
         "h2": "VERBAL REASONING",
-        "h3": "Formal Logical Reasoning (Deductive Reasoning)"
+        "h3": "Formal Logical Reasoning (Deductive Reasoning)",
+        "id": 14
     },
     {
         "title": "Can Pretrained Language Models (Yet) Reason Deductively?",
@@ -125,7 +140,8 @@
         "year": "2023",
         "paper": "https://aclanthology.org/2023.eacl-main.106/",
         "h2": "VERBAL REASONING",
-        "h3": "Formal Logical Reasoning (Deductive Reasoning)"
+        "h3": "Formal Logical Reasoning (Deductive Reasoning)",
+        "id": 15
     },
     {
         "title": "RobustLR: A Diagnostic Benchmark for Evaluating Logical Robustness of Deductive Reasoners",
@@ -133,7 +149,8 @@
         "year": "2022",
         "paper": "https://aclanthology.org/2022.emnlp-main.653/",
         "h2": "VERBAL REASONING",
-        "h3": "Formal Logical Reasoning (Deductive Reasoning)"
+        "h3": "Formal Logical Reasoning (Deductive Reasoning)",
+        "id": 16
     },
     {
         "title": "Learning to Reason Deductively: Math Word Problem Solving as Complex Relation Extraction",
@@ -141,7 +158,8 @@
         "year": "2022",
         "paper": "https://aclanthology.org/2022.acl-long.410/",
         "h2": "VERBAL REASONING",
-        "h3": "Formal Logical Reasoning (Deductive Reasoning)"
+        "h3": "Formal Logical Reasoning (Deductive Reasoning)",
+        "id": 17
     },
     {
         "title": "A Generation-based Deductive Method for Math Word Problems",
@@ -149,7 +167,8 @@
         "year": "2023",
         "paper": "https://aclanthology.org/2023.emnlp-main.108/",
         "h2": "VERBAL REASONING",
-        "h3": "Formal Logical Reasoning (Deductive Reasoning)"
+        "h3": "Formal Logical Reasoning (Deductive Reasoning)",
+        "id": 18
     },
     {
         "title": "GeoDRL: A Self-Learning Framework for Geometry Problem Solving using Reinforcement Learning in Deductive Reasoning",
@@ -157,7 +176,8 @@
         "year": "2023",
         "paper": "https://aclanthology.org/2023.findings-acl.850/",
         "h2": "VERBAL REASONING",
-        "h3": "Formal Logical Reasoning (Deductive Reasoning)"
+        "h3": "Formal Logical Reasoning (Deductive Reasoning)",
+        "id": 19
     },
     {
         "title": "Inductive and deductive inferences in a Crowdsourced Lexical-Semantic Network",
@@ -165,7 +185,8 @@
         "year": "2013",
         "paper": "https://aclanthology.org/R13-1096/",
         "h2": "VERBAL REASONING",
-        "h3": "Formal Logical Reasoning (Deductive Reasoning)"
+        "h3": "Formal Logical Reasoning (Deductive Reasoning)",
+        "id": 20
     },
     {
         "title": "Questions require an answer: A deductive perspective on questions and answers",
@@ -173,7 +194,8 @@
         "year": "2006",
         "paper": "https://aclanthology.org/U06-1016/",
         "h2": "VERBAL REASONING",
-        "h3": "Formal Logical Reasoning (Deductive Reasoning)"
+        "h3": "Formal Logical Reasoning (Deductive Reasoning)",
+        "id": 21
     },
     {
         "title": "Natural Language Deduction with Incomplete Information",
@@ -181,7 +203,8 @@
         "year": "2022",
         "paper": "https://aclanthology.org/2022.emnlp-main.564/",
         "h2": "VERBAL REASONING",
-        "h3": "Formal Logical Reasoning (Deductive Reasoning)"
+        "h3": "Formal Logical Reasoning (Deductive Reasoning)",
+        "id": 22
     },
     {
         "title": "Natural Language Deduction through Search over Statement Compositions",
@@ -189,7 +212,8 @@
         "year": "2022",
         "paper": "https://aclanthology.org/2022.findings-emnlp.358/",
         "h2": "VERBAL REASONING",
-        "h3": "Formal Logical Reasoning (Deductive Reasoning)"
+        "h3": "Formal Logical Reasoning (Deductive Reasoning)",
+        "id": 23
     },
     {
         "title": "Hence, Socrates is mortal: A Benchmark for Natural Language Syllogistic Reasoning",
@@ -197,7 +221,8 @@
         "year": "2023",
         "paper": "https://aclanthology.org/2023.findings-acl.148/",
         "h2": "VERBAL REASONING",
-        "h3": "Formal Logical Reasoning (Deductive Reasoning)"
+        "h3": "Formal Logical Reasoning (Deductive Reasoning)",
+        "id": 24
     },
     {
         "title": "Teaching Machine Comprehension with Compositional Explanations",
@@ -205,21 +230,26 @@
         "year": "2020",
         "paper": "https://aclanthology.org/2020.findings-emnlp.145/",
         "h2": "VERBAL REASONING",
-        "h3": "Formal Logical Reasoning (Deductive Reasoning)"
+        "h3": "Formal Logical Reasoning (Deductive Reasoning)",
+        "id": 25
     },
     {
         "title": "Testing the General Deductive Reasoning Capacity of Large Language Models Using OOD Examples",
         "year": "2023",
         "paper": "https://proceedings.neurips.cc/paper_files/paper/2023/file/09425891e393e64b0535194a81ba15b7-Paper-Conference.pdf",
         "h2": "VERBAL REASONING",
-        "h3": "Formal Logical Reasoning (Deductive Reasoning)"
+        "h3": "Formal Logical Reasoning (Deductive Reasoning)",
+        "id": 26,
+        "month": ""
     },
     {
         "title": "Deductive Verification of Chain-of-Thought Reasoning",
         "year": "2023",
         "paper": "https://proceedings.neurips.cc/paper_files/paper/2023/file/72393bd47a35f5b3bee4c609e7bba733-Paper-Conference.pdf",
         "h2": "VERBAL REASONING",
-        "h3": "Formal Logical Reasoning (Deductive Reasoning)"
+        "h3": "Formal Logical Reasoning (Deductive Reasoning)",
+        "id": 27,
+        "month": ""
     },
     {
         "title": "Natural Language Deduction with Incomplete Information",
@@ -227,7 +257,8 @@
         "year": "2022",
         "paper": "https://aclanthology.org/2022.emnlp-main.564/",
         "h2": "VERBAL REASONING",
-        "h3": "Formal Logical Reasoning (Deductive Reasoning)"
+        "h3": "Formal Logical Reasoning (Deductive Reasoning)",
+        "id": 28
     },
     {
         "title": "Aligning with Logic: Measuring, Evaluating and Improving Logical Consistency in Large Language Models",
@@ -235,7 +266,8 @@
         "year": "2024",
         "paper": "https://arxiv.org/abs/2410.02205",
         "h2": "VERBAL REASONING",
-        "h3": "Formal Logical Reasoning (Deductive Reasoning)"
+        "h3": "Formal Logical Reasoning (Deductive Reasoning)",
+        "id": 29
     },
     {
         "title": "Language Models as Inductive Reasoners",
@@ -243,8 +275,9 @@
         "year": "2024",
         "paper": "https://aclanthology.org/2024.eacl-long.13/",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Inductive Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Inductive Reasoning",
+        "id": 30
     },
     {
         "title": "Inductive and deductive inferences in a Crowdsourced Lexical-Semantic Network",
@@ -252,8 +285,9 @@
         "year": "2013",
         "paper": "https://aclanthology.org/R13-1096/",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Inductive Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Inductive Reasoning",
+        "id": 31
     },
     {
         "title": "CLUTRR: A Diagnostic Benchmark for Inductive Reasoning from Text",
@@ -261,8 +295,9 @@
         "year": "2019",
         "paper": "https://aclanthology.org/D19-1458/",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Inductive Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Inductive Reasoning",
+        "id": 32
     },
     {
         "title": "Contrastive Learning for Inference in Dialogue",
@@ -270,8 +305,9 @@
         "year": "2023",
         "paper": "https://aclanthology.org/2023.emnlp-main.631/",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Inductive Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Inductive Reasoning",
+        "id": 33
     },
     {
         "title": "Flexible Generation of Natural Language Deductions",
@@ -279,8 +315,9 @@
         "year": "2021",
         "paper": "https://aclanthology.org/2021.emnlp-main.506/",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Inductive Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Inductive Reasoning",
+        "id": 34
     },
     {
         "title": "A Comprehensive Evaluation of Inductive Reasoning Capabilities and Problem Solving in Large Language Models",
@@ -288,8 +325,9 @@
         "year": "2024",
         "paper": "https://aclanthology.org/2024.findings-eacl.22/",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Inductive Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Inductive Reasoning",
+        "id": 35
     },
     {
         "title": "I2D2: Inductive Knowledge Distillation with NeuroLogic and Self-Imitation",
@@ -297,8 +335,9 @@
         "year": "2023",
         "paper": "https://aclanthology.org/2023.acl-long.535/",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Inductive Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Inductive Reasoning",
+        "id": 36
     },
     {
         "title": "Learning Explainable Linguistic Expressions with Neural Inductive Logic Programming for Sentence Classification",
@@ -306,16 +345,19 @@
         "year": "2020",
         "paper": "https://aclanthology.org/2020.emnlp-main.345/",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Inductive Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Inductive Reasoning",
+        "id": 37
     },
     {
         "title": "Incorporating Linguistics Constraints into Inductive Logic Programming",
         "year": "2000",
         "paper": "https://aclanthology.org/W00-0740/",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Inductive Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Inductive Reasoning",
+        "id": 38,
+        "month": ""
     },
     {
         "title": "Contrastive Learning with Generated Representations for Inductive Knowledge Graph Embedding",
@@ -323,8 +365,9 @@
         "year": "2023",
         "paper": "https://aclanthology.org/2023.findings-acl.900/",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Inductive Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Inductive Reasoning",
+        "id": 39
     },
     {
         "title": "Inductive Relation Prediction with Logical Reasoning Using Contrastive Representations",
@@ -332,8 +375,9 @@
         "year": "2022",
         "paper": "https://aclanthology.org/2022.emnlp-main.286/",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Inductive Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Inductive Reasoning",
+        "id": 40
     },
     {
         "title": "Deep Inductive Logic Reasoning for Multi-Hop Reading Comprehension",
@@ -341,8 +385,9 @@
         "year": "2022",
         "paper": "https://aclanthology.org/2022.acl-long.343/",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Inductive Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Inductive Reasoning",
+        "id": 41
     },
     {
         "title": "Query Structure Modeling for Inductive Logical Reasoning Over Knowledge Graphs",
@@ -350,8 +395,9 @@
         "year": "2023",
         "paper": "https://aclanthology.org/2023.acl-long.259/",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Inductive Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Inductive Reasoning",
+        "id": 42
     },
     {
         "title": "It is not True that Transformers are Inductive Learners: Probing NLI Models with External Negation",
@@ -359,8 +405,9 @@
         "year": "2024",
         "paper": "https://aclanthology.org/2024.eacl-long.116/",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Inductive Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Inductive Reasoning",
+        "id": 43
     },
     {
         "title": "Thinking Like a Skeptic: Defeasible Inference in Natural Language",
@@ -368,15 +415,19 @@
         "year": "2020",
         "paper": "https://aclanthology.org/2020.findings-emnlp.418",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Inductive Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Inductive Reasoning",
+        "id": 44
     },
     {
         "title": "Abductive Explanation-based Learning Improves Parsing Accuracy and Efficiency",
         "paper": "https://aclanthology.org/W03-1715",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Abductive Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Abductive Reasoning",
+        "id": 45,
+        "year": "",
+        "month": ""
     },
     {
         "title": "ProofWriter: Generating Implications, Proofs, and Abductive Statements over Natural Language",
@@ -384,8 +435,9 @@
         "year": "2021",
         "paper": "https://aclanthology.org/2021.findings-acl.317",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Abductive Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Abductive Reasoning",
+        "id": 46
     },
     {
         "title": "Case-Based Abductive Natural Language Inference",
@@ -393,8 +445,9 @@
         "year": "2022",
         "paper": "https://aclanthology.org/2022.coling-1.134/",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Abductive Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Abductive Reasoning",
+        "id": 47
     },
     {
         "title": "Self-Consistent Narrative Prompts on Abductive Natural Language Inference",
@@ -402,8 +455,9 @@
         "year": "2023",
         "paper": "https://aclanthology.org/2023.ijcnlp-main.67/",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Abductive Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Abductive Reasoning",
+        "id": 48
     },
     {
         "title": "Abductive Commonsense Reasoning Exploiting Mutually Exclusive Explanations",
@@ -411,8 +465,9 @@
         "year": "2023",
         "paper": "https://aclanthology.org/2023.acl-long.831/",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Abductive Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Abductive Reasoning",
+        "id": 49
     },
     {
         "title": "Abductive Commonsense Reasoning",
@@ -420,8 +475,9 @@
         "year": "2019",
         "paper": "https://openreview.net/forum?id=Byg1v1HKDB",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Abductive Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Abductive Reasoning",
+        "id": 50
     },
     {
         "title": "Multi-modal Action Chain Abductive Reasoning",
@@ -429,8 +485,9 @@
         "year": "2023",
         "paper": "https://aclanthology.org/2023.acl-long.254/",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Abductive Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Abductive Reasoning",
+        "id": 51
     },
     {
         "title": "True Detective: A Deep Abductive Reasoning Benchmark Undoable for GPT-3 and Challenging for GPT-4",
@@ -438,8 +495,9 @@
         "year": "2023",
         "paper": "https://aclanthology.org/2023.starsem-1.28/",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Abductive Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Abductive Reasoning",
+        "id": 52
     },
     {
         "title": "How well do SOTA legal reasoning models support abductive reasoning?",
@@ -447,8 +505,9 @@
         "year": "2023",
         "paper": "https://arxiv.org/abs/2304.06912",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Abductive Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Abductive Reasoning",
+        "id": 53
     },
     {
         "title": "AbductionRules: Training Transformers to Explain Unexpected Inputs",
@@ -456,8 +515,9 @@
         "year": "2022",
         "paper": "https://aclanthology.org/2022.findings-acl.19/",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Abductive Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Abductive Reasoning",
+        "id": 54
     },
     {
         "title": "Learning as Abduction: Trainable Natural Logic Theorem Prover for Natural Language Inference",
@@ -465,17 +525,19 @@
         "year": "2020",
         "paper": "https://aclanthology.org/2020.starsem-1.3",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Abductive Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Abductive Reasoning",
+        "id": 55
     },
     {
-        "title": "Simple Augmentations of Logical Rules for Neuro-Symbolic Knowledge Graph Completion",
+        "title": "Simple Augmentations of Logical Rules for Neuro-SymbolicKnowledge Graph Completion",
         "month": "July",
         "year": "2023",
         "paper": "https://aclanthology.org/2023.acl-short.23/",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Abductive Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Abductive Reasoning",
+        "id": 56
     },
     {
         "title": "LAMBADA: Backward Chaining for Automated Reasoning in Natural Language",
@@ -483,8 +545,9 @@
         "year": "2022",
         "paper": "https://arxiv.org/abs/2212.13894",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Abductive Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Abductive Reasoning",
+        "id": 57
     },
     {
         "title": "Forward-Backward Reasoning in Large Language Models for Mathematical Verification",
@@ -492,8 +555,9 @@
         "year": "2023",
         "paper": "https://openreview.net/forum?id=GhYXocT75t",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Abductive Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Abductive Reasoning",
+        "id": 58
     },
     {
         "title": "Are Large Language Models Really Good Logical Reasoners? A Comprehensive Evaluation and Beyond",
@@ -501,8 +565,9 @@
         "year": "2023",
         "paper": "https://arxiv.org/abs/2306.09841",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Abductive Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Abductive Reasoning",
+        "id": 59
     },
     {
         "title": "ANALOGICAL - A Novel Benchmark for Long Text Analogy Evaluation in Large Language Models",
@@ -510,8 +575,9 @@
         "year": "2023",
         "paper": "https://aclanthology.org/2023.findings-acl.218/",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Analogical Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Analogical Reasoning",
+        "id": 60
     },
     {
         "title": "Can language models learn analogical reasoning? Investigating training objectives and comparisons to human performance",
@@ -519,8 +585,9 @@
         "year": "2023",
         "paper": "https://aclanthology.org/2023.emnlp-main.1022/",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Analogical Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Analogical Reasoning",
+        "id": 61
     },
     {
         "title": "E-KAR: A Benchmark for Rationalizing Natural Language Analogical Reasoning",
@@ -528,8 +595,9 @@
         "year": "2022",
         "paper": "https://aclanthology.org/2022.findings-acl.311/",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Analogical Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Analogical Reasoning",
+        "id": 62
     },
     {
         "title": "StoryAnalogy: Deriving Story-level Analogies from Large Language Models to Unlock Analogical Understanding",
@@ -537,8 +605,9 @@
         "year": "2023",
         "paper": "https://aclanthology.org/2023.emnlp-main.706/",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Analogical Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Analogical Reasoning",
+        "id": 63
     },
     {
         "title": "In-Context Analogical Reasoning with Pre-Trained Language Models",
@@ -546,8 +615,9 @@
         "year": "2023",
         "paper": "https://aclanthology.org/2023.acl-long.109",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Analogical Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Analogical Reasoning",
+        "id": 64
     },
     {
         "title": "Analogical Math Word Problems Solving with Enhanced Problem-Solution Association",
@@ -555,17 +625,19 @@
         "year": "2022",
         "paper": "https://aclanthology.org/2022.emnlp-main.643/",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Analogical Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Analogical Reasoning",
+        "id": 65
     },
     {
-        "title": "A Neural-Symbolic Approach to Natural Language Understanding",
+        "title": "A Neural-SymbolicApproach to Natural Language Understanding",
         "month": "Dec",
         "year": "2022",
         "paper": "https://aclanthology.org/2022.findings-emnlp.158/",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Analogical Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Analogical Reasoning",
+        "id": 66
     },
     {
         "title": "ThinkSum: Probabilistic reasoning over sets using large language models",
@@ -573,8 +645,9 @@
         "year": "2023",
         "paper": "https://aclanthology.org/2023.acl-long.68/",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Analogical Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Analogical Reasoning",
+        "id": 67
     },
     {
         "title": "Relevant or Random: Can LLMs Truly Perform Analogical Reasoning?",
@@ -582,8 +655,9 @@
         "year": "2024",
         "paper": "https://luarxiv.org/abs/2404.12728",
         "h2": "VERBAL REASONING",
-        "h3": "Informal Logical Reasoning ",
-        "h4": "Analogical Reasoning"
+        "h3": "Informal Logical Reasoning",
+        "h4": "Analogical Reasoning",
+        "id": 68
     },
     {
         "title": "Detecting Argumentative Fallacies in the Wild: Problems and Limitations of Large Language Models",
@@ -591,7 +665,8 @@
         "year": "2023",
         "paper": "https://aclanthology.org/2023.argmining-1.1",
         "h2": "VERBAL REASONING",
-        "h3": "Logical Fallacy"
+        "h3": "Logical Fallacy",
+        "id": 69
     },
     {
         "title": "Multitask Instruction-based Prompting for Fallacy Recognition",
@@ -599,7 +674,8 @@
         "year": "2022",
         "paper": "https://aclanthology.org/2022.emnlp-main.560/",
         "h2": "VERBAL REASONING",
-        "h3": "Logical Fallacy"
+        "h3": "Logical Fallacy",
+        "id": 70
     },
     {
         "title": "The Search for Agreement on Logical Fallacy Annotation of an Infodemic",
@@ -607,7 +683,8 @@
         "year": "2022",
         "paper": "https://aclanthology.org/2022.lrec-1.471/",
         "h2": "VERBAL REASONING",
-        "h3": "Logical Fallacy"
+        "h3": "Logical Fallacy",
+        "id": 71
     },
     {
         "title": "Logical Fallacy Detection",
@@ -615,7 +692,8 @@
         "year": "2022",
         "paper": "https://aclanthology.org/2022.findings-emnlp.532/",
         "h2": "VERBAL REASONING",
-        "h3": "Logical Fallacy"
+        "h3": "Logical Fallacy",
+        "id": 72
     },
     {
         "title": "Breaking Down the Invisible Wall of Informal Fallacies in Online Discussions",
@@ -623,7 +701,8 @@
         "year": "2021",
         "paper": "https://aclanthology.org/2021.acl-long.53/",
         "h2": "VERBAL REASONING",
-        "h3": "Logical Fallacy"
+        "h3": "Logical Fallacy",
+        "id": 73
     },
     {
         "title": "Argument-based Detection and Classification of Fallacies in Political Debates",
@@ -631,7 +710,8 @@
         "year": "2023",
         "paper": "https://aclanthology.org/2023.emnlp-main.684",
         "h2": "VERBAL REASONING",
-        "h3": "Logical Fallacy"
+        "h3": "Logical Fallacy",
+        "id": 74
     },
     {
         "title": "TakeLab at SemEval-2018 Task12: Argument Reasoning Comprehension with Skip-Thought Vectors",
@@ -639,7 +719,8 @@
         "year": "2018",
         "paper": "https://aclanthology.org/S18-1192",
         "h2": "VERBAL REASONING",
-        "h3": "Argument"
+        "h3": "Argument",
+        "id": 75
     },
     {
         "title": "The Argument Reasoning Comprehension Task: Identification and Reconstruction of Implicit Warrants",
@@ -647,7 +728,8 @@
         "year": "2018",
         "paper": "https://aclanthology.org/N18-1175/",
         "h2": "VERBAL REASONING",
-        "h3": "Argument"
+        "h3": "Argument",
+        "id": 76
     },
     {
         "title": "Automatically Identifying Implicit Arguments to Improve Argument Linking and Coherence Modeling",
@@ -655,7 +737,8 @@
         "year": "2013",
         "paper": "https://aclanthology.org/S13-1043",
         "h2": "VERBAL REASONING",
-        "h3": "Argument"
+        "h3": "Argument",
+        "id": 77
     },
     {
         "title": "Uncovering Implicit Inferences for Improved Relational Argument Mining",
@@ -663,7 +746,8 @@
         "year": "2023",
         "paper": "https://aclanthology.org/2023.eacl-main.182/",
         "h2": "VERBAL REASONING",
-        "h3": "Argument"
+        "h3": "Argument",
+        "id": 78
     },
     {
         "title": "Implicit Premise Generation with Discourse-aware Commonsense Knowledge Models",
@@ -671,7 +755,8 @@
         "year": "2021",
         "paper": "https://aclanthology.org/2021.emnlp-main.504",
         "h2": "VERBAL REASONING",
-        "h3": "Argument"
+        "h3": "Argument",
+        "id": 79
     },
     {
         "title": "NaturalLI: Natural Logic Inference for Common Sense Reasoning",
@@ -679,7 +764,8 @@
         "year": "2014",
         "paper": "https://aclanthology.org/D14-1059/",
         "h2": "VERBAL REASONING",
-        "h3": "Inference"
+        "h3": "Inference",
+        "id": 80
     },
     {
         "title": "Neural Natural Logic Inference for Interpretable Question Answering",
@@ -687,7 +773,8 @@
         "year": "2021",
         "paper": "https://aclanthology.org/2021.emnlp-main.298/",
         "h2": "VERBAL REASONING",
-        "h3": "Inference"
+        "h3": "Inference",
+        "id": 81
     },
     {
         "title": "Natural Logic for Textual Inference",
@@ -695,14 +782,17 @@
         "year": "2007",
         "paper": "https://aclanthology.org/W07-1431/",
         "h2": "VERBAL REASONING",
-        "h3": "Inference"
+        "h3": "Inference",
+        "id": 82
     },
     {
-        "title": "Neuro-symbolic Natural Logic with Introspective Revision for Natural Language Inference",
+        "title": "Neuro-SymbolicNatural Logic with Introspective Revision for Natural Language Inference",
         "year": "2022",
         "paper": "https://aclanthology.org/2022.tacl-1.14/",
         "h2": "VERBAL REASONING",
-        "h3": "Inference"
+        "h3": "Inference",
+        "id": 83,
+        "month": ""
     },
     {
         "title": "NatLogAttack: A Framework for Attacking Natural Language Inference Models with Natural Logic",
@@ -710,7 +800,8 @@
         "year": "2023",
         "paper": "https://aclanthology.org/2023.acl-long.554/",
         "h2": "VERBAL REASONING",
-        "h3": "Inference"
+        "h3": "Inference",
+        "id": 84
     },
     {
         "title": "Higher-order logical inference with compositional semantics",
@@ -718,7 +809,8 @@
         "year": "2015",
         "paper": "https://aclanthology.org/D15-1244/",
         "h2": "VERBAL REASONING",
-        "h3": "Inference"
+        "h3": "Inference",
+        "id": 85
     },
     {
         "title": "NeuralLog: Natural Language Inference with Joint Neural and Logical Reasoning",
@@ -726,7 +818,8 @@
         "year": "2021",
         "paper": "https://aclanthology.org/2021.starsem-1.7/",
         "h2": "VERBAL REASONING",
-        "h3": "Inference"
+        "h3": "Inference",
+        "id": 86
     },
     {
         "title": "Monotonic Inference for Underspecified Episodic Logic",
@@ -734,15 +827,17 @@
         "year": "2021",
         "paper": "https://aclanthology.org/2021.naloma-1.5/",
         "h2": "VERBAL REASONING",
-        "h3": "Inference"
+        "h3": "Inference",
+        "id": 87
     },
     {
-        "title": "A (Mostly) Symbolic System for Monotonic Inference with Unscoped Episodic Logical Forms",
+        "title": "A (Mostly) SymbolicSystem for Monotonic Inference with Unscoped Episodic Logical Forms",
         "month": "Jun",
         "year": "2021",
         "paper": "https://aclanthology.org/2021.naloma-1.9/",
         "h2": "VERBAL REASONING",
-        "h3": "Inference"
+        "h3": "Inference",
+        "id": 88
     },
     {
         "title": "Logical Inferences with Comparatives and Generalized Quantifiers",
@@ -750,7 +845,8 @@
         "year": "2020",
         "paper": "https://aclanthology.org/2020.acl-srw.35/",
         "h2": "VERBAL REASONING",
-        "h3": "Inference"
+        "h3": "Inference",
+        "id": 89
     },
     {
         "title": "LogicAttack: Adversarial Attacks for Evaluating Logical Consistency of Natural Language Inference",
@@ -758,7 +854,8 @@
         "year": "2023",
         "paper": "https://aclanthology.org/2023.findings-emnlp.889",
         "h2": "VERBAL REASONING",
-        "h3": "Inference"
+        "h3": "Inference",
+        "id": 90
     },
     {
         "title": "Decomposing Natural Logic Inferences for Neural NLI",
@@ -766,7 +863,8 @@
         "year": "2022",
         "paper": "https://aclanthology.org/2022.blackboxnlp-1.33/",
         "h2": "VERBAL REASONING",
-        "h3": "Inference"
+        "h3": "Inference",
+        "id": 91
     },
     {
         "title": "Natural Language Inference with Monotonicity",
@@ -774,7 +872,8 @@
         "year": "2019",
         "paper": "https://aclanthology.org/W19-0502/",
         "h2": "VERBAL REASONING",
-        "h3": "Inference"
+        "h3": "Inference",
+        "id": 92
     },
     {
         "title": "QA-NatVer: Question Answering for Natural Logic-based Fact Verification",
@@ -782,7 +881,8 @@
         "year": "2023",
         "paper": "https://aclanthology.org/2023.emnlp-main.521",
         "h2": "VERBAL REASONING",
-        "h3": "Inference"
+        "h3": "Inference",
+        "id": 93
     },
     {
         "title": "Combining Natural Logic and Shallow Reasoning for Question Answering",
@@ -790,7 +890,8 @@
         "year": "2016",
         "paper": "https://aclanthology.org/P16-1042",
         "h2": "VERBAL REASONING",
-        "h3": "Inference"
+        "h3": "Inference",
+        "id": 94
     },
     {
         "title": "Semantic and Logical Inference Model for Textual Entailment",
@@ -798,14 +899,17 @@
         "year": "2007",
         "paper": "https://aclanthology.org/W07-1418/",
         "h2": "VERBAL REASONING",
-        "h3": "Inference"
+        "h3": "Inference",
+        "id": 95
     },
     {
         "title": "MonaLog: a Lightweight System for Natural Language Inference Based on Monotonicity",
         "year": "2020",
         "paper": "https://aclanthology.org/2020.scil-1.40",
         "h2": "VERBAL REASONING",
-        "h3": "Inference"
+        "h3": "Inference",
+        "id": 96,
+        "month": ""
     },
     {
         "title": "PLOG: Table-to-Logic Pretraining for Logical Table-to-Text Generation",
@@ -813,7 +917,8 @@
         "year": "2022",
         "paper": "https://aclanthology.org/2022.emnlp-main.373/",
         "h2": "VERBAL REASONING",
-        "h3": "Inference"
+        "h3": "Inference",
+        "id": 97
     },
     {
         "title": "Pragmatic and Logical Inferences in NLI Systems: The Case of Conjunction Buttressing",
@@ -821,7 +926,8 @@
         "year": "2022",
         "paper": "https://aclanthology.org/2022.unimplicit-1.2/",
         "h2": "VERBAL REASONING",
-        "h3": "Inference"
+        "h3": "Inference",
+        "id": 98
     },
     {
         "title": "Logical Reasoning with Span-Level Predictions for Interpretable and Robust NLI Models",
@@ -829,7 +935,8 @@
         "year": "2022",
         "paper": "https://aclanthology.org/2022.emnlp-main.251/",
         "h2": "VERBAL REASONING",
-        "h3": "Inference"
+        "h3": "Inference",
+        "id": 99
     },
     {
         "title": "Synthetic Dataset for Evaluating Complex Compositional Knowledge for Natural Language Inference",
@@ -837,7 +944,8 @@
         "year": "2023",
         "paper": "https://aclanthology.org/2023.nlrse-1.12/",
         "h2": "VERBAL REASONING",
-        "h3": "Inference"
+        "h3": "Inference",
+        "id": 100
     },
     {
         "title": "A Tableau Prover for Natural Logic and Language",
@@ -845,14 +953,17 @@
         "year": "2015",
         "paper": "https://aclanthology.org/D15-1296",
         "h2": "VERBAL REASONING",
-        "h3": "Inference"
+        "h3": "Inference",
+        "id": 101
     },
     {
         "title": "ProoFVer: Natural Logic Theorem Proving for Fact Verification",
         "year": "2022",
         "paper": "https://aclanthology.org/2022.tacl-1.59",
         "h2": "VERBAL REASONING",
-        "h3": "Inference"
+        "h3": "Inference",
+        "id": 102,
+        "month": ""
     },
     {
         "title": "Knowledge-Guided Linguistic Rewrites for Inference Rule Verification",
@@ -860,13 +971,17 @@
         "year": "2016",
         "paper": "https://aclanthology.org/N16-1011",
         "h2": "VERBAL REASONING",
-        "h3": "Inference"
+        "h3": "Inference",
+        "id": 103
     },
     {
         "title": "Augmenting Neural Networks with First-order Logic",
         "paper": "https://aclanthology.org/P19-1028",
         "h2": "VERBAL REASONING",
-        "h3": "Inference"
+        "h3": "Inference",
+        "id": 104,
+        "year": "",
+        "month": ""
     },
     {
         "title": "Neural Unification for Logic Reasoning over Natural Language",
@@ -874,7 +989,8 @@
         "year": "2021",
         "paper": "https://aclanthology.org/2021.findings-emnlp.331/",
         "h2": "VERBAL REASONING",
-        "h3": "Inference"
+        "h3": "Inference",
+        "id": 105
     },
     {
         "title": "Recognising Textual Entailment with Logical Inference",
@@ -882,14 +998,17 @@
         "year": "2005",
         "paper": "https://aclanthology.org/H05-1079",
         "h2": "VERBAL REASONING",
-        "h3": "Inference"
+        "h3": "Inference",
+        "id": 106
     },
     {
         "title": "NLog-like Inference and Commonsense Reasoning",
         "year": "2014",
         "paper": "https://aclanthology.org/2014.lilt-9.9/",
         "h2": "VERBAL REASONING",
-        "h3": "Inference"
+        "h3": "Inference",
+        "id": 107,
+        "month": ""
     },
     {
         "title": "Conditional Natural Language Inference",
@@ -897,7 +1016,8 @@
         "year": "2023",
         "paper": "https://aclanthology.org/2023.findings-emnlp.456",
         "h2": "VERBAL REASONING",
-        "h3": "Inference"
+        "h3": "Inference",
+        "id": 108
     },
     {
         "title": "From legal to technical concept: Towards an automated classification of German political Twitter postings as criminal offenses",
@@ -905,7 +1025,8 @@
         "year": "2019",
         "paper": "https://aclanthology.org/N19-1135/",
         "h2": "VERBAL REASONING",
-        "h3": "Legal"
+        "h3": "Legal",
+        "id": 109
     },
     {
         "title": "Learning Logical Structures of Paragraphs in Legal Articles",
@@ -913,7 +1034,8 @@
         "year": "2011",
         "paper": "https://aclanthology.org/I11-1003",
         "h2": "VERBAL REASONING",
-        "h3": "Legal"
+        "h3": "Legal",
+        "id": 110
     },
     {
         "title": "Can AMR Assist Legal and Logical Reasoning?",
@@ -921,7 +1043,8 @@
         "year": "2022",
         "paper": "https://aclanthology.org/2022.findings-emnlp.112",
         "h2": "VERBAL REASONING",
-        "h3": "Legal"
+        "h3": "Legal",
+        "id": 111
     },
     {
         "title": "Syllogistic Reasoning for Legal Judgment Analysis",
@@ -929,7 +1052,8 @@
         "year": "2023",
         "paper": "https://aclanthology.org/2023.emnlp-main.864",
         "h2": "VERBAL REASONING",
-        "h3": "Legal"
+        "h3": "Legal",
+        "id": 112
     },
     {
         "title": "How well do SOTA legal reasoning models support abductive reasoning?",
@@ -937,7 +1061,8 @@
         "year": "2023",
         "paper": "https://arxiv.org/abs/2304.06912",
         "h2": "VERBAL REASONING",
-        "h3": "Legal"
+        "h3": "Legal",
+        "id": 113
     },
     {
         "title": "Critical Thinking for Language Models",
@@ -945,7 +1070,8 @@
         "year": "2021",
         "paper": "https://aclanthology.org/2021.iwcs-1.7",
         "h2": "VERBAL REASONING",
-        "h3": "Critical Thinking"
+        "h3": "Critical Thinking",
+        "id": 114
     },
     {
         "title": "LangPro: Natural Language Theorem Prover",
@@ -953,7 +1079,8 @@
         "year": "2017",
         "paper": "https://aclanthology.org/D17-2020/",
         "h2": "VERBAL REASONING",
-        "h3": "Theorem Proving"
+        "h3": "Theorem Proving",
+        "id": 115
     },
     {
         "title": "A Tableau Prover for Natural Logic and Language",
@@ -961,34 +1088,43 @@
         "year": "2015",
         "paper": "https://aclanthology.org/D15-1296",
         "h2": "VERBAL REASONING",
-        "h3": "Theorem Proving"
+        "h3": "Theorem Proving",
+        "id": 116
     },
     {
         "title": "Using the Framework (FraCaS)",
         "year": "1996",
         "h2": "VERBAL REASONING",
-        "h3": "Natural Language Inference"
+        "h3": "Natural Language Inference",
+        "id": 117,
+        "month": ""
     },
     {
         "title": "The PASCAL Recognizing Textual Entailment Challenge",
         "year": "2005",
         "paper": "https://kdd.cs.ksu.edu/Courses/Fall-2008/CIS798/Handouts/06-dagan05pascal.pdf",
         "h2": "VERBAL REASONING",
-        "h3": "Natural Language Inference"
+        "h3": "Natural Language Inference",
+        "id": 118,
+        "month": ""
     },
     {
         "title": "The Second PASCAL Recognizing Textual Entailment Challenge",
         "year": "2006",
         "paper": "https://www.semanticscholar.org/paper/The-Second-PASCAL-Recognising-Textual-Entailment-Bar-Haim-Dagan/136326377c122560768db674e35f5bcd6de3bc40",
         "h2": "VERBAL REASONING",
-        "h3": "Natural Language Inference"
+        "h3": "Natural Language Inference",
+        "id": 119,
+        "month": ""
     },
     {
         "title": "The Third PASCAL Recognizing Textual Entailment Challenge",
         "year": "2007",
         "paper": "https://aclanthology.org/W07-1401",
         "h2": "VERBAL REASONING",
-        "h3": "Natural Language Inference"
+        "h3": "Natural Language Inference",
+        "id": 120,
+        "month": ""
     },
     {
         "title": "Natural Logic for Textual Inference",
@@ -996,21 +1132,26 @@
         "year": "2007",
         "paper": "https://nlp.stanford.edu/pubs/natlog-wtep07.pdf",
         "h2": "VERBAL REASONING",
-        "h3": "Natural Language Inference"
+        "h3": "Natural Language Inference",
+        "id": 121
     },
     {
         "title": "The Winograd Schema Challenge",
         "year": "2011",
         "paper": "http://commonsensereasoning.org/2011/papers/Levesque.pdf",
         "h2": "VERBAL REASONING",
-        "h3": "Natural Language Inference"
+        "h3": "Natural Language Inference",
+        "id": 122,
+        "month": ""
     },
     {
         "title": "The Fourth PASCAL Recognizing Textual Entailment Challenge",
         "year": "2008",
         "paper": "https://tac.nist.gov/publications/2008/additional.papers/RTE-4_overview.proceedings.pdf",
         "h2": "VERBAL REASONING",
-        "h3": "Natural Language Inference"
+        "h3": "Natural Language Inference",
+        "id": 123,
+        "month": ""
     },
     {
         "title": "SemEval-2014 Task 1: Evaluzation of Compositional Distributional Semantic Models on Full Sentence through Semantic Relatedness and Textual Entailment (SICK)",
@@ -1018,7 +1159,8 @@
         "year": "2014",
         "paper": "http://www.lrec-conf.org/proceedings/lrec2014/pdf/363_Paper.pdf",
         "h2": "VERBAL REASONING",
-        "h3": "Natural Language Inference"
+        "h3": "Natural Language Inference",
+        "id": 124
     },
     {
         "title": "A Large Annotated Corpus for Learning Language Inference (SNLI)",
@@ -1026,7 +1168,8 @@
         "year": "2015",
         "paper": "https://nlp.stanford.edu/pubs/snli_paper.pdf",
         "h2": "VERBAL REASONING",
-        "h3": "Natural Language Inference"
+        "h3": "Natural Language Inference",
+        "id": 125
     },
     {
         "title": "A Broad-Coverage Challenge Corpus for Sentence Understanding through Inference (MNLI)",
@@ -1034,7 +1177,8 @@
         "year": "2018",
         "paper": "https://arxiv.org/abs/1704.05426v4.pdf",
         "h2": "VERBAL REASONING",
-        "h3": "Natural Language Inference"
+        "h3": "Natural Language Inference",
+        "id": 126
     },
     {
         "title": "Lessons from Natural Language Inference in the Clinical Domain",
@@ -1042,7 +1186,8 @@
         "year": "2018",
         "paper": "https://arxiv.org/abs/1808.06752",
         "h2": "VERBAL REASONING",
-        "h3": "Natural Language Inference"
+        "h3": "Natural Language Inference",
+        "id": 127
     },
     {
         "title": "GLUE: A Multi-task Benchmark and Analysis Platform for Natural Language Understanding",
@@ -1050,7 +1195,8 @@
         "year": "2019",
         "paper": "https://arxiv.org/abs/1804.07461v3",
         "h2": "VERBAL REASONING",
-        "h3": "Natural Language Inference"
+        "h3": "Natural Language Inference",
+        "id": 128
     },
     {
         "title": "Inherent Disagreement in Human Textual Inferences",
@@ -1058,7 +1204,8 @@
         "year": "2019",
         "paper": "https://aclanthology.org/Q19-1043",
         "h2": "VERBAL REASONING",
-        "h3": "Natural Language Inference"
+        "h3": "Natural Language Inference",
+        "id": 129
     },
     {
         "title": "Entailment as Few-Shot Learners",
@@ -1066,7 +1213,8 @@
         "year": "2021",
         "paper": "https://arxiv.org/abs/2104.14690",
         "h2": "VERBAL REASONING",
-        "h3": "Natural Language Inference"
+        "h3": "Natural Language Inference",
+        "id": 130
     },
     {
         "title": "CURRICULUM: A Broad-Coverage Benchmark for Linguistic Phenomena in Natural Language Understanding",
@@ -1074,7 +1222,8 @@
         "year": "2022",
         "paper": "https://aclanthology.org/2022.naacl-main.234",
         "h2": "VERBAL REASONING",
-        "h3": "Natural Language Inference"
+        "h3": "Natural Language Inference",
+        "id": 131
     },
     {
         "title": "Synthetic Dataset for Evaluating Complex Compositional Knowledge for Natural Language Inference",
@@ -1082,7 +1231,8 @@
         "year": "2023",
         "paper": "https://aclanthology.org/2023.nlrse-1.12/",
         "h2": "VERBAL REASONING",
-        "h3": "Natural Language Inference"
+        "h3": "Natural Language Inference",
+        "id": 132
     },
     {
         "title": "BiQuAD: Towards QA based on deeper text understanding",
@@ -1091,14 +1241,18 @@
         "paper": "https://aclanthology.org/2021.starsem-1.10/",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Multi-Choice Question"
+        "h4": "Multi-Choice Question",
+        "id": 133
     },
     {
         "title": "StrategyQA",
         "paper": "https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00370/100680/Did-Aristotle-Use-a-Laptop-A-Question-Answering",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Multi-Choice Question"
+        "h4": "Multi-Choice Question",
+        "id": 134,
+        "year": "",
+        "month": ""
     },
     {
         "title": "Reading Comprehension as Natural Language Inference: A Semantic Analysis",
@@ -1107,7 +1261,8 @@
         "paper": "https://aclanthology.org/2020.starsem-1.2",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Converted from QA"
+        "h4": "Converted from QA",
+        "id": 135
     },
     {
         "title": "Transforming Question Answering Datasets Into Natural Language Inference Datasets",
@@ -1116,7 +1271,8 @@
         "paper": "https://www.semanticscholar.org/reader/8f1c9b656157b1d851563fb42129245701d83175",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Converted from QA"
+        "h4": "Converted from QA",
+        "id": 136
     },
     {
         "title": "Falsesum: Generating Document-level NLI Examples for Recognizing Factual Inconsistency in Summerization",
@@ -1125,7 +1281,8 @@
         "paper": "https://aclanthology.org/2022.naacl-main.199",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Converted from Summarization"
+        "h4": "Converted from Summarization",
+        "id": 137
     },
     {
         "title": "SUMMAC: Re-Visiting NLI-based Models for Inconsistency Detection in Summarization",
@@ -1134,7 +1291,8 @@
         "paper": "https://aclanthology.org/2022.tacl-1.10",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Converted from Summarization"
+        "h4": "Converted from Summarization",
+        "id": 138
     },
     {
         "title": "TABFACT: A Large-scale Dataset for Table-base Fact Verification",
@@ -1143,7 +1301,8 @@
         "paper": "https://arxiv.org/abs/1909.02164v5.pdf",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Tabular Premises (Tabular Reasoning)"
+        "h4": "Tabular Premises (Tabular Reasoning)",
+        "id": 139
     },
     {
         "title": "INFOTABS: Inference on Tables as Semi-structured Data",
@@ -1152,7 +1311,8 @@
         "paper": "https://aclanthology.org/2020.acl-main.210",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Tabular Premises (Tabular Reasoning)"
+        "h4": "Tabular Premises (Tabular Reasoning)",
+        "id": 140
     },
     {
         "title": "SemEval-2021 Task 9: Fact Verification and Evidence Finding for Tabular Data in Scientific Documents (SEM-TAB-FACTS)",
@@ -1161,7 +1321,8 @@
         "paper": "https://aclanthology.org/2021.semeval-1.39",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Tabular Premises (Tabular Reasoning)"
+        "h4": "Tabular Premises (Tabular Reasoning)",
+        "id": 141
     },
     {
         "title": "Is My Model Using the Right Evidence? Systematic Probes for Examining Evidence-Based Tabular Reasoning",
@@ -1170,7 +1331,8 @@
         "paper": "https://aclanthology.org/2022.tacl-1.38",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Tabular Premises (Tabular Reasoning)"
+        "h4": "Tabular Premises (Tabular Reasoning)",
+        "id": 142
     },
     {
         "title": "The Fact Extraction and VERification Over Unstructured and Structured information (FEVEROUS) Shared Task",
@@ -1179,7 +1341,8 @@
         "paper": "https://aclanthology.org/2021.fever-1.1",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Tabular Premises (Tabular Reasoning)"
+        "h4": "Tabular Premises (Tabular Reasoning)",
+        "id": 143
     },
     {
         "title": "Fake News Challenge",
@@ -1188,7 +1351,8 @@
         "webpage": "http://www.fakenewschallenge.org/",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Fact-checking"
+        "h4": "Fact-checking",
+        "id": 144
     },
     {
         "title": "FEVER: A Large-scale Dataset for Fact Extraction and VERification",
@@ -1197,7 +1361,8 @@
         "paper": "https://aclanthology.org/N18-1074",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Fact-checking"
+        "h4": "Fact-checking",
+        "id": 145
     },
     {
         "title": "A Probabilistic Classification Approach for Lexical Textual Entailment",
@@ -1205,7 +1370,9 @@
         "paper": "https://cdn.aaai.org/AAAI/2005/AAAI05-166.pdf",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Probabilistic NLI"
+        "h4": "Probabilistic NLI",
+        "id": 146,
+        "month": ""
     },
     {
         "title": "Uncertain Natural Language Inference",
@@ -1214,7 +1381,8 @@
         "paper": "https://arxiv.org/abs/1909.03042",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Probabilistic NLI"
+        "h4": "Probabilistic NLI",
+        "id": 147
     },
     {
         "title": "Natural Language Inference in Context — Investigating Contextual Reasoning over Long Texts",
@@ -1223,7 +1391,8 @@
         "paper": "https://arxiv.org/abs/2011.04864",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Document-level NLI"
+        "h4": "Document-level NLI",
+        "id": 148
     },
     {
         "title": "Evaluating the Factual Consistency of Abstractive Text Summarization (FactCC)",
@@ -1232,7 +1401,8 @@
         "paper": "https://aclanthology.org/2020.emnlp-main.750",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Document-level NLI"
+        "h4": "Document-level NLI",
+        "id": 149
     },
     {
         "title": "DOCNLI: A Large-scale Dataset for Document-level Natural Language Inference",
@@ -1241,7 +1411,8 @@
         "paper": "https://aclanthology.org/2021.findings-acl.435",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Document-level NLI"
+        "h4": "Document-level NLI",
+        "id": 150
     },
     {
         "title": "ContractNLI: A Dataset for Document-level Natural Language Inference for Contracts",
@@ -1250,7 +1421,8 @@
         "paper": "https://aclanthology.org/2021.findings-emnlp.164",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Document-level NLI"
+        "h4": "Document-level NLI",
+        "id": 151
     },
     {
         "title": "Falsesum: Generating Document-level NLI Examples for Recognizing Factual Inconsistency in Summarization",
@@ -1259,7 +1431,8 @@
         "paper": "https://aclanthology.org/2022.naacl-main.199",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Document-level NLI"
+        "h4": "Document-level NLI",
+        "id": 152
     },
     {
         "title": "BioNLI: Generating a Biomedical NLI Dataset Using Lexico-semantic Constraints for Adversarial Examples",
@@ -1268,7 +1441,8 @@
         "paper": "https://arxiv.org/abs/2210.14814",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Document-level NLI"
+        "h4": "Document-level NLI",
+        "id": 153
     },
     {
         "title": "Validity Assessment of Legal Will Statement as Natural Language Inference",
@@ -1277,7 +1451,8 @@
         "paper": "https://arxiv.org/abs/2210.16989v1.pdf",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Document-level NLI"
+        "h4": "Document-level NLI",
+        "id": 154
     },
     {
         "title": "LawngNLI: A Multigranular, Long-premise NLI Benchmark for Evaluating Models’ In-domain Generalization from Short to Long Contexts",
@@ -1286,7 +1461,8 @@
         "paper": "https://aclanthology.org/2022.findings-emnlp.369",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Document-level NLI"
+        "h4": "Document-level NLI",
+        "id": 155
     },
     {
         "title": "Collecting Diverse Natural Language Inference Problems for Sentence Representation Evaluation",
@@ -1295,7 +1471,8 @@
         "paper": "https://aclanthology.org/D18-1007",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Complex Reasoning NLI"
+        "h4": "Complex Reasoning NLI",
+        "id": 156
     },
     {
         "title": "Can neural networks understand monotonicity reasoning? (MED)",
@@ -1303,7 +1480,9 @@
         "paper": "https://aclanthology.org/W19-4804v2",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Complex Reasoning NLI"
+        "h4": "Complex Reasoning NLI",
+        "id": 157,
+        "month": ""
     },
     {
         "title": "HELP: A Dataset for Identifying Shortcomings of Neural Models in Monotonicity Reasoning",
@@ -1312,7 +1491,8 @@
         "paper": "https://aclanthology.org/S19-1027",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Complex Reasoning NLI"
+        "h4": "Complex Reasoning NLI",
+        "id": 158
     },
     {
         "title": "Transformers as Soft Reasoners over Language",
@@ -1321,7 +1501,8 @@
         "paper": "https://arxiv.org/abs/2002.05867",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Complex Reasoning NLI"
+        "h4": "Complex Reasoning NLI",
+        "id": 159
     },
     {
         "title": "Adversarial NLI: A New Benchmark for Natural Language Understanding",
@@ -1330,7 +1511,8 @@
         "paper": "https://aclanthology.org/2020.acl-main.441",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Complex Reasoning NLI"
+        "h4": "Complex Reasoning NLI",
+        "id": 160
     },
     {
         "title": "Are Natural Language Inference Models Impressive? Learning Implicature and Presupposition",
@@ -1339,7 +1521,8 @@
         "paper": "https://aclanthology.org/2020.acl-main.768",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Complex Reasoning NLI"
+        "h4": "Complex Reasoning NLI",
+        "id": 161
     },
     {
         "title": "Natural Language Inference in Context — Investigating Contextual Reasoning over Long Texts",
@@ -1348,7 +1531,8 @@
         "paper": "https://arxiv.org/abs/2011.04864",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Complex Reasoning NLI"
+        "h4": "Complex Reasoning NLI",
+        "id": 162
     },
     {
         "title": "ConjNLI: Natural Language Inference Over Conjunctive Sentences",
@@ -1357,7 +1541,8 @@
         "paper": "https://aclanthology.org/2020.emnlp-main.661",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Complex Reasoning NLI"
+        "h4": "Complex Reasoning NLI",
+        "id": 163
     },
     {
         "title": "TaxiNLI: Taking a ride up the NLU hill",
@@ -1366,7 +1551,8 @@
         "paper": "https://aclanthology.org/2020.conll-1.4",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Complex Reasoning NLI"
+        "h4": "Complex Reasoning NLI",
+        "id": 164
     },
     {
         "title": "Diagnosing the First-Order Logical Reasoning Ability Through LogicNLI",
@@ -1375,7 +1561,8 @@
         "paper": "https://aclanthology.org/2021.emnlp-main.303",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Complex Reasoning NLI"
+        "h4": "Complex Reasoning NLI",
+        "id": 165
     },
     {
         "title": "Explaining Answers with Entailment Trees (ENTAILMENTBANK)",
@@ -1384,7 +1571,8 @@
         "paper": "https://www.semanticscholar.org/reader/4a56f72b9c529810ba4ecfe9eac522d87f6db81d",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Complex Reasoning NLI"
+        "h4": "Complex Reasoning NLI",
+        "id": 166
     },
     {
         "title": "FOLIO: Natural Language Reasoning with First-Order-Logic",
@@ -1393,7 +1581,8 @@
         "paper": "https://arxiv.org/abs/2209.00840",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Complex Reasoning NLI"
+        "h4": "Complex Reasoning NLI",
+        "id": 167
     },
     {
         "title": "Neural Natural Language Inference Models Partially Embed Theories of Lexical Entailment and Negation",
@@ -1402,7 +1591,8 @@
         "paper": "https://arxiv.org/abs/2004.14623v4.pdf",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Negated NLI"
+        "h4": "Negated NLI",
+        "id": 168
     },
     {
         "title": "An Analysis of Natural Language Inference Benchmarks through the Lens of Negation",
@@ -1411,7 +1601,8 @@
         "paper": "https://aclanthology.org/2020.emnlp-main.732",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Negated NLI"
+        "h4": "Negated NLI",
+        "id": 169
     },
     {
         "title": "Not another Negation Benchmark: The NaN-NLI Test Suite for Sub-clausal Negation",
@@ -1420,7 +1611,8 @@
         "paper": "https://aclanthology.org/2022.aacl-main.65",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Negated NLI"
+        "h4": "Negated NLI",
+        "id": 170
     },
     {
         "title": "The Winograd Schema Challenge",
@@ -1428,7 +1620,9 @@
         "paper": "http://commonsensereasoning.org/2011/papers/Levesque.pdf",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Commonsense Reasoning"
+        "h4": "Commonsense Reasoning",
+        "id": 171,
+        "month": ""
     },
     {
         "title": "WANLI: Worker and AI Collaboration for Natural Language Inference Dataset Creation",
@@ -1437,7 +1631,8 @@
         "paper": "https://arxiv.org/abs/2201.05955",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "AI Generated"
+        "h4": "AI Generated",
+        "id": 172
     },
     {
         "title": "Right for the Wrong Reasons: Diagnosing Syntactic Heuristics in Natural Language Inference (HANS)",
@@ -1446,7 +1641,8 @@
         "paper": "https://arxiv.org/abs/1902.01007",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Synthetic"
+        "h4": "Synthetic",
+        "id": 173
     },
     {
         "title": "FraCaS: Temporal Analysis",
@@ -1455,7 +1651,8 @@
         "paper": "https://arxiv.org/abs/2012.10668",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Other task format that can be transformed into NLI format"
+        "h4": "Other task format that can be transformed to NLI format",
+        "id": 174
     },
     {
         "title": "Explaining Answers with Entailment Trees (ENTAILMENT BANK)",
@@ -1464,61 +1661,68 @@
         "paper": "https://aclanthology.org/2021.emnlp-main.585/",
         "h2": "VERBAL REASONING",
         "h3": "Natural Language Inference",
-        "h4": "Other task format that can be transformed into NLI format"
+        "h4": "Other task format that can be transformed to NLI format",
+        "id": 175
     },
     {
-        "title": "Improved Logical Reasoning of Language Models via Differentiable Symbolic Programming",
+        "title": "Improved Logical Reasoning of Language Models via Differentiable SymbolicProgramming",
         "month": "July",
         "year": "2023",
         "paper": "https://aclanthology.org/2023.findings-acl.191",
         "h2": "VERBAL REASONING",
         "h3": "Approaches and Applications",
-        "h4": "Symbolic "
+        "h4": "Symbolic",
+        "id": 176
     },
     {
-        "title": "Logic-LM: Empowering Large Language Models with Symbolic Solvers for Faithful Logical Reasoning",
+        "title": "Logic-LM: Empowering Large Language Models with SymbolicSolvers for Faithful Logical Reasoning",
         "month": "Dec",
         "year": "2023",
         "paper": "https://aclanthology.org/2023.findings-emnlp.248/",
         "h2": "VERBAL REASONING",
         "h3": "Approaches and Applications",
-        "h4": "Symbolic "
+        "h4": "Symbolic",
+        "id": 177
     },
     {
-        "title": "Improved Logical Reasoning of Language Models via Differentiable Symbolic Programming",
+        "title": "Improved Logical Reasoning of Language Models via Differentiable SymbolicProgramming",
         "month": "July",
         "year": "2023",
         "paper": "https://aclanthology.org/2023.findings-acl.191/",
         "h2": "VERBAL REASONING",
         "h3": "Approaches and Applications",
-        "h4": "Symbolic "
+        "h4": "Symbolic",
+        "id": 178
     },
     {
-        "title": "Analytical, Symbolic and First-Order Reasoning within Neural Architectures",
+        "title": "Analytical, Symbolicand First-Order Reasoning within Neural Architectures",
         "month": "July",
         "year": "2021",
         "paper": "https://aclanthology.org/2021.cstfrs-1.7",
         "h2": "VERBAL REASONING",
         "h3": "Approaches and Applications",
-        "h4": "Symbolic "
+        "h4": "Symbolic",
+        "id": 179
     },
     {
-        "title": "LINC: A Neurosymbolic Approach for Logical Reasoning by Combining Language Models with First-Order Logic Provers",
+        "title": "LINC: A NeuroSymbolicApproach for Logical Reasoning by Combining Language Models with First-Order Logic Provers",
         "month": "Dec",
         "year": "2023",
         "paper": "https://aclanthology.org/2023.emnlp-main.313/",
         "h2": "VERBAL REASONING",
         "h3": "Approaches and Applications",
-        "h4": "Symbolic "
+        "h4": "Symbolic",
+        "id": 180
     },
     {
-        "title": "Enhancing Ethical Explanations of Large Language Models through Iterative Symbolic Refinement",
+        "title": "Enhancing Ethical Explanations of Large Language Models through Iterative SymbolicRefinement",
         "month": "March",
         "year": "2024",
         "paper": "https://aclanthology.org/2024.eacl-long.1/",
         "h2": "VERBAL REASONING",
         "h3": "Approaches and Applications",
-        "h4": "Symbolic "
+        "h4": "Symbolic",
+        "id": 181
     },
     {
         "title": "Investigating Transformer guided Chaining for Interpretable Natural Logic Reasoning",
@@ -1527,24 +1731,28 @@
         "paper": "https://aclanthology.org/2023.findings-acl.588",
         "h2": "VERBAL REASONING",
         "h3": "Approaches and Applications",
-        "h4": "Symbolic "
+        "h4": "Symbolic",
+        "id": 182
     },
     {
-        "title": "Conversational Multi-Hop Reasoning with Neural Commonsense Knowledge and Symbolic Logic Rules",
+        "title": "Conversational Multi-Hop Reasoning with Neural Commonsense Knowledge and SymbolicLogic Rules",
         "month": "Sept",
         "year": "2021",
         "paper": "http://arxiv.org/abs/2109.08544",
         "h2": "VERBAL REASONING",
         "h3": "Approaches and Applications",
-        "h4": "Symbolic "
+        "h4": "Symbolic",
+        "id": 183
     },
     {
-        "title": "Are Pretrained Language Models Symbolic Reasoners over Knowledge?",
+        "title": "Are Pretrained Language Models SymbolicReasoners over Knowledge?",
         "year": "2020",
         "paper": "https://doi.org/10.18653/v1/2020.conll-1.45",
         "h2": "VERBAL REASONING",
         "h3": "Approaches and Applications",
-        "h4": "Symbolic "
+        "h4": "Symbolic",
+        "id": 184,
+        "month": ""
     },
     {
         "title": "Differentiable Reasoning on Large Knowledge Bases and Natural Language",
@@ -1553,16 +1761,18 @@
         "paper": "https://doi.org/10.1609/aaai.v34i04.5962",
         "h2": "VERBAL REASONING",
         "h3": "Approaches and Applications",
-        "h4": "Symbolic "
+        "h4": "Symbolic",
+        "id": 185
     },
     {
-        "title": "Learning Symbolic Rules for Reasoning in Quasi-Natural Language",
+        "title": "Learning SymbolicRules for Reasoning in Quasi-Natural Language",
         "month": "Nov",
         "year": "2021",
         "paper": "http://arxiv.org/abs/2111.12038",
         "h2": "VERBAL REASONING",
         "h3": "Approaches and Applications",
-        "h4": "Symbolic "
+        "h4": "Symbolic",
+        "id": 186
     },
     {
         "title": "Logic-Driven Context Extension and Data Augmentation for Logical Reasoning of Text",
@@ -1571,7 +1781,8 @@
         "paper": "https://arxiv.org/abs/2105.03659",
         "h2": "VERBAL REASONING",
         "h3": "Approaches and Applications",
-        "h4": "Data Extension"
+        "h4": "Data Extension",
+        "id": 187
     },
     {
         "title": "MERIt: Meta-Path Guided Contrastive Learning for Logical Reasoning",
@@ -1580,7 +1791,8 @@
         "paper": "https://arxiv.org/abs/2203.00357",
         "h2": "VERBAL REASONING",
         "h3": "Approaches and Applications",
-        "h4": "Data Extension"
+        "h4": "Data Extension",
+        "id": 188
     },
     {
         "title": "LogiQA2.0 - An Improved Dataset for Logic Reasoning in Question Answering and Textual Inference",
@@ -1590,15 +1802,19 @@
         "dateset": "https://github.com/csitfun/LogiQA2.0",
         "h2": "VERBAL REASONING",
         "h3": "Datasets",
-        "h4": "Question Answering"
+        "h4": "Question Answering",
+        "id": 189
     },
     {
         "title": "ReClor: A Reading Comprehension Dataset Requiring Logical Reasoning",
         "year": "2023",
-        "paper": "https://openreview.net/pdf?id=HJgJtT4tvB) [ReClor](https://whyu.me/reclor/",
+        "paper": "https://openreview.net/pdf?id=HJgJtT4tvB",
+        "dataset": "https://whyu.me/reclor/",
         "h2": "VERBAL REASONING",
         "h3": "Datasets",
-        "h4": "Question Answering"
+        "h4": "Question Answering",
+        "id": 190,
+        "month": ""
     },
     {
         "title": "MTR: A Dataset Fusing Inductive, Deductive, and Defeasible Reasoning",
@@ -1607,16 +1823,19 @@
         "paper": "https://aclanthology.org/2023.findings-acl.640/",
         "h2": "VERBAL REASONING",
         "h3": "Datasets",
-        "h4": "Question Answering"
+        "h4": "Question Answering",
+        "id": 191
     },
     {
         "title": "AR-LSAT: Investigating Analytical Reasoning of Text",
         "month": "Apr",
         "year": "2021",
-        "paper": "https://arxiv.org/abs/2104.06598) [AR-LSAT](https://github.com/zhongwanjun/AR-LSAT",
+        "paper": "https://arxiv.org/abs/2104.06598",
+        "github": "https://github.com/zhongwanjun/AR-LSAT",
         "h2": "VERBAL REASONING",
         "h3": "Datasets",
-        "h4": "Question Answering"
+        "h4": "Question Answering",
+        "id": 192
     },
     {
         "title": "CLUTRR: A Diagnostic Benchmark for Inductive Reasoning from Text",
@@ -1626,31 +1845,41 @@
         "CLUTRR": "https://github.com/facebookresearch/clutrr",
         "h2": "VERBAL REASONING",
         "h3": "Datasets",
-        "h4": "Question Answering"
+        "h4": "Question Answering",
+        "id": 193
     },
     {
         "title": "Did Aristotle Use a Laptop? A Question Answering Benchmark with Implicit Reasoning Strategies",
         "year": "2021",
-        "paper": "https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00370/100680/Did-Aristotle-Use-a-Laptop-A-Question-Answering) [StrategyQA](https://allenai.org/data/strategyqa",
+        "paper": "https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00370/100680/Did-Aristotle-Use-a-Laptop-A-Question-Answering",
+        "dataset": "https://allenai.org/data/strategyqa",
         "h2": "VERBAL REASONING",
         "h3": "Datasets",
-        "h4": "Question Answering"
+        "h4": "Question Answering",
+        "id": 194,
+        "month": ""
     },
     {
         "title": "FOLIO: Natural Language Reasoning with First-Order Logic",
         "year": "2022",
-        "paper": "https://arxiv.org/abs/2209.00840) [dataset](https://github.com/Yale-LILY/FOLIO",
+        "paper": "https://arxiv.org/abs/2209.00840",
+        "github": "https://github.com/Yale-LILY/FOLIO",
         "h2": "VERBAL REASONING",
         "h3": "Datasets",
-        "h4": "Natural Language Inference"
+        "h4": "Natural Language Inference",
+        "id": 195,
+        "month": ""
     },
     {
         "title": "Diagnosing the First-Order Logical Reasoning Ability Through LogicNLI",
         "year": "2021",
-        "paper": "https://aclanthology.org/2021.emnlp-main.303/) [LogicNLI](https://github.com/omnilabNLP/LogicNLI",
+        "paper": "https://aclanthology.org/2021.emnlp-main.303/",
+        "github": "https://github.com/omnilabNLP/LogicNLI",
         "h2": "VERBAL REASONING",
         "h3": "Datasets",
-        "h4": "Natural Language Inference"
+        "h4": "Natural Language Inference",
+        "id": 196,
+        "month": ""
     },
     {
         "title": "Transformers as Soft Reasoners over Language",
@@ -1660,23 +1889,30 @@
         "ruletaker": "https://github.com/allenai/ruletaker",
         "h2": "VERBAL REASONING",
         "h3": "Datasets",
-        "h4": "Natural Language Inference"
+        "h4": "Natural Language Inference",
+        "id": 197
     },
     {
         "title": "GLoRE: Evaluating Logical Reasoning of Large Language Models.",
         "month": "Oct",
         "year": "2023",
-        "paper": "https://arxiv.org/abs/2310.09107) [dataset](https://github.com/csitfun/glore",
+        "paper": "https://arxiv.org/abs/2310.09107",
+        "github": "https://github.com/csitfun/glore",
         "h2": "VERBAL REASONING",
         "h3": "Datasets",
-        "h4": "Test Suites"
+        "h4": "Test Suites",
+        "id": 198
     },
     {
         "title": "Towards LogiGLUE: A Brief Survey and A Benchmark for Analyzing Logical Reasoning Capabilities of Language Models",
-        "paper": "https://arxiv.org/abs/2310.00836) [dataset](https://huggingface.co/datasets/logicreasoning/logi_glue",
+        "paper": "https://arxiv.org/abs/2310.00836",
+        "huggingface": "https://huggingface.co/datasets/logicreasoning/logi_glue",
         "h2": "VERBAL REASONING",
         "h3": "Datasets",
-        "h4": "Test Suites"
+        "h4": "Test Suites",
+        "id": 199,
+        "year": "",
+        "month": ""
     },
     {
         "title": "LogicBench: A Benchmark for Evaluation of Logical Reasoning.",
@@ -1685,7 +1921,8 @@
         "paper": "https://openreview.net/forum?id=7NR2ZVzZxx",
         "h2": "VERBAL REASONING",
         "h3": "Datasets",
-        "h4": "Test Suites"
+        "h4": "Test Suites",
+        "id": 200
     },
     {
         "title": "RobustLR: A Diagnostic Benchmark for Evaluating Logical Robustness of Deductive Reasoners",
@@ -1694,7 +1931,8 @@
         "paper": "https://aclanthology.org/2022.emnlp-main.653/",
         "h2": "VERBAL REASONING",
         "h3": "Datasets",
-        "h4": "Test Suites"
+        "h4": "Test Suites",
+        "id": 201
     },
     {
         "title": "Hence, Socrates is mortal: A Benchmark for Natural Language Syllogistic Reasoning",
@@ -1703,7 +1941,8 @@
         "paper": "https://aclanthology.org/2023.findings-acl.148/",
         "h2": "VERBAL REASONING",
         "h3": "Datasets",
-        "h4": "Test Suites"
+        "h4": "Test Suites",
+        "id": 202
     },
     {
         "title": "RuleBERT: Teaching Soft Rules to Pre-Trained Language Models",
@@ -1712,7 +1951,8 @@
         "paper": "https://aclanthology.org/2021.emnlp-main.110/",
         "h2": "VERBAL REASONING",
         "h3": "Datasets",
-        "h4": "Test Suites"
+        "h4": "Test Suites",
+        "id": 203
     },
     {
         "title": "PuzzLing Machines: A Challenge on Learning From Small Data",
@@ -1721,7 +1961,8 @@
         "paper": "https://aclanthology.org/2020.acl-main.115/",
         "h2": "VERBAL REASONING",
         "h3": "Datasets",
-        "h4": "Test Suites"
+        "h4": "Test Suites",
+        "id": 204
     },
     {
         "title": "CLUTRR: A Diagnostic Benchmark for Inductive Reasoning from Text",
@@ -1730,7 +1971,8 @@
         "paper": "https://aclanthology.org/D19-1458/",
         "h2": "VERBAL REASONING",
         "h3": "Datasets",
-        "h4": "Test Suites"
+        "h4": "Test Suites",
+        "id": 205
     },
     {
         "title": "True Detective: A Deep Abductive Reasoning Benchmark Undoable for GPT-3 and Challenging for GPT-4",
@@ -1739,7 +1981,8 @@
         "paper": "https://aclanthology.org/2023.starsem-1.28/",
         "h2": "VERBAL REASONING",
         "h3": "Datasets",
-        "h4": "Test Suites"
+        "h4": "Test Suites",
+        "id": 206
     },
     {
         "title": "AbductionRules: Training Transformers to Explain Unexpected Inputs",
@@ -1748,7 +1991,8 @@
         "paper": "https://aclanthology.org/2022.findings-acl.19/",
         "h2": "VERBAL REASONING",
         "h3": "Datasets",
-        "h4": "Test Suites"
+        "h4": "Test Suites",
+        "id": 207
     },
     {
         "title": "E-KAR: A Benchmark for Rationalizing Natural Language Analogical Reasoning",
@@ -1757,7 +2001,8 @@
         "paper": "https://aclanthology.org/2022.findings-acl.311/",
         "h2": "VERBAL REASONING",
         "h3": "Datasets",
-        "h4": "Test Suites"
+        "h4": "Test Suites",
+        "id": 208
     },
     {
         "title": "StoryAnalogy: Deriving Story-level Analogies from Large Language Models to Unlock Analogical Understanding",
@@ -1766,7 +2011,8 @@
         "paper": "https://aclanthology.org/2023.emnlp-main.706/",
         "h2": "VERBAL REASONING",
         "h3": "Datasets",
-        "h4": "Test Suites"
+        "h4": "Test Suites",
+        "id": 209
     },
     {
         "title": "How susceptible are LLMs to Logical Fallacies?",
@@ -1776,25 +2022,35 @@
         "LOGICOM": "https://github.com/Amir-pyh/LOGICOM/tree/main",
         "h2": "VERBAL REASONING",
         "h3": "Datasets",
-        "h4": "Test Suites"
+        "h4": "Test Suites",
+        "id": 210
     },
     {
         "title": "LLaMA-7B-LogiCoT",
         "huggingface": "https://huggingface.co/csitfun/llama-7b-logicot",
         "h2": "VERBAL REASONING",
-        "h3": "Models"
+        "h3": "Models",
+        "id": 211,
+        "year": "",
+        "month": ""
     },
     {
         "title": "LOGIPT",
         "paper": "https://arxiv.org/abs/2311.06158",
         "h2": "VERBAL REASONING",
-        "h3": "Models"
+        "h3": "Models",
+        "id": 212,
+        "year": "",
+        "month": ""
     },
     {
         "title": "Symbol-LLM",
         "huggingface": "https://huggingface.co/Symbol-LLM",
         "h2": "VERBAL REASONING",
-        "h3": "Models"
+        "h3": "Models",
+        "id": 213,
+        "year": "",
+        "month": ""
     },
     {
         "title": "Are Large Language Models Really Good Logical Reasoners? A Comprehensive Evaluation and Beyond",
@@ -1802,7 +2058,8 @@
         "year": "2021",
         "paper": "https://arxiv.org/abs/2306.09841",
         "h2": "VERBAL REASONING",
-        "h3": "Benchmarking"
+        "h3": "Benchmarking",
+        "id": 214
     },
     {
         "title": "Evaluating the Logical Reasoning Ability of ChatGPT and GPT-4",
@@ -1810,7 +2067,8 @@
         "year": "2023",
         "paper": "https://arxiv.org/abs/2304.03439",
         "h2": "VERBAL REASONING",
-        "h3": "Benchmarking"
+        "h3": "Benchmarking",
+        "id": 215
     },
     {
         "title": "A Multitask, Multilingual, Multimodal Evaluation of ChatGPT on Reasoning, Hallucination, and Interactivity",
@@ -1818,7 +2076,8 @@
         "year": "2023",
         "paper": "https://arxiv.org/abs/2302.04023",
         "h2": "VERBAL REASONING",
-        "h3": "Benchmarking"
+        "h3": "Benchmarking",
+        "id": 216
     },
     {
         "title": "LogiTorch",
@@ -1826,7 +2085,10 @@
         "description": "a PyTorch-based library for logical reasoning on natural language",
         "h2": "VERBAL REASONING",
         "h3": "Resources",
-        "h4": "Repos"
+        "h4": "Repos",
+        "id": 217,
+        "year": "",
+        "month": ""
     },
     {
         "title": "GLoRE",
@@ -1834,7 +2096,10 @@
         "description": "a benchmark for evaluating the logical reasoning of LLMs",
         "h2": "VERBAL REASONING",
         "h3": "Resources",
-        "h4": "Repos"
+        "h4": "Repos",
+        "id": 218,
+        "year": "",
+        "month": ""
     },
     {
         "title": "Logiformer",
@@ -1842,7 +2107,10 @@
         "description": "This is a model to tackle the logical reasoning task in the field of multiple-choice machine reading comprehension. The code of the decoder part is not the final version, but it is one of the alternatives. You can also implement it based on own design, which may further improve the experimental results.",
         "h2": "VERBAL REASONING",
         "h3": "Resources",
-        "h4": "Repos"
+        "h4": "Repos",
+        "id": 219,
+        "year": "",
+        "month": ""
     },
     {
         "title": "Awesome Natural Language Reasoning Papers",
@@ -1850,7 +2118,10 @@
         "description": "A collection of research papers related to Knowledge Reasoning with Natural Language Models.",
         "h2": "VERBAL REASONING",
         "h3": "Resources",
-        "h4": "Repos"
+        "h4": "Repos",
+        "id": 220,
+        "year": "",
+        "month": ""
     },
     {
         "title": "Awesome LLM Reasoning",
@@ -1858,23 +2129,32 @@
         "description": "Curated collection of papers and resources on how to unlock the reasoning ability of LLMs and MLLMs.",
         "h2": "VERBAL REASONING",
         "h3": "Resources",
-        "h4": "Repos"
+        "h4": "Repos",
+        "id": 221,
+        "year": "",
+        "month": ""
     },
     {
         "title": "Deep-Reasoning-Papers",
         "github": "https://github.com/floodsung/Deep-Reasoning-Papers",
-        "description": "Recent Papers including Neural Symbolic Reasoning, Logical Reasoning, Visual Reasoning, natural language reasoning and any other topics connecting deep learning and reasoning.",
+        "description": "Recent Papers including Neural SymbolicReasoning, Logical Reasoning, Visual Reasoning, natural language reasoning and any other topics connecting deep learning and reasoning.",
         "h2": "VERBAL REASONING",
         "h3": "Resources",
-        "h4": "Repos"
+        "h4": "Repos",
+        "id": 222,
+        "year": "",
+        "month": ""
     },
     {
         "title": "Awesome deep logic",
         "github": "https://github.com/ccclyu/awesome-deeplogic",
-        "description": "Must-Read Papers or Resources on how to integrate symbolic logic into deep neural nets.",
+        "description": "Must-Read Papers or Resources on how to integrate Symboliclogic into deep neural nets.",
         "h2": "VERBAL REASONING",
         "h3": "Resources",
-        "h4": "Repos"
+        "h4": "Repos",
+        "id": 223,
+        "year": "",
+        "month": ""
     },
     {
         "title": "Awesome-Reasoning-Foundation-Models",
@@ -1882,14 +2162,20 @@
         "description": "Papers on reasoning fundation models.",
         "h2": "VERBAL REASONING",
         "h3": "Resources",
-        "h4": "Repos"
+        "h4": "Repos",
+        "id": 224,
+        "year": "",
+        "month": ""
     },
     {
         "title": "Workshop on Natural Language Reasoning and Structured Explanations (2023)",
         "link": "https://aclanthology.org/events/nlrse-2023/",
         "h2": "VERBAL REASONING",
         "h3": "Resources",
-        "h4": "Workshops"
+        "h4": "Workshops",
+        "id": 225,
+        "year": "",
+        "month": ""
     },
     {
         "title": "ART: rule bAsed futuRe-inference deducTion",
@@ -1897,7 +2183,8 @@
         "year": "2023",
         "paper": "https://aclanthology.org/2023.emnlp-main.592/",
         "h2": "NON-VERBAL REASONING",
-        "h3": "Video"
+        "h3": "Video",
+        "id": 226
     },
     {
         "title": "Multimodal Fallacy Classification in Political Debates",
@@ -1905,21 +2192,26 @@
         "year": "2024",
         "paper": "https://aclanthology.org/2024.eacl-short.16/",
         "h2": "NON-VERBAL REASONING",
-        "h3": "Video"
+        "h3": "Video",
+        "id": 227
     },
     {
         "title": "A Benchmark for Compositional Visual Reasoning",
         "year": "2022",
         "paper": "https://proceedings.neurips.cc/paper_files/paper/2022/file/c08ee8fe3d19521f3bfa4102898329fd-Paper-Datasets_and_Benchmarks.pdf",
         "h2": "NON-VERBAL REASONING",
-        "h3": "Image"
+        "h3": "Image",
+        "id": 228,
+        "month": ""
     },
     {
         "title": "Emergent Communication for Rules Reasoning",
         "year": "2023",
         "paper": "https://proceedings.neurips.cc/paper_files/paper/2023/file/d8ace30c68b085556ccce04ed4ae4ebb-Paper-Conference.pdf",
         "h2": "NON-VERBAL REASONING",
-        "h3": "Image"
+        "h3": "Image",
+        "id": 229,
+        "month": ""
     },
     {
         "title": "Multimodal Logical Inference System for Visual-Textual Entailment",
@@ -1927,12 +2219,16 @@
         "year": "2019",
         "paper": "https://aclanthology.org/P19-2054/",
         "h2": "NON-VERBAL REASONING",
-        "h3": "Image"
+        "h3": "Image",
+        "id": 230
     },
     {
         "title": "The Abstraction and Reasoning Corpus (ARC)",
         "dataset": "https://github.com/fchollet/ARC",
         "h2": "NON-VERBAL REASONING",
-        "h3": "Image"
+        "h3": "Image",
+        "id": 231,
+        "year": "",
+        "month": ""
     }
 ]
