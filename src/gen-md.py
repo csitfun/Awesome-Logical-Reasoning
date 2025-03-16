@@ -96,9 +96,9 @@ def classify_papers(structure: Dict[str, Dict[str, Any]], papers: List[Dict[str,
 
 def generate_markdown(structured_papers: List[Dict[str, Any]]):
     """Generate the markdown file and write it to the markdown file."""
-    def _format_paper(paper: Dict[str, Any]) -> str:
+    def _format_paper(paper: Dict[str, Any], p_index: int) -> str:
         """Format a paper item."""
-        formatted_paper = f"- **{paper['title']}**\n\n\t"
+        formatted_paper = f"{p_index}. **{paper['title']}**\n\n\t"
         if 'paper' in paper:
             formatted_paper += f"[![](https://img.shields.io/badge/📄-Paper-orange)]({paper['paper']}) "
         if 'github' in paper:
@@ -149,20 +149,29 @@ Paper list for logical reasoning
         # structured papers
         for h2 in structured_papers:
             f.write(f"## ✨{h2}\n")
+            p_index = 1
             for paper in structured_papers[h2]['papers']:
-                f.write(_format_paper(paper))
+                f.write(_format_paper(paper, p_index))
+                p_index += 1
             for h3 in structured_papers[h2]:
                 if h3 == 'papers':
                     continue
                 f.write(f"### ✨{h3}\n")
+                p_index = 1
                 for paper in structured_papers[h2][h3]['papers']:
-                    f.write(_format_paper(paper))
+                    f.write(_format_paper(paper, p_index))
+                    p_index += 1
                 for h4 in structured_papers[h2][h3]:
                     if h4 == 'papers':
                         continue
                     f.write(f"#### ✨{h4}\n")
+                    p_index = 1
                     for paper in structured_papers[h2][h3][h4]['papers']:
-                        f.write(_format_paper(paper))
+                        f.write(_format_paper(paper, p_index))
+                        p_index += 1
+                    f.write("\n\n---\n\n")
+                f.write("\n\n---\n\n")
+            f.write("\n\n---\n\n")
 
 def main():
     # load yaml structure
