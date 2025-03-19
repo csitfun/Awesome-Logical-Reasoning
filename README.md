@@ -5,666 +5,1191 @@ Paper list for logical reasoning
 
 **Key Words**: premise, conclusion, argument, reasoning, inference, proposition, forward chaining, backward chaining, critical thinking, syllogism
 
-![](https://img.shields.io/github/last-commit/csitfun/Awesome-Logical-Reasoning) Maintained by [Hanmeng Liu](https://scholar.google.com/citations?user=vjmL_9UAAAAJ&hl=en), [Ruoxi Ning]()
+![](https://img.shields.io/github/last-commit/csitfun/Awesome-Logical-Reasoning) Maintained by [Hanmeng Liu](https://scholar.google.com/citations?user=vjmL_9UAAAAJ&hl=en), [Ruoxi Ning](https://ruoxining.github.io)
 
 ![](https://img.shields.io/badge/PRs-Welcome-red) Welcome to contribute!
 
-![](https://github.com/csitfun/Awesome-Logical-Reasoning/blob/main/Logical_Reasoning.png)
-
-<!-- Contents
-- Surveys
-
-- Tasks (TODO move datasets, models and SOTAs under tasks)
-  - Formal logical reasoning (deductive)
-    - Models
-      - 
-    - SOTA
-      - 
-    - Datasets
-      - 
-    - Informal (?)
-      - 
-    - Logical fallacy
-      - 
-    - Arguments
-      - 
-    - Critical Thinking
-      - 
-    - NLI : TODO this might connotate a higher range
-    - 
-    - Nonverbal reasoning: video
-    - 
-    - Nonverbal reasoning: image
-
-- Applications
-  - Legal 
-  - <- aplications
-
-(If not specifying, the titles indicates verbal reasoning)
-
--->
+![](https://github.com/csitfun/Awesome-Logical-Reasoning/blob/main/assets/Logical_Reasoning.png)
+## ✨Contents
+- [VERBAL REASONING](#verbal-reasoning)
+  - [Surveys](#surveys)
+  - [Formal Logical Reasoning (Deductive Reasoning)](#formal-logical-reasoning-(deductive-reasoning))
+  - [Informal Logical Reasoning](#informal-logical-reasoning)
+    - [Inductive Reasoning](#inductive-reasoning)
+    - [Abductive Reasoning](#abductive-reasoning)
+    - [Analogical Reasoning](#analogical-reasoning)
+  - [Logical Fallacy](#logical-fallacy)
+  - [Argument](#argument)
+  - [Inference](#inference)
+  - [Legal](#legal)
+  - [Critical Thinking](#critical-thinking)
+  - [Theorem Proving](#theorem-proving)
+  - [Natural Language Inference](#natural-language-inference)
+    - [Multi-Choice Question](#multi-choice-question)
+    - [Converted from QA](#converted-from-qa)
+    - [Converted from Summarization](#converted-from-summarization)
+    - [Tabular Premises (Tabular Reasoning)](#tabular-premises-(tabular-reasoning))
+    - [Fact-checking](#fact-checking)
+    - [Probabilistic NLI](#probabilistic-nli)
+    - [Document-level NLI](#document-level-nli)
+    - [Complex Reasoning NLI](#complex-reasoning-nli)
+    - [Negated NLI](#negated-nli)
+    - [Commonsense Reasoning](#commonsense-reasoning)
+    - [AI Generated](#ai-generated)
+    - [Synthetic](#synthetic)
+    - [Other task format that can be transformed to NLI format](#other-task-format-that-can-be-transformed-to-nli-format)
+  - [Approaches and Applications](#approaches-and-applications)
+    - [Symbolic](#symbolic)
+    - [Data Extension](#data-extension)
+  - [Datasets](#datasets)
+    - [Question Answering](#question-answering)
+    - [Natural Language Inference](#natural-language-inference)
+    - [Test Suites](#test-suites)
+  - [Models](#models)
+  - [Benchmarking](#benchmarking)
+  - [Resources](#resources)
+    - [Repos](#repos)
+    - [Workshops](#workshops)
+- [NON-VERBAL REASONING](#non-verbal-reasoning)
+  - [Video](#video)
+  - [Image](#image)
 
 
 ## ✨VERBAL REASONING
 ### ✨Surveys
+1. **Towards LOGIGLUE: A Brief Survey and A Benchmark for Analyzing Logical Reasoning Capabilities of Language Models**
 
-1. **Natural Language Inference A Dissertation** Jun 2009. [paper](https://www-nlp.stanford.edu/~wcmac/papers/nli-diss.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2310.00836) 2024. Mar. 
 
-2. **A Survey of Paraphrasing and Textual Entailment Method** May 2010. [paper](https://www.jair.org/index.php/jair/article/view/10651/25463)
+2. **Towards Reasoning in Large Language Models: A Survey**
 
-3. **An Overview of Natural Language Inference Data Collection: The Way Forward?** Oct 2017. [paper](https://aclanthology.org/W17-7203.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.findings-acl.67) 2023. July. 
 
-4. **Logical Formalization of Commonsense Reasoning: A Survey** Aug 2017. [paper](https://www.jair.org/index.php/jair/article/view/11076/26258)
+3. **A Survey of Reasoning with Foundation Models**
 
-5. **Recent Advanced in Natural Language Inferenece: A Survey of Benchmarks, Resources, and Approahces** Apr 2019. [paper](https://arxiv.org/pdf/1904.01172)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2312.11562) 2023. Dec. 
 
-6. **A Survey on Recognizing Textual Entailment as an NLP Evaluation** Nov 2020. [paper](https://aclanthology.org/2020.eval4nlp-1.10.pdf)
+4. **Logical Reasoning over Natural Language as Knowledge Representation: A Survey**
 
-7. **Symbolic And Neural Approaches to Natural Language Inference** Jun 2021. [paper](https://scholarworks.iu.edu/iuswrrest/api/core/bitstreams/cec63ddb-9930-4fbe-b1f6-5e5a60503d5d/content)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2303.12023) 2023. Mar. 
 
-8. **Towards Reasoning in Large Language Models: A Survey** July 2023. [paper](https://aclanthology.org/2023.findings-acl.67.pdf)
+5. **Natural Language Reasoning, A Survey**
 
-9. **Towards LOGIGLUE: A Brief Survey and A Benchmark for Analyzing Logical Reasoning Capabilities of Language Models** Mar 2024. [paper](https://arxiv.org/pdf/2310.00836.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2303.14725v2) 2023. May. 
 
-10. **A Survey of Reasoning with Foundation Models** Dec 2023. [paper](https://arxiv.org/abs/2312.11562)
+6. **SymbolicAnd Neural Approaches to Natural Language Inference**
 
-11. **Logical Reasoning over Natural Language as Knowledge Representation: A Survey** Mar 2023. [paper](https://arxiv.org/abs/2303.12023)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://scholarworks.iu.edu/iuswrrest/api/core/bitstreams/cec63ddb-9930-4fbe-b1f6-5e5a60503d5d/content) 2021. Jun. 
 
-12. **Natural Language Reasoning, A Survey** May 2023. [paper](https://arxiv.org/pdf/2303.14725v2)
+7. **A Survey on Recognizing Textual Entailment as an NLP Evaluation**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2020.eval4nlp-1.10) 2020. Nov. 
+
+8. **Recent Advanced in Natural Language Inferenece: A Survey of Benchmarks, Resources, and Approahces**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/1904.01172) 2019. Apr. 
+
+9. **An Overview of Natural Language Inference Data Collection: The Way Forward?**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/W17-7203) 2017. Oct. 
+
+10. **Logical Formalization of Commonsense Reasoning: A Survey**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://www.jair.org/index.php/jair/article/view/11076/26258) 2017. Aug. 
+
+11. **A Survey of Paraphrasing and Textual Entailment Method**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://www.jair.org/index.php/jair/article/view/10651/25463) 2010. May. 
+
+12. **Natural Language Inference A Dissertation**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://www-nlp.stanford.edu/~wcmac/papers/nli-diss.pdf) 2009. Jun. 
+
 
 
 ---
+
 ### ✨Formal Logical Reasoning (Deductive Reasoning)
+1. **Aligning with Logic: Measuring, Evaluating and Improving Logical Consistency in Large Language Models**
 
-1. **FaiRR: Faithful and Robust Deductive Reasoning over Natural Language** May 2022. [paper](https://aclanthology.org/2022.acl-long.77/)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2410.02205) 2024. Oct. 
 
-2. **Deductive Additivity for Planning of Natural Language Proofs** June 2023. [paper](https://aclanthology.org/2023.nlrse-1.11/)
+2. **Deductive Additivity for Planning of Natural Language Proofs**
 
-3. **AnaLog: Testing Analytical and Deductive Logic Learnability in Language Models** July 2022. [paper](https://aclanthology.org/2022.starsem-1.5/)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.nlrse-1.11/) 2023. June. 
 
-4. **Can Pretrained Language Models (Yet) Reason Deductively?** May 2023 [paper](https://aclanthology.org/2023.eacl-main.106/)
+3. **Can Pretrained Language Models (Yet) Reason Deductively?**
 
-5. **RobustLR: A Diagnostic Benchmark for Evaluating Logical Robustness of Deductive Reasoners** Dec 2022. [paper](https://aclanthology.org/2022.emnlp-main.653/)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.eacl-main.106/) 2023. May. 
 
-6. **Learning to Reason Deductively: Math Word Problem Solving as Complex Relation Extraction** May 2022. [paper](https://aclanthology.org/2022.acl-long.410/)
+4. **A Generation-based Deductive Method for Math Word Problems**
 
-7. **A Generation-based Deductive Method for Math Word Problems** Dec 2023. [paper](https://aclanthology.org/2023.emnlp-main.108/)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.emnlp-main.108/) 2023. Dec. 
 
-8. **GeoDRL: A Self-Learning Framework for Geometry Problem Solving using Reinforcement Learning in Deductive Reasoning** July 2023. [paper](https://aclanthology.org/2023.findings-acl.850/)
+5. **GeoDRL: A Self-Learning Framework for Geometry Problem Solving using Reinforcement Learning in Deductive Reasoning**
 
-9. **Inductive and deductive inferences in a Crowdsourced Lexical-Semantic Network** Sep 2013. [paper](https://aclanthology.org/R13-1096/)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.findings-acl.850/) 2023. July. 
 
-10. **Questions require an answer: A deductive perspective on questions and answers** Nov 2006 [paper](https://aclanthology.org/U06-1016/)
+6. **Hence, Socrates is mortal: A Benchmark for Natural Language Syllogistic Reasoning**
 
-11. **Natural Language Deduction with Incomplete Information** Dec 2022. [paper](https://aclanthology.org/2022.emnlp-main.564/)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.findings-acl.148/) 2023. July. 
 
-12. **Natural Language Deduction through Search over Statement Compositions** Dec 2022. [paper](https://aclanthology.org/2022.findings-emnlp.358/)
+7. **Testing the General Deductive Reasoning Capacity of Large Language Models Using OOD Examples**
 
-13. **Hence, Socrates is mortal: A Benchmark for Natural Language Syllogistic Reasoning** July 2023. [paper](https://aclanthology.org/2023.findings-acl.148/)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://proceedings.neurips.cc/paper_files/paper/2023/file/09425891e393e64b0535194a81ba15b7-Paper-Conference.pdf) 2023. 
 
-14. **Teaching Machine Comprehension with Compositional Explanations** Nov 2020. [paper](https://aclanthology.org/2020.findings-emnlp.145/)
+8. **Deductive Verification of Chain-of-Thought Reasoning**
 
-15. **Testing the General Deductive Reasoning Capacity of Large Language Models Using OOD Examples** 2023 [paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/09425891e393e64b0535194a81ba15b7-Paper-Conference.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://proceedings.neurips.cc/paper_files/paper/2023/file/72393bd47a35f5b3bee4c609e7bba733-Paper-Conference.pdf) 2023. 
 
-16. **Deductive Verification of Chain-of-Thought Reasoning** 2023 [paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/72393bd47a35f5b3bee4c609e7bba733-Paper-Conference.pdf)
+9. **FaiRR: Faithful and Robust Deductive Reasoning over Natural Language**
 
-17. **Natural Language Deduction with Incomplete Information** Dec 2022. [paper](https://aclanthology.org/2022.emnlp-main.564/)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.acl-long.77/) 2022. May. 
 
-18. **Aligning with Logic: Measuring, Evaluating and Improving Logical Consistency in Large Language Models** Oct 2024. [paper](https://arxiv.org/abs/2410.02205)
+10. **AnaLog: Testing Analytical and Deductive Logic Learnability in Language Models**
 
-19. 
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.starsem-1.5/) 2022. July. 
+
+11. **RobustLR: A Diagnostic Benchmark for Evaluating Logical Robustness of Deductive Reasoners**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.emnlp-main.653/) 2022. Dec. 
+
+12. **Learning to Reason Deductively: Math Word Problem Solving as Complex Relation Extraction**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.acl-long.410/) 2022. May. 
+
+13. **Natural Language Deduction with Incomplete Information**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.emnlp-main.564/) 2022. Dec. 
+
+14. **Natural Language Deduction through Search over Statement Compositions**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.findings-emnlp.358/) 2022. Dec. 
+
+15. **Natural Language Deduction with Incomplete Information**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.emnlp-main.564/) 2022. Dec. 
+
+16. **Teaching Machine Comprehension with Compositional Explanations**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2020.findings-emnlp.145/) 2020. Nov. 
+
+17. **Inductive and deductive inferences in a Crowdsourced Lexical-Semantic Network**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/R13-1096/) 2013. Sep. 
+
+18. **Questions require an answer: A deductive perspective on questions and answers**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/U06-1016/) 2006. Nov. 
+
+
+
 ---
 
-### ✨Informal Logical Reasoning 
-
+### ✨Informal Logical Reasoning
 #### ✨Inductive Reasoning
-1. **Language Models as Inductive Reasoners** Mar 2024. [paper](https://aclanthology.org/2024.eacl-long.13/)
+1. **Language Models as Inductive Reasoners**
 
-2. **Inductive and deductive inferences in a Crowdsourced Lexical-Semantic Network** Sep 2013. [paper](https://aclanthology.org/R13-1096/)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2024.eacl-long.13/) 2024. Mar. 
 
-3. **CLUTRR: A Diagnostic Benchmark for Inductive Reasoning from Text** Nov 2019. [paper](https://aclanthology.org/D19-1458/)
+2. **A Comprehensive Evaluation of Inductive Reasoning Capabilities and Problem Solving in Large Language Models**
 
-4. **Contrastive Learning for Inference in Dialogue** Dec 2023. [paper](https://aclanthology.org/2023.emnlp-main.631/)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2024.findings-eacl.22/) 2024. March. 
 
-5. **Flexible Generation of Natural Language Deductions** Nov 2021. [paper](https://aclanthology.org/2021.emnlp-main.506/)
+3. **It is not True that Transformers are Inductive Learners: Probing NLI Models with External Negation**
 
-6. **A Comprehensive Evaluation of Inductive Reasoning Capabilities and Problem Solving in Large Language Models** March 2024. [paper](https://aclanthology.org/2024.findings-eacl.22/)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2024.eacl-long.116/) 2024. Mar. 
 
-7. **I2D2: Inductive Knowledge Distillation with NeuroLogic and Self-Imitation** July 2023 [paper](https://aclanthology.org/2023.acl-long.535/)
+4. **Contrastive Learning for Inference in Dialogue**
 
-8. **Learning Explainable Linguistic Expressions with Neural Inductive Logic Programming for Sentence Classification** Nov 2020. [paper](https://aclanthology.org/2020.emnlp-main.345/)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.emnlp-main.631/) 2023. Dec. 
 
-9. **Incorporating Linguistics Constraints into Inductive Logic Programming** 2000. [paper](https://aclanthology.org/W00-0740/)
+5. **I2D2: Inductive Knowledge Distillation with NeuroLogic and Self-Imitation**
 
-10. **Contrastive Learning with Generated Representations for Inductive Knowledge Graph Embedding** July 2023. [paper](https://aclanthology.org/2023.findings-acl.900/)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.acl-long.535/) 2023. July. 
 
-11. **Inductive Relation Prediction with Logical Reasoning Using Contrastive Representations** Dec 2022. [paper](https://aclanthology.org/2022.emnlp-main.286/)
+6. **Contrastive Learning with Generated Representations for Inductive Knowledge Graph Embedding**
 
-12. **Deep Inductive Logic Reasoning for Multi-Hop Reading Comprehension** May 2022. [paper](https://aclanthology.org/2022.acl-long.343/)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.findings-acl.900/) 2023. July. 
 
-13. **Query Structure Modeling for Inductive Logical Reasoning Over Knowledge Graphs** July 2023. [paper](https://aclanthology.org/2023.acl-long.259/)
+7. **Query Structure Modeling for Inductive Logical Reasoning Over Knowledge Graphs**
 
-14. **It is not True that Transformers are Inductive Learners: Probing NLI Models with External Negation** Mar 2024. [paper](https://aclanthology.org/2024.eacl-long.116/)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.acl-long.259/) 2023. July. 
 
-15. **Thinking Like a Skeptic: Defeasible Inference in Natural Language** Nov 2020. [paper](https://aclanthology.org/2020.findings-emnlp.418.pdf)
+8. **Inductive Relation Prediction with Logical Reasoning Using Contrastive Representations**
 
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.emnlp-main.286/) 2022. Dec. 
+
+9. **Deep Inductive Logic Reasoning for Multi-Hop Reading Comprehension**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.acl-long.343/) 2022. May. 
+
+10. **Flexible Generation of Natural Language Deductions**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2021.emnlp-main.506/) 2021. Nov. 
+
+11. **Learning Explainable Linguistic Expressions with Neural Inductive Logic Programming for Sentence Classification**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2020.emnlp-main.345/) 2020. Nov. 
+
+12. **Thinking Like a Skeptic: Defeasible Inference in Natural Language**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2020.findings-emnlp.418) 2020. Nov. 
+
+13. **CLUTRR: A Diagnostic Benchmark for Inductive Reasoning from Text**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/D19-1458/) 2019. Nov. 
+
+14. **Inductive and deductive inferences in a Crowdsourced Lexical-Semantic Network**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/R13-1096/) 2013. Sep. 
+
+15. **Incorporating Linguistics Constraints into Inductive Logic Programming**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/W00-0740/) 2000. 
+
+
+
+---
 
 #### ✨Abductive Reasoning
+1. **Self-Consistent Narrative Prompts on Abductive Natural Language Inference**
 
-1. **Abductive Explanation-based Learning Improves Parsing Accuracy and Efficiency** [paper](https://aclanthology.org/W03-1715.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.ijcnlp-main.67/) 2023. Nov. 
 
-2. **ProofWriter: Generating Implications, Proofs, and Abductive Statements over Natural Language** Aug 2021. [paper](https://aclanthology.org/2021.findings-acl.317.pdf)
+2. **Abductive Commonsense Reasoning Exploiting Mutually Exclusive Explanations**
 
-3. **Case-Based Abductive Natural Language Inference** Oct 2022. [paper](https://aclanthology.org/2022.coling-1.134/)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.acl-long.831/) 2023. July. 
 
-4. **Self-Consistent Narrative Prompts on Abductive Natural Language Inference** Nov 2023. [paper](https://aclanthology.org/2023.ijcnlp-main.67/)
+3. **Multi-modal Action Chain Abductive Reasoning**
 
-5. **Abductive Commonsense Reasoning Exploiting Mutually Exclusive Explanations** July 2023. [paper](https://aclanthology.org/2023.acl-long.831/)
- 
-6. **Abductive Commonsense Reasoning** Dec 2019. [paper](https://openreview.net/forum?id=Byg1v1HKDB)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.acl-long.254/) 2023. July. 
 
-7. **Multi-modal Action Chain Abductive Reasoning** July 2023. [paper](https://aclanthology.org/2023.acl-long.254/)
+4. **True Detective: A Deep Abductive Reasoning Benchmark Undoable for GPT-3 and Challenging for GPT-4**
 
-8. **True Detective: A Deep Abductive Reasoning Benchmark Undoable for GPT-3 and Challenging for GPT-4** 
-July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.starsem-1.28/) 2023. July. 
 
-9. **How well do SOTA legal reasoning models support abductive reasoning?** Apr 2023. [paper](https://arxiv.org/abs/2304.06912)
+5. **How well do SOTA legal reasoning models support abductive reasoning?**
 
-10. **AbductionRules: Training Transformers to Explain Unexpected Inputs** May 2022. [paper](https://aclanthology.org/2022.findings-acl.19/)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2304.06912) 2023. Apr. 
 
-11. **Learning as Abduction: Trainable Natural Logic Theorem Prover for Natural Language Inference** Dec 2020 [paper](https://aclanthology.org/2020.starsem-1.3.pdf)
+6. **Simple Augmentations of Logical Rules for Neuro-SymbolicKnowledge Graph Completion**
 
-12. **Simple Augmentations of Logical Rules for Neuro-Symbolic Knowledge Graph Completion** July 2023. [paper](https://aclanthology.org/2023.acl-short.23/)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.acl-short.23/) 2023. July. 
 
-13. **LAMBADA: Backward Chaining for Automated Reasoning in Natural Language** Dec 2022. [paper](https://arxiv.org/abs/2212.13894)
+7. **Forward-Backward Reasoning in Large Language Models for Mathematical Verification**
 
-14. **Forward-Backward Reasoning in Large Language Models for Mathematical Verification** Sep 2023. [paper](https://openreview.net/forum?id=GhYXocT75t)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://openreview.net/forum?id=GhYXocT75t) 2023. Sep. 
 
-15. **Are Large Language Models Really Good Logical Reasoners? A Comprehensive Evaluation and Beyond** Jun 2023. [paper](https://arxiv.org/abs/2306.09841)
+8. **Are Large Language Models Really Good Logical Reasoners? A Comprehensive Evaluation and Beyond**
 
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2306.09841) 2023. Jun. 
+
+9. **Case-Based Abductive Natural Language Inference**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.coling-1.134/) 2022. Oct. 
+
+10. **AbductionRules: Training Transformers to Explain Unexpected Inputs**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.findings-acl.19/) 2022. May. 
+
+11. **LAMBADA: Backward Chaining for Automated Reasoning in Natural Language**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2212.13894) 2022. Dec. 
+
+12. **ProofWriter: Generating Implications, Proofs, and Abductive Statements over Natural Language**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2021.findings-acl.317) 2021. Aug. 
+
+13. **Learning as Abduction: Trainable Natural Logic Theorem Prover for Natural Language Inference**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2020.starsem-1.3) 2020. Dec. 
+
+14. **Abductive Commonsense Reasoning**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://openreview.net/forum?id=Byg1v1HKDB) 2019. Dec. 
+
+15. **Abductive Explanation-based Learning Improves Parsing Accuracy and Efficiency**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/W03-1715) 
+
+
+
+---
 
 #### ✨Analogical Reasoning
+1. **Relevant or Random: Can LLMs Truly Perform Analogical Reasoning?**
 
-1. **ANALOGICAL - A Novel Benchmark for Long Text Analogy Evaluation in Large Language Models** July 2023. [paper](https://aclanthology.org/2023.findings-acl.218/)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://luarxiv.org/abs/2404.12728) 2024. Apr. 
 
-2. **Can language models learn analogical reasoning? Investigating training objectives and comparisons to human performance** Dec 2023. [paper](https://aclanthology.org/2023.emnlp-main.1022/)
+2. **ANALOGICAL - A Novel Benchmark for Long Text Analogy Evaluation in Large Language Models**
 
-3. **E-KAR: A Benchmark for Rationalizing Natural Language Analogical Reasoning** May 2022. [paper](https://aclanthology.org/2022.findings-acl.311/)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.findings-acl.218/) 2023. July. 
 
-4. **StoryAnalogy: Deriving Story-level Analogies from Large Language Models to Unlock Analogical Understanding** Dec 2023. [paper](https://aclanthology.org/2023.emnlp-main.706/)
+3. **Can language models learn analogical reasoning? Investigating training objectives and comparisons to human performance**
 
-5. **In-Context Analogical Reasoning with Pre-Trained Language Models** July 2023. [paper](https://aclanthology.org/2023.acl-long.109.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.emnlp-main.1022/) 2023. Dec. 
 
-6. **Analogical Math Word Problems Solving with Enhanced Problem-Solution Association** Dec 2022. [paper](https://aclanthology.org/2022.emnlp-main.643/)
+4. **StoryAnalogy: Deriving Story-level Analogies from Large Language Models to Unlock Analogical Understanding**
 
-7. **A Neural-Symbolic Approach to Natural Language Understanding** Dec 2022. [paper](https://aclanthology.org/2022.findings-emnlp.158/)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.emnlp-main.706/) 2023. Dec. 
 
-8. **ThinkSum: Probabilistic reasoning over sets using large language models** July 2023 [paper](https://aclanthology.org/2023.acl-long.68/)
+5. **In-Context Analogical Reasoning with Pre-Trained Language Models**
 
-9. **Relevant or Random: Can LLMs Truly Perform Analogical Reasoning?** Apr 2024. [paper](https://luarxiv.org/abs/2404.12728)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.acl-long.109) 2023. July. 
+
+6. **ThinkSum: Probabilistic reasoning over sets using large language models**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.acl-long.68/) 2023. July. 
+
+7. **E-KAR: A Benchmark for Rationalizing Natural Language Analogical Reasoning**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.findings-acl.311/) 2022. May. 
+
+8. **Analogical Math Word Problems Solving with Enhanced Problem-Solution Association**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.emnlp-main.643/) 2022. Dec. 
+
+9. **A Neural-SymbolicApproach to Natural Language Understanding**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.findings-emnlp.158/) 2022. Dec. 
+
+
 
 ---
 
+
+
+---
 
 ### ✨Logical Fallacy
+1. **Detecting Argumentative Fallacies in the Wild: Problems and Limitations of Large Language Models**
 
-1. **Detecting Argumentative Fallacies in the Wild: Problems and Limitations of Large Language Models** Dec 2023. [paper](https://aclanthology.org/2023.argmining-1.1.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.argmining-1.1) 2023. Dec. 
 
-2. **Multitask Instruction-based Prompting for Fallacy Recognition** Dec 2022 [paper](https://aclanthology.org/2022.emnlp-main.560/)
+2. **Argument-based Detection and Classification of Fallacies in Political Debates**
 
-3. **The Search for Agreement on Logical Fallacy Annotation of an Infodemic** Jun 2022 [paper](https://aclanthology.org/2022.lrec-1.471/)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.emnlp-main.684) 2023. Dec. 
 
-4. **Logical Fallacy Detection** Dec 2022 [paper](https://aclanthology.org/2022.findings-emnlp.532/)
+3. **Multitask Instruction-based Prompting for Fallacy Recognition**
 
-5. **Breaking Down the Invisible Wall of Informal Fallacies in Online Discussions** Aug 2021 [paper](https://aclanthology.org/2021.acl-long.53/)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.emnlp-main.560/) 2022. Dec. 
 
-6. **Argument-based Detection and Classification of Fallacies in Political Debates** Dec 2023 [paper](https://aclanthology.org/2023.emnlp-main.684.pdf)
+4. **The Search for Agreement on Logical Fallacy Annotation of an Infodemic**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.lrec-1.471/) 2022. Jun. 
+
+5. **Logical Fallacy Detection**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.findings-emnlp.532/) 2022. Dec. 
+
+6. **Breaking Down the Invisible Wall of Informal Fallacies in Online Discussions**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2021.acl-long.53/) 2021. Aug. 
+
+
 
 ---
 
-
 ### ✨Argument
+1. **Uncovering Implicit Inferences for Improved Relational Argument Mining**
 
-1. **TakeLab at SemEval-2018 Task12: Argument Reasoning Comprehension with Skip-Thought Vectors** Jun 2018. [paper](https://aclanthology.org/S18-1192.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.eacl-main.182/) 2023. May. 
 
-2. **The Argument Reasoning Comprehension Task: Identification and Reconstruction of Implicit Warrants** Jun 2018 [paper](https://aclanthology.org/N18-1175/)
+2. **Implicit Premise Generation with Discourse-aware Commonsense Knowledge Models**
 
-3. **Automatically Identifying Implicit Arguments to Improve Argument Linking and Coherence Modeling** Jun 2013 [paper](https://aclanthology.org/S13-1043.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2021.emnlp-main.504) 2021. Nov. 
 
-4. **Uncovering Implicit Inferences for Improved Relational Argument Mining** May 2023. [paper](https://aclanthology.org/2023.eacl-main.182/)
+3. **TakeLab at SemEval-2018 Task12: Argument Reasoning Comprehension with Skip-Thought Vectors**
 
-5. **Implicit Premise Generation with Discourse-aware Commonsense Knowledge Models** Nov 2021. [paper](https://aclanthology.org/2021.emnlp-main.504.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/S18-1192) 2018. Jun. 
+
+4. **The Argument Reasoning Comprehension Task: Identification and Reconstruction of Implicit Warrants**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/N18-1175/) 2018. Jun. 
+
+5. **Automatically Identifying Implicit Arguments to Improve Argument Linking and Coherence Modeling**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/S13-1043) 2013. Jun. 
+
+
 
 ---
 
 ### ✨Inference
+1. **NatLogAttack: A Framework for Attacking Natural Language Inference Models with Natural Logic**
 
-1. **NaturalLI: Natural Logic Inference for Common Sense Reasoning** Oct 2014. [paper](https://aclanthology.org/D14-1059/)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.acl-long.554/) 2023. July. 
 
-2. **Neural Natural Logic Inference for Interpretable Question Answering** Nov 2021. [paper](https://aclanthology.org/2021.emnlp-main.298/)
+2. **LogicAttack: Adversarial Attacks for Evaluating Logical Consistency of Natural Language Inference**
 
-3. **Natural Logic for Textual Inference** Jun 2007. [paper](https://aclanthology.org/W07-1431/)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.findings-emnlp.889) 2023. Dec. 
 
-4. **Neuro-symbolic Natural Logic with Introspective Revision for Natural Language Inference** 2022 [paper](https://aclanthology.org/2022.tacl-1.14/)
+3. **QA-NatVer: Question Answering for Natural Logic-based Fact Verification**
 
-5. **NatLogAttack: A Framework for Attacking Natural Language Inference Models with Natural Logic** July 2023. [paper](https://aclanthology.org/2023.acl-long.554/)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.emnlp-main.521) 2023. Dec. 
 
-6. **Higher-order logical inference with compositional semantics** Sep 2015 [paper](https://aclanthology.org/D15-1244/)
+4. **Synthetic Dataset for Evaluating Complex Compositional Knowledge for Natural Language Inference**
 
-7. **NeuralLog: Natural Language Inference with Joint Neural and Logical Reasoning** Aug 2021. [paper](https://aclanthology.org/2021.starsem-1.7/)
-  
-8. **Monotonic Inference for Underspecified Episodic Logic** Jun 2021. [paper](https://aclanthology.org/2021.naloma-1.5/)
- 
-9. **A (Mostly) Symbolic System for Monotonic Inference with Unscoped Episodic Logical Forms** Jun 2021. [paper](https://aclanthology.org/2021.naloma-1.9/)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.nlrse-1.12/) 2023. Jun. 
 
-10. **Logical Inferences with Comparatives and Generalized Quantifiers** July 2020. [paper](https://aclanthology.org/2020.acl-srw.35/)
+5. **Conditional Natural Language Inference**
 
-11. **LogicAttack: Adversarial Attacks for Evaluating Logical Consistency of Natural Language Inference** Dec 2023. [paper](https://aclanthology.org/2023.findings-emnlp.889.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.findings-emnlp.456) 2023. Dec. 
 
-12. **Decomposing Natural Logic Inferences for Neural NLI** Dec 2022. [paper](https://aclanthology.org/2022.blackboxnlp-1.33/)
+6. **Neuro-SymbolicNatural Logic with Introspective Revision for Natural Language Inference**
 
-13. **Natural Language Inference with Monotonicity** May 2019. [paper](https://aclanthology.org/W19-0502/)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.tacl-1.14/) 2022. 
 
-14. **QA-NatVer: Question Answering for Natural Logic-based Fact Verification** Dec 2023. [paper](https://aclanthology.org/2023.emnlp-main.521.pdf)
+7. **Decomposing Natural Logic Inferences for Neural NLI**
 
-15. **Combining Natural Logic and Shallow Reasoning for Question Answering** Aug 2016. [paper](https://aclanthology.org/P16-1042.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.blackboxnlp-1.33/) 2022. Dec. 
 
-16. **Semantic and Logical Inference Model for Textual Entailment** Jun 2007. [paper](https://aclanthology.org/W07-1418/)
+8. **PLOG: Table-to-Logic Pretraining for Logical Table-to-Text Generation**
 
-17. **MonaLog: a Lightweight System for Natural Language Inference Based on Monotonicity** 2020 [paper](https://aclanthology.org/2020.scil-1.40.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.emnlp-main.373/) 2022. Dec. 
 
-18. **PLOG: Table-to-Logic Pretraining for Logical Table-to-Text Generation** Dec 2022. [paper](https://aclanthology.org/2022.emnlp-main.373/)
+9. **Pragmatic and Logical Inferences in NLI Systems: The Case of Conjunction Buttressing**
 
-19. **Pragmatic and Logical Inferences in NLI Systems: The Case of Conjunction Buttressing** July 2022. [paper](https://aclanthology.org/2022.unimplicit-1.2/)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.unimplicit-1.2/) 2022. July. 
 
-20. **Logical Reasoning with Span-Level Predictions for Interpretable and Robust NLI Models** Dec 2022. [paper](https://aclanthology.org/2022.emnlp-main.251/)
+10. **Logical Reasoning with Span-Level Predictions for Interpretable and Robust NLI Models**
 
-21. **Synthetic Dataset for Evaluating Complex Compositional Knowledge for Natural Language Inference** Jun 2023. [paper](https://aclanthology.org/2023.nlrse-1.12/)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.emnlp-main.251/) 2022. Dec. 
 
-22. **A Tableau Prover for Natural Logic and Language** Sep 2015. [paper](https://aclanthology.org/D15-1296.pdf)
+11. **ProoFVer: Natural Logic Theorem Proving for Fact Verification**
 
-23. **ProoFVer: Natural Logic Theorem Proving for Fact Verification** 2022. [paper](https://aclanthology.org/2022.tacl-1.59.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.tacl-1.59) 2022. 
 
-24. **Knowledge-Guided Linguistic Rewrites for Inference Rule Verification** Jun 2016 [paper](https://aclanthology.org/N16-1011.pdf)
+12. **Neural Natural Logic Inference for Interpretable Question Answering**
 
-25. **Augmenting Neural Networks with First-order Logic** [paper](https://aclanthology.org/P19-1028.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2021.emnlp-main.298/) 2021. Nov. 
 
-26. **Neural Unification for Logic Reasoning over Natural Language** Nov 2021. [paper](https://aclanthology.org/2021.findings-emnlp.331/)
+13. **NeuralLog: Natural Language Inference with Joint Neural and Logical Reasoning**
 
-27. **Recognising Textual Entailment with Logical Inference** Oct 2005. [paper](https://aclanthology.org/H05-1079.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2021.starsem-1.7/) 2021. Aug. 
 
-28. **NLog-like Inference and Commonsense Reasoning** 2014. [paper](https://aclanthology.org/2014.lilt-9.9/)
+14. **Monotonic Inference for Underspecified Episodic Logic**
 
-29. **Conditional Natural Language Inference** Dec 2023. [paper](https://aclanthology.org/2023.findings-emnlp.456.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2021.naloma-1.5/) 2021. Jun. 
+
+15. **A (Mostly) SymbolicSystem for Monotonic Inference with Unscoped Episodic Logical Forms**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2021.naloma-1.9/) 2021. Jun. 
+
+16. **Neural Unification for Logic Reasoning over Natural Language**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2021.findings-emnlp.331/) 2021. Nov. 
+
+17. **Logical Inferences with Comparatives and Generalized Quantifiers**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2020.acl-srw.35/) 2020. July. 
+
+18. **MonaLog: a Lightweight System for Natural Language Inference Based on Monotonicity**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2020.scil-1.40) 2020. 
+
+19. **Natural Language Inference with Monotonicity**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/W19-0502/) 2019. May. 
+
+20. **Combining Natural Logic and Shallow Reasoning for Question Answering**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/P16-1042) 2016. Aug. 
+
+21. **Knowledge-Guided Linguistic Rewrites for Inference Rule Verification**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/N16-1011) 2016. Jun. 
+
+22. **Higher-order logical inference with compositional semantics**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/D15-1244/) 2015. Sep. 
+
+23. **A Tableau Prover for Natural Logic and Language**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/D15-1296) 2015. Sep. 
+
+24. **NaturalLI: Natural Logic Inference for Common Sense Reasoning**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/D14-1059/) 2014. Oct. 
+
+25. **NLog-like Inference and Commonsense Reasoning**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2014.lilt-9.9/) 2014. 
+
+26. **Natural Logic for Textual Inference**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/W07-1431/) 2007. Jun. 
+
+27. **Semantic and Logical Inference Model for Textual Entailment**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/W07-1418/) 2007. Jun. 
+
+28. **Recognising Textual Entailment with Logical Inference**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/H05-1079) 2005. Oct. 
+
+29. **Augmenting Neural Networks with First-order Logic**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/P19-1028) 
+
+
 
 ---
 
 ### ✨Legal
+1. **Syllogistic Reasoning for Legal Judgment Analysis**
 
-1. **From legal to technical concept: Towards an automated classification of German political Twitter postings as criminal offenses** June 2019. [paper](https://aclanthology.org/N19-1135/) 
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.emnlp-main.864) 2023. Dec. 
 
-2. **Learning Logical Structures of Paragraphs in Legal Articles** Nov 2011. [paper](https://aclanthology.org/I11-1003.pdf)
+2. **How well do SOTA legal reasoning models support abductive reasoning?**
 
-3. **Can AMR Assist Legal and Logical Reasoning?** Dec 2022. [paper](https://aclanthology.org/2022.findings-emnlp.112.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2304.06912) 2023. Apr. 
 
-4. **Syllogistic Reasoning for Legal Judgment Analysis** Dec 2023. [paper](https://aclanthology.org/2023.emnlp-main.864.pdf)
+3. **Can AMR Assist Legal and Logical Reasoning?**
 
-5. **How well do SOTA legal reasoning models support abductive reasoning?** Apr 2023. [paper](https://arxiv.org/abs/2304.06912)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.findings-emnlp.112) 2022. Dec. 
+
+4. **From legal to technical concept: Towards an automated classification of German political Twitter postings as criminal offenses**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/N19-1135/) 2019. June. 
+
+5. **Learning Logical Structures of Paragraphs in Legal Articles**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/I11-1003) 2011. Nov. 
+
 
 
 ---
 
-
 ### ✨Critical Thinking
+1. **Critical Thinking for Language Models**
 
-1. **Critical Thinking for Language Models** June 2021. [paper](https://aclanthology.org/2021.iwcs-1.7.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2021.iwcs-1.7) 2021. June. 
+
+
+
+---
 
 ### ✨Theorem Proving
-1. **LangPro: Natural Language Theorem Prover** Sep 2017. [paper](https://aclanthology.org/D17-2020/)
+1. **LangPro: Natural Language Theorem Prover**
 
-2. **A Tableau Prover for Natural Logic and Language** Sep 2015 [paper](https://aclanthology.org/D15-1296.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/D17-2020/) 2017. Sep. 
+
+2. **A Tableau Prover for Natural Logic and Language**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/D15-1296) 2015. Sep. 
+
 
 
 ---
 
 ### ✨Natural Language Inference
+1. **Synthetic Dataset for Evaluating Complex Compositional Knowledge for Natural Language Inference**
 
-1. **Using the Framework (FraCaS)** 1996.
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.nlrse-1.12/) 2023. Jun. 
 
-2. **The PASCAL Recognizing Textual Entailment Challenge** 2005. [paper](https://kdd.cs.ksu.edu/Courses/Fall-2008/CIS798/Handouts/06-dagan05pascal.pdf)
+2. **CURRICULUM: A Broad-Coverage Benchmark for Linguistic Phenomena in Natural Language Understanding**
 
-3. **The Second PASCAL Recognizing Textual Entailment Challenge** 2006. [paper](https://www.semanticscholar.org/paper/The-Second-PASCAL-Recognising-Textual-Entailment-Bar-Haim-Dagan/136326377c122560768db674e35f5bcd6de3bc40) 
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.naacl-main.234) 2022. July. 
 
-4. **The Third PASCAL Recognizing Textual Entailment Challenge** 2007. [paper](https://aclanthology.org/W07-1401.pdf)
+3. **Entailment as Few-Shot Learners**
 
-5. **Natural Logic for Textual Inference** Jun 2007. [paper](https://nlp.stanford.edu/pubs/natlog-wtep07.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2104.14690) 2021. Apr. 
 
-6. **The Winograd Schema Challenge** 2011. [paper](http://commonsensereasoning.org/2011/papers/Levesque.pdf)
+4. **GLUE: A Multi-task Benchmark and Analysis Platform for Natural Language Understanding**
 
-7. **The Fourth PASCAL Recognizing Textual Entailment Challenge** 2008. [paper](https://tac.nist.gov/publications/2008/additional.papers/RTE-4_overview.proceedings.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/1804.07461v3) 2019. Feb. 
 
-8. **SemEval-2014 Task 1: Evaluzation of Compositional Distributional Semantic Models on Full Sentence through Semantic Relatedness and Textual Entailment (SICK)** Aug 2014. [paper](https://aclanthology.org/S14-2001.pdf) [paper](http://www.lrec-conf.org/proceedings/lrec2014/pdf/363_Paper.pdf)
+5. **Inherent Disagreement in Human Textual Inferences**
 
-9. **A Large Annotated Corpus for Learning Language Inference (SNLI)** Sept 2015. [paper](https://nlp.stanford.edu/pubs/snli_paper.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/Q19-1043) 2019. May. 
 
-10. **A Broad-Coverage Challenge Corpus for Sentence Understanding through Inference (MNLI)** Jun 2018. [paper](https://arxiv.org/pdf/1704.05426v4.pdf)
+6. **A Broad-Coverage Challenge Corpus for Sentence Understanding through Inference (MNLI)**
 
-11. **Lessons from Natural Language Inference in the Clinical Domain** Aug 2018. [paper](https://arxiv.org/pdf/1808.06752)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/1704.05426v4.pdf) 2018. Jun. 
 
-12. **GLUE: A Multi-task Benchmark and Analysis Platform for Natural Language Understanding** Feb 2019. [paper](https://arxiv.org/pdf/1804.07461v3)
+7. **Lessons from Natural Language Inference in the Clinical Domain**
 
-13. **Inherent Disagreement in Human Textual Inferences** May 2019. [paper](https://aclanthology.org/Q19-1043.pdf) 
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/1808.06752) 2018. Aug. 
 
-14. **Entailment as Few-Shot Learners** Apr 2021. [paper](https://arxiv.org/pdf/2104.14690)
+8. **A Large Annotated Corpus for Learning Language Inference (SNLI)**
 
-15. **CURRICULUM: A Broad-Coverage Benchmark for Linguistic Phenomena in Natural Language Understanding** July 2022. [paper](https://aclanthology.org/2022.naacl-main.234.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://nlp.stanford.edu/pubs/snli_paper.pdf) 2015. Sept. 
 
-16. **Synthetic Dataset for Evaluating Complex Compositional Knowledge for Natural Language Inference** Jun 2023. [paper](https://aclanthology.org/2023.nlrse-1.12/)
+9. **SemEval-2014 Task 1: Evaluzation of Compositional Distributional Semantic Models on Full Sentence through Semantic Relatedness and Textual Entailment (SICK)**
 
+	[![](https://img.shields.io/badge/📄-Paper-orange)](http://www.lrec-conf.org/proceedings/lrec2014/pdf/363_Paper.pdf) 2014. Aug. 
+
+10. **The Winograd Schema Challenge**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](http://commonsensereasoning.org/2011/papers/Levesque.pdf) 2011. 
+
+11. **The Fourth PASCAL Recognizing Textual Entailment Challenge**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://tac.nist.gov/publications/2008/additional.papers/RTE-4_overview.proceedings.pdf) 2008. 
+
+12. **The Third PASCAL Recognizing Textual Entailment Challenge**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/W07-1401) 2007. 
+
+13. **Natural Logic for Textual Inference**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://nlp.stanford.edu/pubs/natlog-wtep07.pdf) 2007. Jun. 
+
+14. **The Second PASCAL Recognizing Textual Entailment Challenge**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://www.semanticscholar.org/paper/The-Second-PASCAL-Recognising-Textual-Entailment-Bar-Haim-Dagan/136326377c122560768db674e35f5bcd6de3bc40) 2006. 
+
+15. **The PASCAL Recognizing Textual Entailment Challenge**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://kdd.cs.ksu.edu/Courses/Fall-2008/CIS798/Handouts/06-dagan05pascal.pdf) 2005. 
+
+16. **Using the Framework (FraCaS)**
+
+	1996. 
 
 #### ✨Multi-Choice Question
-1. **BiQuAD: Towards QA based on deeper text understanding** Aug 2021. [paper](https://aclanthology.org/2021.starsem-1.10/)
+1. **BiQuAD: Towards QA based on deeper text understanding**
 
-2. **StrategyQA** [paper](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00370/100680/Did-Aristotle-Use-a-Laptop-A-Question-Answering)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2021.starsem-1.10/) 2021. Aug. 
 
+2. **StrategyQA**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00370/100680/Did-Aristotle-Use-a-Laptop-A-Question-Answering) 
+
+
+
+---
 
 #### ✨Converted from QA
+1. **Transforming Question Answering Datasets Into Natural Language Inference Datasets**
 
-1. **Reading Comprehension as Natural Language Inference: A Semantic Analysis** Dec 2012. [paper](https://aclanthology.org/2020.starsem-1.2.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://www.semanticscholar.org/reader/8f1c9b656157b1d851563fb42129245701d83175) 2018. Sep. 
 
-2. **Transforming Question Answering Datasets Into Natural Language Inference Datasets** Sep 2018. [paper](https://www.semanticscholar.org/reader/8f1c9b656157b1d851563fb42129245701d83175)
+2. **Reading Comprehension as Natural Language Inference: A Semantic Analysis**
 
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2020.starsem-1.2) 2012. Dec. 
+
+
+
+---
 
 #### ✨Converted from Summarization
+1. **Falsesum: Generating Document-level NLI Examples for Recognizing Factual Inconsistency in Summerization**
 
-1. **Falsesum: Generating Document-level NLI Examples for Recognizing Factual Inconsistency in Summerization** Jul 2022. [paper](https://aclanthology.org/2022.naacl-main.199.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.naacl-main.199) 2022. Jul. 
 
-2. **SUMMAC: Re-Visiting NLI-based Models for Inconsistency Detection in Summarization** Aug 2021. [paper](https://aclanthology.org/2022.tacl-1.10.pdf)
+2. **SUMMAC: Re-Visiting NLI-based Models for Inconsistency Detection in Summarization**
 
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.tacl-1.10) 2021. Aug. 
+
+
+
+---
 
 #### ✨Tabular Premises (Tabular Reasoning)
+1. **SemEval-2021 Task 9: Fact Verification and Evidence Finding for Tabular Data in Scientific Documents (SEM-TAB-FACTS)**
 
-1. **TABFACT: A Large-scale Dataset for Table-base Fact Verification** Sep 2019. [paper](https://arxiv.org/pdf/1909.02164v5.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2021.semeval-1.39) 2021. Aug. 
 
-2. **INFOTABS: Inference on Tables as Semi-structured Data** Jul 2020. [paper](https://aclanthology.org/2020.acl-main.210.pdf)
+2. **Is My Model Using the Right Evidence? Systematic Probes for Examining Evidence-Based Tabular Reasoning**
 
-3. **SemEval-2021 Task 9: Fact Verification and Evidence Finding for Tabular Data in Scientific Documents (SEM-TAB-FACTS)** Aug 2021 . [paper](https://aclanthology.org/2021.semeval-1.39.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.tacl-1.38) 2021. Sep. 
 
-4. **Is My Model Using the Right Evidence? Systematic Probes for Examining Evidence-Based Tabular Reasoning** Sep 2021. [paper](https://aclanthology.org/2022.tacl-1.38.pdf)
+3. **The Fact Extraction and VERification Over Unstructured and Structured information (FEVEROUS) Shared Task**
 
-5. **The Fact Extraction and VERification Over Unstructured and Structured information (FEVEROUS) Shared Task** Nov 2021. [paper](https://aclanthology.org/2021.fever-1.1.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2021.fever-1.1) 2021. Nov. 
+
+4. **INFOTABS: Inference on Tables as Semi-structured Data**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2020.acl-main.210) 2020. Jul. 
+
+5. **TABFACT: A Large-scale Dataset for Table-base Fact Verification**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/1909.02164v5.pdf) 2019. Sep. 
+
+
+
+---
 
 #### ✨Fact-checking
+1. **FEVER: A Large-scale Dataset for Fact Extraction and VERification**
 
-1. **Fake News Challenge** Dec 2016. [webpage](http://www.fakenewschallenge.org/)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/N18-1074) 2018. Jul. 
 
-2. **FEVER: A Large-scale Dataset for Fact Extraction and VERification** Jul 2018. [paper](https://aclanthology.org/N18-1074)
+2. **Fake News Challenge**
 
+	[![](https://img.shields.io/badge/🌐-Webpage-blue)](http://www.fakenewschallenge.org/) 2016. Dec. 
+
+
+
+---
 
 #### ✨Probabilistic NLI
+1. **Uncertain Natural Language Inference**
 
-1. **A Probabilistic Classification Approach for Lexical Textual Entailment** 2005. [paper](https://cdn.aaai.org/AAAI/2005/AAAI05-166.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/1909.03042) 2019. Sep. 
 
-2. **Uncertain Natural Language Inference** Sep 2019. [paper](https://arxiv.org/pdf/1909.03042.pdf)
+2. **A Probabilistic Classification Approach for Lexical Textual Entailment**
 
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://cdn.aaai.org/AAAI/2005/AAAI05-166.pdf) 2005. 
+
+
+
+---
 
 #### ✨Document-level NLI
+1. **Falsesum: Generating Document-level NLI Examples for Recognizing Factual Inconsistency in Summarization**
 
-1. **Natural Language Inference in Context — Investigating Contextual Reasoning over Long Texts** Nov 2011. [paper](https://arxiv.org/pdf/2011.04864.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.naacl-main.199) 2022. Jul. 
 
-2. **Evaluating the Factual Consistency of Abstractive Text Summarization (FactCC)** Nov 2020. [paper](https://aclanthology.org/2020.emnlp-main.750.pdf)
+2. **BioNLI: Generating a Biomedical NLI Dataset Using Lexico-semantic Constraints for Adversarial Examples**
 
-3. **DOCNLI: A Large-scale Dataset for Document-level Natural Language Inference** Aug 2021. [paper](https://aclanthology.org/2021.findings-acl.435)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2210.14814) 2022. Oct. 
 
-4. **ContractNLI: A Dataset for Document-level Natural Language Inference for Contracts** Nov 2021. [paper](https://aclanthology.org/2021.findings-emnlp.164.pdf)
+3. **Validity Assessment of Legal Will Statement as Natural Language Inference**
 
-5. **Falsesum: Generating Document-level NLI Examples for Recognizing Factual Inconsistency in Summarization** Jul 2022. [paper](https://aclanthology.org/2022.naacl-main.199)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2210.16989v1.pdf) 2022. Oct. 
 
-6. **BioNLI: Generating a Biomedical NLI Dataset Using Lexico-semantic Constraints for Adversarial Examples** Oct 2022. [paper](https://arxiv.org/pdf/2210.14814.pdf)
+4. **LawngNLI: A Multigranular, Long-premise NLI Benchmark for Evaluating Models’ In-domain Generalization from Short to Long Contexts**
 
-7. **Validity Assessment of Legal Will Statement as Natural Language Inference** Oct 2022. [paper](https://arxiv.org/pdf/2210.16989v1.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.findings-emnlp.369) 2022. Dec. 
 
-8. **LawngNLI: A Multigranular, Long-premise NLI Benchmark for Evaluating Models’ In-domain Generalization from Short to Long Contexts** Dec 2022. [paper](https://aclanthology.org/2022.findings-emnlp.369.pdf)
+5. **DOCNLI: A Large-scale Dataset for Document-level Natural Language Inference**
 
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2021.findings-acl.435) 2021. Aug. 
+
+6. **ContractNLI: A Dataset for Document-level Natural Language Inference for Contracts**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2021.findings-emnlp.164) 2021. Nov. 
+
+7. **Evaluating the Factual Consistency of Abstractive Text Summarization (FactCC)**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2020.emnlp-main.750) 2020. Nov. 
+
+8. **Natural Language Inference in Context — Investigating Contextual Reasoning over Long Texts**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2011.04864) 2011. Nov. 
+
+
+
+---
 
 #### ✨Complex Reasoning NLI
+1. **Explaining Answers with Entailment Trees (ENTAILMENTBANK)**
 
-1. **Collecting Diverse Natural Language Inference Problems for Sentence Representation Evaluation** Oct 2018. [paper](https://aclanthology.org/D18-1007.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://www.semanticscholar.org/reader/4a56f72b9c529810ba4ecfe9eac522d87f6db81d) 2022. May. 
 
-2. **Can neural networks understand monotonicity reasoning? (MED)** 2019. [paper](https://aclanthology.org/W19-4804v2.pdf)
+2. **FOLIO: Natural Language Reasoning with First-Order-Logic**
 
-3. **HELP: A Dataset for Identifying Shortcomings of Neural Models in Monotonicity Reasoning** Jun 2019. [paper](https://aclanthology.org/S19-1027)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2209.00840) 2022. Sep. 
 
-4. **Transformers as Soft Reasoners over Language** Feb 2020. [paper](https://arxiv.org/abs/2002.05867)
+3. **Diagnosing the First-Order Logical Reasoning Ability Through LogicNLI**
 
-5. **Adversarial NLI: A New Benchmark for Natural Language Understanding** Jul 2020. [paper](https://aclanthology.org/2020.acl-main.441)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2021.emnlp-main.303) 2021. Nov. 
 
-6. **Are Natural Language Inference Models Impressive? Learning Implicature and Presupposition** Jul 2020. [paper](https://aclanthology.org/2020.acl-main.768)
+4. **Transformers as Soft Reasoners over Language**
 
-7. **Natural Language Inference in Context — Investigating Contextual Reasoning over Long Texts** Nov 2020. [paper](https://arxiv.org/pdf/2011.04864.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2002.05867) 2020. Feb. 
 
-8. **ConjNLI: Natural Language Inference Over Conjunctive Sentences** Nov 2020. [paper](https://aclanthology.org/2020.emnlp-main.661)
+5. **Adversarial NLI: A New Benchmark for Natural Language Understanding**
 
-9. **TaxiNLI: Taking a ride up the NLU hill** Nov 2020. [paper](https://aclanthology.org/2020.conll-1.4)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2020.acl-main.441) 2020. Jul. 
 
-10. **Diagnosing the First-Order Logical Reasoning Ability Through LogicNLI** Nov 2021. [paper](https://aclanthology.org/2021.emnlp-main.303.pdf)
+6. **Are Natural Language Inference Models Impressive? Learning Implicature and Presupposition**
 
-11. **Explaining Answers with Entailment Trees (ENTAILMENTBANK)** May 2022. [paper](https://www.semanticscholar.org/reader/4a56f72b9c529810ba4ecfe9eac522d87f6db81d)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2020.acl-main.768) 2020. Jul. 
 
-12. **FOLIO: Natural Language Reasoning with First-Order-Logic** Sep 2022. [paper](https://arxiv.org/abs/2209.00840)
+7. **Natural Language Inference in Context — Investigating Contextual Reasoning over Long Texts**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2011.04864) 2020. Nov. 
+
+8. **ConjNLI: Natural Language Inference Over Conjunctive Sentences**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2020.emnlp-main.661) 2020. Nov. 
+
+9. **TaxiNLI: Taking a ride up the NLU hill**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2020.conll-1.4) 2020. Nov. 
+
+10. **Can neural networks understand monotonicity reasoning? (MED)**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/W19-4804v2) 2019. 
+
+11. **HELP: A Dataset for Identifying Shortcomings of Neural Models in Monotonicity Reasoning**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/S19-1027) 2019. Jun. 
+
+12. **Collecting Diverse Natural Language Inference Problems for Sentence Representation Evaluation**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/D18-1007) 2018. Oct. 
+
+
+
+---
 
 #### ✨Negated NLI
+1. **Not another Negation Benchmark: The NaN-NLI Test Suite for Sub-clausal Negation**
 
-1. **Neural Natural Language Inference Models Partially Embed Theories of Lexical Entailment and Negation** Apr 2020. [paper](https://arxiv.org/pdf/2004.14623v4.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.aacl-main.65) 2022. Nov. 
 
-2. **An Analysis of Natural Language Inference Benchmarks through the Lens of Negation** Nov 2020. [paper](https://aclanthology.org/2020.emnlp-main.732.pdf)
+2. **Neural Natural Language Inference Models Partially Embed Theories of Lexical Entailment and Negation**
 
-3. **Not another Negation Benchmark: The NaN-NLI Test Suite for Sub-clausal Negation** Nov 2022. [paper](https://aclanthology.org/2022.aacl-main.65.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2004.14623v4.pdf) 2020. Apr. 
+
+3. **An Analysis of Natural Language Inference Benchmarks through the Lens of Negation**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2020.emnlp-main.732) 2020. Nov. 
+
+
+
+---
 
 #### ✨Commonsense Reasoning
+1. **The Winograd Schema Challenge**
 
-1. **The Winograd Schema Challenge** 2011. [paper](http://commonsensereasoning.org/2011/papers/Levesque.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](http://commonsensereasoning.org/2011/papers/Levesque.pdf) 2011. 
+
+
+
+---
 
 #### ✨AI Generated
+1. **WANLI: Worker and AI Collaboration for Natural Language Inference Dataset Creation**
 
-2. **WANLI: Worker and AI Collaboration for Natural Language Inference Dataset Creation** Jan 2022. [paper](https://arxiv.org/pdf/2201.05955.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2201.05955) 2022. Jan. 
+
+
+
+---
 
 #### ✨Synthetic
+1. **Right for the Wrong Reasons: Diagnosing Syntactic Heuristics in Natural Language Inference (HANS)**
 
-1. **Right for the Wrong Reasons: Diagnosing Syntactic Heuristics in Natural Language Inference (HANS)** Feb 2019. [paper](https://arxiv.org/pdf/1902.01007.pdf)
-
-#### ✨Other task format that can be transformed into NLI format
-
-1. **FraCaS: Temporal Analysis** Dec 2020. [paper](https://arxiv.org/pdf/2012.10668.pdf)
-
-2. **Explaining Answers with Entailment Trees (ENTAILMENT BANK)** Nov 2021. [paper](https://aclanthology.org/2021.emnlp-main.585/)
-
-
-<!-- ### ✨NLI for Downstream Tasks
-
-#### ✨CFCTS: Checking Factual Correctness of Textual Summerization
-
-
-#### ✨QA: Question-answering (MCRC: Multiple Choice Reading Comprehension)
-
-**Looking Beyond Sentence-Level Natural Language Inference for Question Answering and Text Summarization** . [paper](https://aclanthology.org/2021.naacl-main.104.pdf)
-
-#### ✨Aspect-based Sentiment Analysis
-
-
-#### ✨IE: Information Extraction
-
-
-#### ✨NER: Name Entity Recognition
-
-
-#### ✨Retrieve and Re-ranking
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/1902.01007) 2019. Feb. 
 
 
 
-#### ✨Data Augmentation
+---
+
+#### ✨Other task format that can be transformed to NLI format
+1. **Explaining Answers with Entailment Trees (ENTAILMENT BANK)**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2021.emnlp-main.585/) 2021. Nov. 
+
+2. **FraCaS: Temporal Analysis**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2012.10668) 2020. Dec. 
 
 
-#### ✨Other Tasks
 
--->
+---
 
+
+
+---
 
 ### ✨Approaches and Applications
+#### ✨Symbolic
+1. **Enhancing Ethical Explanations of Large Language Models through Iterative SymbolicRefinement**
 
-#### ✨Symbolic 
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2024.eacl-long.1/) 2024. March. 
 
-1. **Improved Logical Reasoning of Language Models via Differentiable Symbolic Programming** July 2023. [paper](https://aclanthology.org/2023.findings-acl.191.pdf)
+2. **Improved Logical Reasoning of Language Models via Differentiable SymbolicProgramming**
 
-2. **Logic-LM: Empowering Large Language Models with Symbolic Solvers for Faithful Logical Reasoning** Dec 2023. [paper](https://aclanthology.org/2023.findings-emnlp.248/)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.findings-acl.191) 2023. July. 
 
-3. **Improved Logical Reasoning of Language Models via Differentiable Symbolic Programming** July 2023. [paper](https://aclanthology.org/2023.findings-acl.191/)
+3. **Logic-LM: Empowering Large Language Models with SymbolicSolvers for Faithful Logical Reasoning**
 
-4. **Analytical, Symbolic and First-Order Reasoning within Neural Architectures** July 2021. [paper](https://aclanthology.org/2021.cstfrs-1.7.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.findings-emnlp.248/) 2023. Dec. 
 
-5. **LINC: A Neurosymbolic Approach for Logical Reasoning by Combining Language Models with First-Order Logic Provers** Dec 2023. [paper](https://aclanthology.org/2023.emnlp-main.313/)
+4. **Improved Logical Reasoning of Language Models via Differentiable SymbolicProgramming**
 
-6. **Enhancing Ethical Explanations of Large Language Models through Iterative Symbolic Refinement** March 2024. [paper](https://aclanthology.org/2024.eacl-long.1/)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.findings-acl.191/) 2023. July. 
 
-7. **Investigating Transformer guided Chaining for Interpretable Natural Logic Reasoning** July 2023 [paper](https://aclanthology.org/2023.findings-acl.588.pdf)
+5. **LINC: A NeuroSymbolicApproach for Logical Reasoning by Combining Language Models with First-Order Logic Provers**
 
-8. **Conversational Multi-Hop Reasoning with Neural Commonsense Knowledge and Symbolic Logic Rules**. Sept. 2021. [paper](http://arxiv.org/abs/2109.08544).
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.emnlp-main.313/) 2023. Dec. 
 
-9. **Are Pretrained Language Models Symbolic Reasoners over Knowledge?**. 2020. [paper](https://doi.org/10.18653/v1/2020.conll-1.45).
+6. **Investigating Transformer guided Chaining for Interpretable Natural Logic Reasoning**
 
-10. **Differentiable Reasoning on Large Knowledge Bases and Natural Language**. Apr. 2020. [paper](https://doi.org/10.1609/aaai.v34i04.5962).
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.findings-acl.588) 2023. July. 
 
-11. **Learning Symbolic Rules for Reasoning in Quasi-Natural Language**. Nov. 2021. [paper](http://arxiv.org/abs/2111.12038).
+7. **Analytical, Symbolicand First-Order Reasoning within Neural Architectures**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2021.cstfrs-1.7) 2021. July. 
+
+8. **Conversational Multi-Hop Reasoning with Neural Commonsense Knowledge and SymbolicLogic Rules**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](http://arxiv.org/abs/2109.08544) 2021. Sept. 
+
+9. **Learning SymbolicRules for Reasoning in Quasi-Natural Language**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](http://arxiv.org/abs/2111.12038) 2021. Nov. 
+
+10. **Are Pretrained Language Models SymbolicReasoners over Knowledge?**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://doi.org/10.18653/v1/2020.conll-1.45) 2020. 
+
+11. **Differentiable Reasoning on Large Knowledge Bases and Natural Language**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://doi.org/10.1609/aaai.v34i04.5962) 2020. Apr. 
+
+
+
+---
 
 #### ✨Data Extension
+1. **MERIt: Meta-Path Guided Contrastive Learning for Logical Reasoning**
 
-1. **Logic-Driven Context Extension and Data Augmentation for Logical Reasoning of Text** May 2021. [paper](https://arxiv.org/pdf/2105.03659)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2203.00357) 2022. Mar. 
 
-2. **MERIt: Meta-Path Guided Contrastive Learning for Logical Reasoning** Mar 2022. [paper](https://arxiv.org/abs/2203.00357)
+2. **Logic-Driven Context Extension and Data Augmentation for Logical Reasoning of Text**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2105.03659) 2021. May. 
+
+
+
+---
+
+
 
 ---
 
 ### ✨Datasets
 #### ✨Question Answering
-1. **LogiQA2.0 - An Improved Dataset for Logic Reasoning in Question Answering and Textual Inference** May 2023. [paper](https://ieeexplore.ieee.org/abstract/document/10174688) [dateset](https://github.com/csitfun/LogiQA2.0)
+1. **LogiQA2.0 - An Improved Dataset for Logic Reasoning in Question Answering and Textual Inference**
 
-2. **ReClor: A Reading Comprehension Dataset Requiring Logical Reasoning** 2023. [paper](https://openreview.net/pdf?id=HJgJtT4tvB) [ReClor](https://whyu.me/reclor/)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://ieeexplore.ieee.org/abstract/document/10174688) 2023. May. 
 
-3. **MTR: A Dataset Fusing Inductive, Deductive, and Defeasible Reasoning** July 2023. [paper](https://aclanthology.org/2023.findings-acl.640/) [dataset not available]
+2. **ReClor: A Reading Comprehension Dataset Requiring Logical Reasoning**
 
-4. **AR-LSAT: Investigating Analytical Reasoning of Text** Apr 2021. [paper](https://arxiv.org/pdf/2104.06598) [AR-LSAT](https://github.com/zhongwanjun/AR-LSAT)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://openreview.net/pdf?id=HJgJtT4tvB) [![](https://img.shields.io/badge/🌐-Webpage-blue)](https://whyu.me/reclor/) 2023. 
 
-5. **CLUTRR: A Diagnostic Benchmark for Inductive Reasoning from Text** Sep 2019. [paper](https://arxiv.org/pdf/1908.06177) [CLUTRR](https://github.com/facebookresearch/clutrr)
+3. **MTR: A Dataset Fusing Inductive, Deductive, and Defeasible Reasoning**
 
-6. **Did Aristotle Use a Laptop? A Question Answering Benchmark with Implicit Reasoning Strategies** 2021 [paper](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00370/100680/Did-Aristotle-Use-a-Laptop-A-Question-Answering) [StrategyQA](https://allenai.org/data/strategyqa)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.findings-acl.640/) 2023. July. 
 
+4. **AR-LSAT: Investigating Analytical Reasoning of Text**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2104.06598) [![](https://img.shields.io/badge/📦-Github-purple)](https://github.com/zhongwanjun/AR-LSAT) 2021. Apr. 
+
+5. **Did Aristotle Use a Laptop? A Question Answering Benchmark with Implicit Reasoning Strategies**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00370/100680/Did-Aristotle-Use-a-Laptop-A-Question-Answering) [![](https://img.shields.io/badge/🌐-Webpage-blue)](https://allenai.org/data/strategyqa) 2021. 
+
+6. **CLUTRR: A Diagnostic Benchmark for Inductive Reasoning from Text**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/1908.06177) 2019. Sep. 
+
+
+
+---
 
 #### ✨Natural Language Inference
-1. **FOLIO: Natural Language Reasoning with First-Order Logic** 2022. [paper](https://arxiv.org/pdf/2209.00840) [dataset](https://github.com/Yale-LILY/FOLIO)
+1. **FOLIO: Natural Language Reasoning with First-Order Logic**
 
-2. **Diagnosing the First-Order Logical Reasoning Ability Through LogicNLI** 2021. [paper](https://aclanthology.org/2021.emnlp-main.303/) [LogicNLI](https://github.com/omnilabNLP/LogicNLI)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2209.00840) [![](https://img.shields.io/badge/📦-Github-purple)](https://github.com/Yale-LILY/FOLIO) 2022. 
 
-3. **Transformers as Soft Reasoners over Language** Feb 2020. [paper](https://arxiv.org/abs/2002.05867) [ruletaker](https://github.com/allenai/ruletaker)
+2. **Diagnosing the First-Order Logical Reasoning Ability Through LogicNLI**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2021.emnlp-main.303/) [![](https://img.shields.io/badge/📦-Github-purple)](https://github.com/omnilabNLP/LogicNLI) 2021. 
+
+3. **Transformers as Soft Reasoners over Language**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2002.05867) 2020. Feb. 
+
+
+
+---
 
 #### ✨Test Suites
-1. **GLoRE: Evaluating Logical Reasoning of Large Language Models.** Oct 2023 [paper](https://arxiv.org/abs/2310.09107) [dataset](https://github.com/csitfun/glore)
+1. **GLoRE: Evaluating Logical Reasoning of Large Language Models.**
 
-2. **Towards LogiGLUE: A Brief Survey and A Benchmark for Analyzing Logical Reasoning Capabilities of Language Models** [paper](https://arxiv.org/abs/2310.00836) [dataset](https://huggingface.co/datasets/logicreasoning/logi_glue)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2310.09107) [![](https://img.shields.io/badge/📦-Github-purple)](https://github.com/csitfun/glore) 2023. Oct. 
 
-3. **LogicBench: A Benchmark for Evaluation of Logical Reasoning.** Dec 2023 [paper](https://openreview.net/forum?id=7NR2ZVzZxx)
+2. **LogicBench: A Benchmark for Evaluation of Logical Reasoning.**
 
-4. 
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://openreview.net/forum?id=7NR2ZVzZxx) 2023. Dec. 
+
+3. **Hence, Socrates is mortal: A Benchmark for Natural Language Syllogistic Reasoning**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.findings-acl.148/) 2023. July. 
+
+4. **True Detective: A Deep Abductive Reasoning Benchmark Undoable for GPT-3 and Challenging for GPT-4**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.starsem-1.28/) 2023. July. 
+
+5. **StoryAnalogy: Deriving Story-level Analogies from Large Language Models to Unlock Analogical Understanding**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.emnlp-main.706/) 2023. Dec. 
+
+6. **How susceptible are LLMs to Logical Fallacies?**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2308.09853) 2023. Aug. 
+
+7. **RobustLR: A Diagnostic Benchmark for Evaluating Logical Robustness of Deductive Reasoners**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.emnlp-main.653/) 2022. Dec. 
+
+8. **AbductionRules: Training Transformers to Explain Unexpected Inputs**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.findings-acl.19/) 2022. May. 
+
+9. **E-KAR: A Benchmark for Rationalizing Natural Language Analogical Reasoning**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2022.findings-acl.311/) 2022. May. 
+
+10. **RuleBERT: Teaching Soft Rules to Pre-Trained Language Models**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2021.emnlp-main.110/) 2021. Nov. 
+
+11. **PuzzLing Machines: A Challenge on Learning From Small Data**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2020.acl-main.115/) 2020. July. 
+
+12. **CLUTRR: A Diagnostic Benchmark for Inductive Reasoning from Text**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/D19-1458/) 2019. Nov. 
+
+13. **Towards LogiGLUE: A Brief Survey and A Benchmark for Analyzing Logical Reasoning Capabilities of Language Models**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2310.00836) [![](https://img.shields.io/badge/🤗-HuggingFace-yellow)](https://huggingface.co/datasets/logicreasoning/logi_glue) 
 
 
-5. **RobustLR: A Diagnostic Benchmark for Evaluating Logical Robustness of Deductive Reasoners** Dec 2022. [paper](https://aclanthology.org/2022.emnlp-main.653/)
 
-6. **Hence, Socrates is mortal: A Benchmark for Natural Language Syllogistic Reasoning** July 2023. [paper](https://aclanthology.org/2023.findings-acl.148/)
+---
 
-7. **RuleBERT: Teaching Soft Rules to Pre-Trained Language Models** Nov 2021 [paper](https://aclanthology.org/2021.emnlp-main.110/)
-
-8. **PuzzLing Machines: A Challenge on Learning From Small Data** July 2020. [paper](https://aclanthology.org/2020.acl-main.115/)
-
-9. **CLUTRR: A Diagnostic Benchmark for Inductive Reasoning from Text** Nov 2019. [paper](https://aclanthology.org/D19-1458/)
-
-10. **True Detective: A Deep Abductive Reasoning Benchmark Undoable for GPT-3 and Challenging for GPT-4** 
-July 2023. [paper](https://aclanthology.org/2023.starsem-1.28/)
-
-11. **AbductionRules: Training Transformers to Explain Unexpected Inputs** May 2022. [paper](https://aclanthology.org/2022.findings-acl.19/)
-
-12. **E-KAR: A Benchmark for Rationalizing Natural Language Analogical Reasoning** May 2022. [paper](https://aclanthology.org/2022.findings-acl.311/)
-
-13. **StoryAnalogy: Deriving Story-level Analogies from Large Language Models to Unlock Analogical Understanding** Dec 2023. [paper](https://aclanthology.org/2023.emnlp-main.706/)
-
-14. **How susceptible are LLMs to Logical Fallacies?** Aug 2023. [paper](https://arxiv.org/abs/2308.09853) [LOGICOM](https://github.com/Amir-pyh/LOGICOM/tree/main)
 
 
 ---
 
 ### ✨Models
-1. [LLaMA-7B-LogiCoT](https://huggingface.co/csitfun/llama-7b-logicot)
+1. **LLaMA-7B-LogiCoT**
 
-2. LOGIPT [paper](https://arxiv.org/pdf/2311.06158#page=9.21)
+	[![](https://img.shields.io/badge/🤗-HuggingFace-yellow)](https://huggingface.co/csitfun/llama-7b-logicot) 
 
-3. [Symbol-LLM](https://huggingface.co/Symbol-LLM)
+2. **LOGIPT**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2311.06158) 
+
+3. **Symbol-LLM**
+
+	[![](https://img.shields.io/badge/🤗-HuggingFace-yellow)](https://huggingface.co/Symbol-LLM) 
+
 
 
 ---
 
-
 ### ✨Benchmarking
+1. **Evaluating the Logical Reasoning Ability of ChatGPT and GPT-4**
 
-1. **Are Large Language Models Really Good Logical Reasoners? A Comprehensive Evaluation and Beyond** March 2021. [paper](https://arxiv.org/pdf/2306.09841)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2304.03439) 2023. Apr. 
 
-2. **Evaluating the Logical Reasoning Ability of ChatGPT and GPT-4** Apr 2023. [paper](https://arxiv.org/abs/2304.03439)
+2. **A Multitask, Multilingual, Multimodal Evaluation of ChatGPT on Reasoning, Hallucination, and Interactivity**
 
-3. **A Multitask, Multilingual, Multimodal Evaluation of ChatGPT on Reasoning, Hallucination, and Interactivity** Nov 2023. [paper](https://arxiv.org/abs/2302.04023)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2302.04023) 2023. Nov. 
 
-4. 
+3. **Are Large Language Models Really Good Logical Reasoners? A Comprehensive Evaluation and Beyond**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://arxiv.org/abs/2306.09841) 2021. March. 
+
 
 
 ---
 
 ### ✨Resources
 #### ✨Repos
-1. [LogiTorch](https://github.com/LogiTorch/logitorch): a PyTorch-based library for logical reasoning on natural language
+1. **LogiTorch**
 
-2. [GLoRE](https://github.com/csitfun/glore): a benchmark for evaluating the logical reasoning of LLMs
+	[![](https://img.shields.io/badge/📦-Github-purple)](https://github.com/LogiTorch/logitorch) a PyTorch-based library for logical reasoning on natural language
 
-3. [LogiGLUE](https://huggingface.co/datasets/logicreasoning/logi_glue/tree/main) 
+2. **GLoRE**
 
-4. [Logiformer](https://github.com/xufangzhi/logiformer): This is a model to tackle the logical reasoning task in the field of multiple-choice machine reading comprehension. The code of the decoder part is not the final version, but it is one of the alternatives. You can also implement it based on own design, which may further improve the experimental results.
+	[![](https://img.shields.io/badge/📦-Github-purple)](https://github.com/csitfun/glore) a benchmark for evaluating the logical reasoning of LLMs
 
-5. [Awesome Natural Language Reasoning Papers](https://github.com/mengzaiqiao/awesome-natural-language-reasoning): A collection of research papers related to Knowledge Reasoning with Natural Language Models.
+3. **Logiformer**
 
-6. [Awesome LLM Reasoning](https://github.com/atfortes/Awesome-LLM-Reasoning): Curated collection of papers and resources on how to unlock the reasoning ability of LLMs and MLLMs.
+	[![](https://img.shields.io/badge/📦-Github-purple)](https://github.com/xufangzhi/logiformer) This is a model to tackle the logical reasoning task in the field of multiple-choice machine reading comprehension. The code of the decoder part is not the final version, but it is one of the alternatives. You can also implement it based on own design, which may further improve the experimental results.
 
-7. [Deep-Reasoning-Papers](https://github.com/floodsung/Deep-Reasoning-Papers): Recent Papers including Neural Symbolic Reasoning, Logical Reasoning, Visual Reasoning, natural language reasoning and any other topics connecting deep learning and reasoning.
+4. **Awesome Natural Language Reasoning Papers**
 
-8. [Awesome deep logic](https://github.com/ccclyu/awesome-deeplogic): Must-Read Papers or Resources on how to integrate symbolic logic into deep neural nets.
+	[![](https://img.shields.io/badge/📦-Github-purple)](https://github.com/mengzaiqiao/awesome-natural-language-reasoning) A collection of research papers related to Knowledge Reasoning with Natural Language Models.
 
-9. [Awesome-Reasoning-Foundation-Models](https://github.com/reasoning-survey/Awesome-Reasoning-Foundation-Models)
+5. **Awesome LLM Reasoning**
+
+	[![](https://img.shields.io/badge/📦-Github-purple)](https://github.com/atfortes/Awesome-LLM-Reasoning) Curated collection of papers and resources on how to unlock the reasoning ability of LLMs and MLLMs.
+
+6. **Deep-Reasoning-Papers**
+
+	[![](https://img.shields.io/badge/📦-Github-purple)](https://github.com/floodsung/Deep-Reasoning-Papers) Recent Papers including Neural SymbolicReasoning, Logical Reasoning, Visual Reasoning, natural language reasoning and any other topics connecting deep learning and reasoning.
+
+7. **Awesome deep logic**
+
+	[![](https://img.shields.io/badge/📦-Github-purple)](https://github.com/ccclyu/awesome-deeplogic) Must-Read Papers or Resources on how to integrate Symboliclogic into deep neural nets.
+
+8. **Awesome-Reasoning-Foundation-Models**
+
+	[![](https://img.shields.io/badge/📦-Github-purple)](https://github.com/reasoning-survey/Awesome-Reasoning-Foundation-Models) Papers on reasoning fundation models.
 
 
+
+---
 
 #### ✨Workshops
-1. **Workshop on Natural Language Reasoning and Structured Explanations (2023)** [link](https://aclanthology.org/events/nlrse-2023/)
+1. **Workshop on Natural Language Reasoning and Structured Explanations (2023)**
+
+	
 
 
+
+---
+
+
+
+---
+
+
+
+---
 
 ## ✨NON-VERBAL REASONING
 ### ✨Video
-1. **ART: rule bAsed futuRe-inference deducTion** Dec 2023. [paper](https://aclanthology.org/2023.emnlp-main.592/)
+1. **Multimodal Fallacy Classification in Political Debates**
 
-2. **Multimodal Fallacy Classification in Political Debates** March 2024 [paper](https://aclanthology.org/2024.eacl-short.16/)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2024.eacl-short.16/) 2024. March. 
+
+2. **ART: rule bAsed futuRe-inference deducTion**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/2023.emnlp-main.592/) 2023. Dec. 
+
+
 
 ---
 
 ### ✨Image
-1. **A Benchmark for Compositional Visual Reasoning** 2022 [paper](https://proceedings.neurips.cc/paper_files/paper/2022/file/c08ee8fe3d19521f3bfa4102898329fd-Paper-Datasets_and_Benchmarks.pdf)
+1. **Emergent Communication for Rules Reasoning**
 
-2. **Emergent Communication for Rules Reasoning** 2023 [paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/d8ace30c68b085556ccce04ed4ae4ebb-Paper-Conference.pdf)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://proceedings.neurips.cc/paper_files/paper/2023/file/d8ace30c68b085556ccce04ed4ae4ebb-Paper-Conference.pdf) 2023. 
 
-3. **Multimodal Logical Inference System for Visual-Textual Entailment** July 2019. [paper](https://aclanthology.org/P19-2054/)
+2. **A Benchmark for Compositional Visual Reasoning**
 
-4. **The Abstraction and Reasoning Corpus (ARC)** [dataset](https://github.com/fchollet/ARC)
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://proceedings.neurips.cc/paper_files/paper/2022/file/c08ee8fe3d19521f3bfa4102898329fd-Paper-Datasets_and_Benchmarks.pdf) 2022. 
+
+3. **Multimodal Logical Inference System for Visual-Textual Entailment**
+
+	[![](https://img.shields.io/badge/📄-Paper-orange)](https://aclanthology.org/P19-2054/) 2019. July. 
+
+4. **The Abstraction and Reasoning Corpus (ARC)**
+
+	[![](https://img.shields.io/badge/🌐-Webpage-blue)](https://github.com/fchollet/ARC) 
+
+
+
+---
+
+
+
+---
 
