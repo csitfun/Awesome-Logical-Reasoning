@@ -1,7 +1,7 @@
 # ✨Awesome-Logical-Reasoning  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 Paper list for logical reasoning
 
--- A survey paper will be released soon.
+-- [Survey](https://arxiv.org/abs/2502.09100)
 
 **Key Words**: premise, conclusion, argument, reasoning, inference, proposition, forward chaining, backward chaining, critical thinking, syllogism
 
